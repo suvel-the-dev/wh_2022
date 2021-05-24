@@ -1,40 +1,41 @@
 import './App.css';
 import { Suspense } from 'react';
-import { Canvas } from '@react-three/fiber'
 import { OrbitControls } from "@react-three/drei";
 import { default as sampleRackList } from './data/rackList'
 import { default as samplePalletList } from './data/palletList'
 import {
   Line,
-  Floor
+  Floor,
+  ForwardCanvas,
+  MessageModal
 } from './components';
-
 import {
   getRack,
-  renderPallet
+  renderPallet,
 } from './functions';
+import { MessageProvider } from './context/MessageContext';
 
-const generateLight = () => {
-  const zStartingPoint = 20;
-  const zEndingPoint = -350;
-  const xStartingPoint = 150;
-  const xEndingPoint = -150;
+// const generateLight = () => {
+//   const zStartingPoint = 20;
+//   const zEndingPoint = -350;
+//   const xStartingPoint = 150;
+//   const xEndingPoint = -150;
 
-  let lightsArray = [];
-  const y = 50;
-  for (let z = zStartingPoint; z > zEndingPoint; z -= 80) {
-    for (let x = xStartingPoint; x > xEndingPoint; x -= 50) {
-      lightsArray.push(
-        <rectAreaLight
-          rotation={[-1 * (Math.PI / 2), 0, Math.PI / 2]}
-          position={[x, y, z]} color={'0xffffff'} intensity={50}
-          width={5} height={20}
-        />
-      )
-    }
-  }
-  return lightsArray;
-}
+//   let lightsArray = [];
+//   const y = 50;
+//   for (let z = zStartingPoint; z > zEndingPoint; z -= 80) {
+//     for (let x = xStartingPoint; x > xEndingPoint; x -= 50) {
+//       lightsArray.push(
+//         <rectAreaLight
+//           rotation={[-1 * (Math.PI / 2), 0, Math.PI / 2]}
+//           position={[x, y, z]} color={'0xffffff'} intensity={50}
+//           width={5} height={20}
+//         />
+//       )
+//     }
+//   }
+//   return lightsArray;
+// }
 
 const getLines = () => {
   return (
@@ -65,61 +66,64 @@ const getLines = () => {
   )
 }
 
-const getRackLight = (xCord, yCord) => {
-  return (
-    <>
-      <rectAreaLight
-        rotation={[-1 * (Math.PI / 2), 0, Math.PI / 2]}
-        position={[xCord - 60, 80, yCord]} color={'0xffffff'} intensity={10}
-        width={10} height={25}
-      />
+// const getRackLight = (xCord, yCord) => {
+//   return (
+//     <>
+//       <rectAreaLight
+//         rotation={[-1 * (Math.PI / 2), 0, Math.PI / 2]}
+//         position={[xCord - 60, 80, yCord]} color={'0xffffff'} intensity={10}
+//         width={10} height={25}
+//       />
 
-      <rectAreaLight
-        rotation={[-1 * (Math.PI / 2), 0, Math.PI / 2]}
-        position={[xCord, 80, yCord]} color={'0xffffff'} intensity={10}
-        width={10} height={25}
-      />
+//       <rectAreaLight
+//         rotation={[-1 * (Math.PI / 2), 0, Math.PI / 2]}
+//         position={[xCord, 80, yCord]} color={'0xffffff'} intensity={10}
+//         width={10} height={25}
+//       />
 
-      <rectAreaLight
-        rotation={[-1 * (Math.PI / 2), 0, Math.PI / 2]}
-        position={[xCord + 60, 80, yCord]} color={'0xffffff'} intensity={10}
-        width={10} height={25}
-      />
-    </>
-  )
-}
+//       <rectAreaLight
+//         rotation={[-1 * (Math.PI / 2), 0, Math.PI / 2]}
+//         position={[xCord + 60, 80, yCord]} color={'0xffffff'} intensity={10}
+//         width={10} height={25}
+//       />
+//     </>
+//   )
+// }
 
-const renderList = () => {
-  return [
-    getRackLight(-50, 60),
-    getRackLight(-50, -80),
-    getRackLight(-50, -240),
-    getRackLight(-50, -240)
-  ]
-}
+// const renderList = () => {
+//   return [
+//     getRackLight(-50, 60),
+//     getRackLight(-50, -80),
+//     getRackLight(-50, -240),
+//     getRackLight(-50, -240)
+//   ]
+// }
 
 function App() {
   return (
     <div className="App">
       <Suspense fallback={null}>
-        <Canvas style={{ width: '100vw', height: '100vh' }} >
-          <color attach="background" args={["gray"]} />
-          <OrbitControls />
-          <ambientLight intensity={0.8} color={'#fffff'} />
-          <Floor />
-          {
-            sampleRackList.map((rackList, index) => {
-              const { shelf_count: shelfCount, coordinate } = rackList;
-              return getRack(shelfCount, coordinate.x, coordinate.y);
-            })
-          }
-          {
-            renderPallet(samplePalletList, sampleRackList)
-          }
-          {
-            getLines()
-          }
-        </Canvas>
+        <MessageProvider>
+          <ForwardCanvas  >
+            <color attach="background" args={["gray"]} />
+            <OrbitControls />
+            <ambientLight intensity={0.8} color={'#fffff'} />
+            <Floor />
+            {
+              sampleRackList.map((rackList, index) => {
+                const { shelf_count: shelfCount, coordinate } = rackList;
+                return getRack(shelfCount, coordinate.x, coordinate.y);
+              })
+            }
+            {
+              renderPallet(samplePalletList, sampleRackList)
+            }
+            {
+              getLines()
+            }
+          </ForwardCanvas>
+          <MessageModal />
+        </MessageProvider>
       </Suspense>
     </div>
   );
