@@ -15,28 +15,6 @@ import {
 } from './functions';
 import { MessageProvider } from './context/MessageContext';
 
-// const generateLight = () => {
-//   const zStartingPoint = 20;
-//   const zEndingPoint = -350;
-//   const xStartingPoint = 150;
-//   const xEndingPoint = -150;
-
-//   let lightsArray = [];
-//   const y = 50;
-//   for (let z = zStartingPoint; z > zEndingPoint; z -= 80) {
-//     for (let x = xStartingPoint; x > xEndingPoint; x -= 50) {
-//       lightsArray.push(
-//         <rectAreaLight
-//           rotation={[-1 * (Math.PI / 2), 0, Math.PI / 2]}
-//           position={[x, y, z]} color={'0xffffff'} intensity={50}
-//           width={5} height={20}
-//         />
-//       )
-//     }
-//   }
-//   return lightsArray;
-// }
-
 const getLines = () => {
   return (
     <>
@@ -65,39 +43,6 @@ const getLines = () => {
     </>
   )
 }
-
-// const getRackLight = (xCord, yCord) => {
-//   return (
-//     <>
-//       <rectAreaLight
-//         rotation={[-1 * (Math.PI / 2), 0, Math.PI / 2]}
-//         position={[xCord - 60, 80, yCord]} color={'0xffffff'} intensity={10}
-//         width={10} height={25}
-//       />
-
-//       <rectAreaLight
-//         rotation={[-1 * (Math.PI / 2), 0, Math.PI / 2]}
-//         position={[xCord, 80, yCord]} color={'0xffffff'} intensity={10}
-//         width={10} height={25}
-//       />
-
-//       <rectAreaLight
-//         rotation={[-1 * (Math.PI / 2), 0, Math.PI / 2]}
-//         position={[xCord + 60, 80, yCord]} color={'0xffffff'} intensity={10}
-//         width={10} height={25}
-//       />
-//     </>
-//   )
-// }
-
-// const renderList = () => {
-//   return [
-//     getRackLight(-50, 60),
-//     getRackLight(-50, -80),
-//     getRackLight(-50, -240),
-//     getRackLight(-50, -240)
-//   ]
-// }
 
 function App() {
   return (
