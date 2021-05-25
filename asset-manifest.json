@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/warehouse_management/static/css/main.33e8aff6.chunk.css",
-    "main.js": "/warehouse_management/static/js/main.b3e6054d.chunk.js",
-    "main.js.map": "/warehouse_management/static/js/main.b3e6054d.chunk.js.map",
+    "main.js": "/warehouse_management/static/js/main.babb692b.chunk.js",
+    "main.js.map": "/warehouse_management/static/js/main.babb692b.chunk.js.map",
     "runtime-main.js": "/warehouse_management/static/js/runtime-main.87a855f3.js",
     "runtime-main.js.map": "/warehouse_management/static/js/runtime-main.87a855f3.js.map",
     "static/js/2.32b6007e.chunk.js": "/warehouse_management/static/js/2.32b6007e.chunk.js",
@@ -23,6 +23,6 @@
     "static/js/runtime-main.87a855f3.js",
     "static/js/2.32b6007e.chunk.js",
     "static/css/main.33e8aff6.chunk.css",
-    "static/js/main.b3e6054d.chunk.js"
+    "static/js/main.babb692b.chunk.js"
   ]
 }
