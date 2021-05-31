@@ -5,6 +5,9 @@ import {
     palletObject,
     scale
 } from '../constant';
+import MessageContext from '../context/MessageContext'
+import { useContext } from 'react'
+import { default as SampleLabel } from '../data/PalletLabel'
 
 const palletDimension = palletObject.dim;
 
@@ -15,11 +18,23 @@ const Pallet = ({
 }) => {
     const texture =
         useLoader(THREE.TextureLoader, boxSignsTexture);
+
+    const { setMsg } = useContext(MessageContext);
+
+    const handelPalletClick = (event) => {
+        setMsg({
+            show: true,
+            content: <SampleLabel />
+        })
+        event.stopPropagation();
+    }
+
     return (
         <mesh
             {...props}
             scale={scale}
             position={pos}
+            onClick={handelPalletClick}
         >
             <boxGeometry
                 args={[
