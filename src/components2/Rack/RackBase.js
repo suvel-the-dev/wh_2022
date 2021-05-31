@@ -1,0 +1,40 @@
+import {
+    scale,
+    rackBaseObject
+} from '../../constant';
+import * as THREE from 'three'
+import { useLoader } from '@react-three/fiber'
+import rackBaseTexture from '../../asset/texture/rack_base_2.jpg';
+
+const rackBasePadding = rackBaseObject.padding;
+
+const RackBase = ({
+    rackObj: {
+        dim//dimension
+    },
+    pos,//position
+    ...props
+}) => {
+    const texture =
+        useLoader(THREE.TextureLoader, rackBaseTexture)
+    return (
+        <mesh
+            {...props}
+            scale={scale}
+            position={pos}
+        >
+            <boxGeometry args={[
+                dim.width + rackBasePadding,
+                dim.height,
+                dim.depth + rackBasePadding,
+            ]} />
+            <meshStandardMaterial
+                map={texture}
+                attach="material"
+                reflectivity={1}
+            />
+        </mesh >
+    )
+}
+
+export default RackBase;

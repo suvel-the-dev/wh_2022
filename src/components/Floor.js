@@ -9,11 +9,10 @@ const Floor = (props) => {
         <mesh
             {...props}
             scale={1.5}
-            rotation={[Math.PI / 2, 0, 0]}
-            position={[0, -1, -125]}
+            position={[0, 0, -125]}
         >
             <boxGeometry
-                args={[250, 250, 0.5]}
+                args={[250, 0.5, 250]}
             />
             <meshBasicMaterial
                 map={texture_1}

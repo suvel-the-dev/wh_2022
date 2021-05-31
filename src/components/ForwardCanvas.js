@@ -1,4 +1,4 @@
-import { useContext, useEffect } from 'react'
+import { useContext } from 'react'
 import MessageContext from '../context/MessageContext'
 import { Canvas } from '@react-three/fiber'
 
