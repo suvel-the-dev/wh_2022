@@ -5,6 +5,8 @@ import renderPallet from './renderPallet';
 import getNxtShelfPosition from './getNxtShelfPosition'
 import getRackCornerCoordinateToPlaceBox from './getRackCornerCoordinateToPlaceBox'
 import placeSpace from './placeSpace'
+import placePalletOnRack from './placePalletOnRack'
+
 export {
     getRack,
     getBox,
@@ -12,5 +14,6 @@ export {
     renderPallet,
     getNxtShelfPosition,
     getRackCornerCoordinateToPlaceBox,
-    placeSpace
+    placeSpace,
+    placePalletOnRack
 };

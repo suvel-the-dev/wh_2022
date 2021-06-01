@@ -50,6 +50,8 @@ const placeSpace = (spaceObj) => {
     let zC =
         firstCoordinateToPlacePallet.cor[2];
 
+    debugger
+
     for (let shelfNum = 1; shelfNum <= shelfCount; shelfNum++) {
         for (let row = 1; row <= totalRow; row++) {
             for (let col = 1; col <= totalCol; col++) {

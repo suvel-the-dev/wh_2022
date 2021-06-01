@@ -1,6 +1,7 @@
 import placePalletOnGeometryObj from './placePalletOnGeometryObj'
 import { rackSideObject } from '../constant'
-export const placePalletOnRack = (
+
+const placePalletOnRack = (
     rackObj,
     capacity
 ) => {
@@ -10,3 +11,5 @@ export const placePalletOnRack = (
     return placePalletOnGeometryObj(rackObj, capacity, verticalOffset);
 
 }
+
+export default placePalletOnRack;
