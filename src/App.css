@@ -50,7 +50,7 @@
 }
 
 .cost-color-container-false {
-  visibility: hidden;
+  display: none;
 }
 
 .cost-color {

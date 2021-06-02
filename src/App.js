@@ -36,7 +36,6 @@ const getRackColor = (zCoordinate) => {
 };
 
 const renderRack = (colorize = false) => {
-  debugger
   if (!rackList?.length > 0) return [];
   return rackList.map(rackObj => {
     const { type, name, ...rest } = rackObj;
