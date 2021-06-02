@@ -771,7 +771,7 @@ const data = [
         "type": "rack"
     },
     {
-        "name": "Z1SPACER1C1",
+        "name": "Z1SPACER1C2",
         "dim": {
             "width": 10,
             "height": 0.2,
@@ -786,7 +786,7 @@ const data = [
         "type": "space"
     },
     {
-        "name": "Z1SPACER2C1",
+        "name": "Z1SPACER2C2",
         "dim": {
             "width": 10,
             "height": 0.2,
@@ -801,7 +801,7 @@ const data = [
         "type": "space"
     },
     {
-        "name": "Z1SPACER3C1",
+        "name": "Z1SPACER3C2",
         "dim": {
             "width": 10,
             "height": 0.2,

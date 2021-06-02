@@ -13,6 +13,7 @@ import FloorLabel from './components2/FloorLabel'
 import rackList from './data/rackList3'
 import palletList from './data/palletList2'
 import Roboto from './asset/fonts/Roboto_Regular.json';
+import { scale } from './constant';
 
 import {
   placeSpace,
@@ -40,26 +41,20 @@ const renderRack = (colorize = false) => {
     const { type, name, ...rest } = rackObj;
     const { dim: { depth }, position: { x, y, z } } = rest;
     const color = colorize ? getRackColor(z) : '';
-    const textZPos = depth / 2;
+    const textZPos = depth * scale / 2;
     if (type == 'rack') return (
       <>
         <Rack rackObj={rest} color={color} />
-        <FloorLabel pos={[x, y, z - (textZPos + 7)]}>
+        <FloorLabel pos={[x, y + 0.5, z - (textZPos + 7)]}>
           {name}
         </FloorLabel>
       </>
     )
     if (type == 'space') return (<>
       <Spaces spaceObj={rest} color={color} />
-      <mesh
-        scale={1.5}
-        position={[x, y+0.5, z - (textZPos + 7)]}
-        rotation={[-1 * Math.PI / 2, 0, (Math.PI / 2) * 2]}
-      >
-        <Text depthTest={false} material-toneMapped={false} {...textProps}>
-          {name}
-        </Text>
-      </mesh>
+      <FloorLabel pos={[x, y + 0.5, z - (textZPos + 7)]}>
+        {name}
+      </FloorLabel>
     </>)
   })
 }
