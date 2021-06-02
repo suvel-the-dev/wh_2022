@@ -32,6 +32,7 @@ const RackBase = ({
             {
                 color ? (
                     <meshBasicMaterial
+                        wireframe={true}
                         color={color}
                     />
                 ) :
