@@ -7,7 +7,7 @@ const palletDimension = palletObject.dim;
 
 const Space = ({
     pos,// position
-    color = 'red',
+    color,
     ...props
 }) => {
     return (
@@ -26,7 +26,7 @@ const Space = ({
             <meshStandardMaterial
                 opacity={0.2}
                 transparent={true}
-                color={"blue"}
+                color={color || 'blue'}
                 wireframe={true}
             />
         </mesh>

@@ -82,9 +82,7 @@ export const placePalletOnGeometryObj = (
             zC = zC + palletDimension.depth * scale;
             xC = firstCoordinateToPlacePallet.cor[0];
         }
-        console.log({ yC, verticalOffset });
         yC = getNxtShelfPosition([xC, yC, zC], verticalOffset)[1];
-        console.log({ yC });
         xC = firstCoordinateToPlacePallet.cor[0];
         zC = firstCoordinateToPlacePallet.cor[2];
     }

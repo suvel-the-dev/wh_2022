@@ -7,8 +7,8 @@ const ForwardCanvas = ({ children }) => {
 
     return (
         <Canvas
-            camera={{ position: [-50, 50, 50] }}
-            style={{ width: '100vw', height: '100vh' }}>
+            camera={{ position: [50, 50, -400] }}
+            style={{ width: '100vw', height: '90vh' }}>
             <MessageContext.Provider value={value}>
                 {children}
             </MessageContext.Provider>

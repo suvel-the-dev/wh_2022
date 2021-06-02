@@ -40,3 +40,34 @@
 .highlight-true {
   background: aqua;
 }
+
+.cost-color-container-true {
+  display: flex;
+  position: absolute;
+  top: 25px;
+  left: 10px;
+  background: white;
+}
+
+.cost-color-container-false {
+  visibility: hidden;
+}
+
+.cost-color {
+  width: 10px;
+  height: 10px;
+  place-self: center;
+  margin: 3px;
+}
+
+.low-cost {
+  background: #05a1fd;
+}
+
+.med-cost {
+  background: #fec766;
+}
+
+.hig-cost {
+  background: #c72719;
+}

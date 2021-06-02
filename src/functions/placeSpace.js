@@ -6,7 +6,7 @@ import Space from '../components2/Spaces/Space';
 import { scale } from '../constant'
 
 
-const placeSpace = (spaceObj) => {
+const placeSpace = (spaceObj, color) => {
     const palletObj = {
         dim: { width: 5, height: 3.5, depth: 3 },
     };
@@ -50,12 +50,11 @@ const placeSpace = (spaceObj) => {
     let zC =
         firstCoordinateToPlacePallet.cor[2];
 
-    debugger
 
     for (let shelfNum = 1; shelfNum <= shelfCount; shelfNum++) {
         for (let row = 1; row <= totalRow; row++) {
             for (let col = 1; col <= totalCol; col++) {
-                palletList.push(<Space pos={[xC, yC, zC]} />)
+                palletList.push(<Space pos={[xC, yC, zC]} color={color} />)
                 xC = xC + palletDimension.width * scale;
             }
             zC = zC + palletDimension.depth * scale;

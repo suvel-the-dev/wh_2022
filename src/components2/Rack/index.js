@@ -5,7 +5,7 @@ import { rackSideObject } from '../../constant';
 
 const rackSideDim = rackSideObject.dim;
 
-const Rack = ({ rackObj }) => {
+const Rack = ({ rackObj, color }) => {
 
     const {
         dim,//dimension
@@ -27,6 +27,7 @@ const Rack = ({ rackObj }) => {
                 <RackBase
                     rackObj={rackObj}
                     pos={nxtPosition}
+                    color={color}
                 />
                 <RackSides
                     rackObj={rackObj}

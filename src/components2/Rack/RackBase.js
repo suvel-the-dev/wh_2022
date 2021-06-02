@@ -12,7 +12,8 @@ const RackBase = ({
     rackObj: {
         dim//dimension
     },
-    pos,//position
+    pos,//position,
+    color,
     ...props
 }) => {
     const texture =
@@ -28,11 +29,21 @@ const RackBase = ({
                 dim.height,
                 dim.depth + rackBasePadding,
             ]} />
-            <meshStandardMaterial
-                map={texture}
-                attach="material"
-                reflectivity={1}
-            />
+            {
+                color ? (
+                    <meshBasicMaterial
+                        color={color}
+                    />
+                ) :
+                    (
+                        <meshStandardMaterial
+                            map={texture}
+                            attach="material"
+                            reflectivity={1}
+                            color={'yellow'}
+                        />
+                    )
+            }
         </mesh >
     )
 }
