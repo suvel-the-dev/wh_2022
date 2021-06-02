@@ -11,13 +11,14 @@ import Rack from './components2/Rack';
 import Spaces from './components2/Spaces';
 import FloorLabel from './components2/FloorLabel'
 import rackList from './data/rackList3'
-import palletList from './data/palletList2'
+import palletList from './data/palletList3'
 import Roboto from './asset/fonts/Roboto_Regular.json';
 import { scale } from './constant';
 
 import {
   placeSpace,
-  placePalletOnRack
+  placePalletOnRack,
+  placePalletOnSpace
 } from './functions'
 
 import * as THREE from 'three';
@@ -59,16 +60,19 @@ const renderRack = (colorize = false) => {
   })
 }
 
-// const renderPallet = (pallets) => {
-//   return pallets.map(pallet => {
-//     const { rack: rackName, qty } = pallet;
-//     console.log(rackList)
-//     const rackObj = rackList.find(rack => {
-//       return rack.name == rackName;
-//     });
-//     return placePalletOnRack(rackObj, qty);
-//   })
-// }
+const renderPallet = (pallets) => {
+  return pallets.map(pallet => {
+    const { rack: rackName, qty } = pallet;
+    console.log(rackList)
+    const rackObj = rackList.find(rack => {
+      return rack.name == rackName;
+    });
+    if (rackObj.type == 'rack')
+      return placePalletOnRack(rackObj, qty);
+    if (rackObj.type == 'space')
+      return placePalletOnSpace(rackObj, qty)
+  })
+}
 
 function App() {
 
@@ -85,11 +89,11 @@ function App() {
     labourCost: false
   });
 
-  // const pallets = useMemo(() => {
-  //   let pallets = [...palletList];
-  //   if (filter.demand) pallets = pallets.filter(pallet => pallet.demand == 1);
-  //   return renderPallet(pallets);
-  // }, [filter])
+  const pallets = useMemo(() => {
+    let pallets = [...palletList];
+    if (filter.demand) pallets = pallets.filter(pallet => pallet.demand == 1);
+    return renderPallet(pallets);
+  }, [filter])
 
   const racks = useMemo(() => {
     return renderRack(filter.labourCost);
@@ -118,7 +122,7 @@ function App() {
               {
                 racks
               }
-              {/* {pallets} */}
+              {pallets}
               <Plane pos={[0, 1, -300]} />
 
               <FloorLabel pos={[0, 1.05, -300]} fontSize={5}>
