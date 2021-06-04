@@ -13,7 +13,7 @@ import {
 } from '../../functions'
 import './style.css';
 
-const Warehouse3d = ({ controls }) => {
+const Warehouse3d = ({ warehouse, controls }) => {
 
     const pallets = useMemo(() => {
         let pallets = [...palletList];
@@ -31,13 +31,16 @@ const Warehouse3d = ({ controls }) => {
     return (
         <>
             <div>
-                <div className={`cost-color-container-${controls?.showLabourCost}`}>
-                    <label>Low</label>
-                    <div className={'cost-color low-cost'}></div>
-                    <label>Medium</label>
-                    <div className={'cost-color med-cost'}></div>
-                    <label>High</label>
-                    <div className={'cost-color hig-cost'}></div>
+                <div className='warehousedetail-container'>
+                    <div>{warehouse?.label}</div>
+                    <div className={`cost-color-container-${controls?.showLabourCost}`}>
+                        <label>Low</label>
+                        <div className={'cost-color low-cost'}></div>
+                        <label>Medium</label>
+                        <div className={'cost-color med-cost'}></div>
+                        <label>High</label>
+                        <div className={'cost-color hig-cost'}></div>
+                    </div>
                 </div>
                 <Suspense fallback={null}>
                     <MessageProvider>

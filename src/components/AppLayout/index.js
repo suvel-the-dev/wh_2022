@@ -6,13 +6,35 @@ import LocationList from '../LocationList';
 import Warehouse3d from '../Warehouse3d'
 import WareHouse3dControl from '../WareHouse3dControl'
 
+const options = [
+    { label: "Warehouse-1", id: 'wh_1' },
+    { label: "Warehouse-2", id: 'wh_2' },
+    { label: "Warehouse-3", id: 'wh_3' },
+    { label: "Warehouse-4", id: 'wh_4' },
+    { label: "Warehouse-5", id: 'wh_5' },
+    { label: "Warehouse-6", id: 'wh_6' },
+    { label: "Warehouse-7", id: 'wh_7' },
+    { label: "Warehouse-8", id: 'wh_8' },
+    { label: "Warehouse-9", id: 'wh_9' },
+    { label: "Warehouse-10", id: 'wh_10' },
+]
+
+const initControls = {
+    highDemand: true,
+    lowDemand: true,
+    showLabourCost: false
+}
+
 const AppLayout = () => {
 
-    const [controls, setControls] = useState({
-        highDemand: true,
-        lowDemand: true,
-        showLabourCost: false
-    });
+    const [controls, setControls] = useState(initControls);
+
+    const [selectedOpt, setSelectedOpt] = useState(options[0]);
+
+    const handelSelectionChange = (opt) => {
+        setSelectedOpt(opt)
+        setControls(initControls)
+    };
 
     return (
         <div class="grid-container">
@@ -26,10 +48,14 @@ const AppLayout = () => {
             </div>
             <div class="location">
                 <SearchBar />
-                <LocationList />
+                <LocationList
+                    options={options}
+                    selectedOpt={selectedOpt}
+                    setSelectedOpt={handelSelectionChange}
+                />
             </div>
             <div class="location3d">
-                <Warehouse3d controls={controls} />
+                <Warehouse3d warehouse={selectedOpt} controls={controls} />
                 <div class="loc3dconsole">
                     <WareHouse3dControl
                         controls={controls}
