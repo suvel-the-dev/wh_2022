@@ -13,37 +13,33 @@ import {
 } from '../../functions'
 import './style.css';
 
-const Warehouse3d = () => {
-
-    const [filter, setFilter] = useState({
-        demand: false,
-        labourCost: false
-    });
+const Warehouse3d = ({ controls }) => {
 
     const pallets = useMemo(() => {
         let pallets = [...palletList];
-        if (filter.demand) pallets = pallets.filter(pallet => pallet.demand == 1);
-        return renderPallet(pallets, rackList);
-    }, [filter])
+        let filteredPalets = []
+        if (controls?.highDemand && controls?.lowDemand) filteredPalets = pallets;
+        else if (controls?.highDemand) filteredPalets = pallets.filter(pallet => pallet.demand == 1);
+        else if (controls?.lowDemand) filteredPalets = pallets.filter(pallet => pallet.demand == 0);
+        return renderPallet(filteredPalets, rackList);
+    }, [controls])
 
     const racks = useMemo(() => {
-        return renderRack(rackList, filter.labourCost);
-    }, [filter])
+        return renderRack(rackList, controls?.showLabourCost);
+    }, [controls])
 
     return (
         <>
-            <div className="App">
+            <div>
+                <div className={`cost-color-container-${controls?.showLabourCost}`}>
+                    <label>Low</label>
+                    <div className={'cost-color low-cost'}></div>
+                    <label>Medium</label>
+                    <div className={'cost-color med-cost'}></div>
+                    <label>High</label>
+                    <div className={'cost-color hig-cost'}></div>
+                </div>
                 <Suspense fallback={null}>
-                    <div>
-                        <button
-                            className={`highlight-${filter.demand}`}
-                            onClick={() => setFilter({ ...filter, demand: !filter.demand })}
-                        >Show "on demand" Pallets </button>
-                        <button
-                            className={`highlight-${filter.labourCost}`}
-                            onClick={() => setFilter({ ...filter, labourCost: !filter.labourCost })}
-                        >Show "labour cost" Pallets </button>
-                    </div>
                     <MessageProvider>
                         <ForwardCanvas  >
                             <color attach="background" args={["gray"]} />
@@ -57,14 +53,6 @@ const Warehouse3d = () => {
                         <MessageModal />
                     </MessageProvider>
                 </Suspense>
-            </div>
-            <div className={`cost-color-container-${filter.labourCost}`}>
-                <label>Low</label>
-                <div className={'cost-color low-cost'}></div>
-                <label>Medium</label>
-                <div className={'cost-color med-cost'}></div>
-                <label>High</label>
-                <div className={'cost-color hig-cost'}></div>
             </div>
         </>
     );

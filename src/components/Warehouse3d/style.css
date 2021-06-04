@@ -4,9 +4,6 @@
 
 .cost-color-container-true {
   display: flex;
-  position: absolute;
-  top: 25px;
-  left: 10px;
   background: white;
 }
 
