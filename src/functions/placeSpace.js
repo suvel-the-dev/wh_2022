@@ -2,7 +2,7 @@ import getPalletCountOnDepthAxis from './getPalletCountOnDepthAxis';
 import getPalletCountOnWidthAxis from './getPalletCountOnWidthAxis';
 import getRackCornerCoordinateToPlaceBox from './getRackCornerCoordinateToPlaceBox';
 import getNxtShelfPosition from './getNxtShelfPosition';
-import Space from '../components2/Spaces/Space';
+import Space from '../components/Spaces/Space';
 import { scale } from '../constant'
 
 

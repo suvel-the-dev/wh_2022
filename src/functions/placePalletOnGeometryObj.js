@@ -2,7 +2,7 @@ import getPalletCountOnDepthAxis from './getPalletCountOnDepthAxis';
 import getPalletCountOnWidthAxis from './getPalletCountOnWidthAxis';
 import getRackCornerCoordinateToPlaceBox from './getRackCornerCoordinateToPlaceBox';
 import getNxtShelfPosition from './getNxtShelfPosition';
-import Pallet from '../components2/Pallet';
+import Pallet from '../components/Pallet';
 import { scale } from '../constant'
 
 export const placePalletOnGeometryObj = (

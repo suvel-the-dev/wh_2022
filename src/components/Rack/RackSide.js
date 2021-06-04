@@ -2,25 +2,34 @@ import * as THREE from 'three'
 import { useLoader } from '@react-three/fiber'
 import rackSideTexture from
     '../../asset/texture/steel_texture_blue_3.jpg';
+import {
+    scale,
+    rackSideObject
+} from '../../constant'
+
+const rackSideDim = rackSideObject.dim;
 
 const RackSide = ({
-    pos,
+    pos,//position
     ...props
 }) => {
-    const texture_1 =
+    const texture =
         useLoader(THREE.TextureLoader, rackSideTexture);
     return (
         <mesh
             {...props}
-            scale={1.5}
+            scale={scale}
             position={pos}
-            rotation={[Math.PI / 2, 0, 0]}
         >
             <boxGeometry
-                args={[0.5, 0.5, 4]}
+                args={[
+                    rackSideDim.width,
+                    rackSideDim.height,
+                    rackSideDim.depth
+                ]}
             />
             <meshStandardMaterial
-                map={texture_1}
+                map={texture}
                 attach="material"
             />
         </mesh >
