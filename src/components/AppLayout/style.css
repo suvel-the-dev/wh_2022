@@ -1,0 +1,50 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 0.5fr 1.2fr 1fr 1fr;
+  grid-template-rows: 0.25fr 2.5fr 0.1fr;
+  gap: 10px 10px;
+  grid-template-areas:
+    "header header header header"
+    "location location3d location3d location3d"
+    "footer footer footer footer";
+  width: 100vw;
+  height: 100vh;
+}
+
+.header {
+  grid-area: header;
+  background: #ffcc00;
+}
+
+.footer {
+  grid-area: footer;
+  background: #d40511;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffcc00;
+}
+
+.location {
+  grid-area: location;
+}
+
+.location3d {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1.7fr 0.3fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    ". . ."
+    "loc3dconsole loc3dconsole loc3dconsole";
+  grid-area: location3d;
+}
+
+.loc3dconsole {
+  grid-area: loc3dconsole;
+}
+
+.brand-logo {
+  margin: 15px;
+  display: block;
+}

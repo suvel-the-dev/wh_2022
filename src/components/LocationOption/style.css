@@ -1,0 +1,38 @@
+.unitlocation {
+  width: 200px;
+  height: 43px;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 0px 4px 20px rgb(192 192 192 / 25%);
+  display: flex;
+  cursor: pointer;
+}
+
+.unitlocation:hover > .locname-container::after {
+  background: #ffcc00;
+}
+
+.locname-container {
+  margin-left: 17px;
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.locname-container::after {
+  content: "";
+  width: 10px;
+  height: 10px;
+  background: #a0a0a0;
+  margin-left: 40px;
+  border-radius: 50%;
+}
+
+.selected {
+  background: #ffcc00;
+}
+
+.selected .locname-container::after {
+  background: #fff;
+}

@@ -1,0 +1,23 @@
+.searchbar {
+  display: flex;
+  border: 1px solid #d40511;
+  width: fit-content;
+  margin: auto;
+  height: 30px;
+}
+
+.searchbar > input {
+  border: 0;
+}
+
+.searchbar > button {
+  background: #d40511;
+  border: 0;
+  display: flex;
+  align-items: center;
+}
+
+.searchbar > button > img {
+  width: 17px;
+  height: 17px;
+}

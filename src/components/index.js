@@ -9,6 +9,9 @@ import Rack from './Rack'
 import RackLabelled from './Rack/RackLabelled'
 import SpacesLabelled from './Spaces/SpacesLabelled'
 import UnLoadingFloor from './UnLoadingFloor'
+import AppLayout from './AppLayout'
+import SearchBar from './SearchBar'
+import Warehouse3d from './Warehouse3d'
 export {
     Line,
     Pallet,
@@ -20,5 +23,8 @@ export {
     Rack,
     RackLabelled,
     SpacesLabelled,
-    UnLoadingFloor
+    UnLoadingFloor,
+    AppLayout,
+    SearchBar,
+    Warehouse3d
 };
