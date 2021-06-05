@@ -10,7 +10,6 @@
   display: flex;
   background: white;
   margin-left: auto;
-
 }
 
 .cost-color-container-false {
@@ -34,4 +33,17 @@
 
 .hig-cost {
   background: #c72719;
+}
+
+.warehouse-title {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.optimized-switch {
+  font-weight: 600;
+  margin-left: auto;
+  margin: 2px 0 2px auto;
+  display: flex;
+  align-items: center;
 }

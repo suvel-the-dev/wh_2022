@@ -31,6 +31,7 @@ const WareHouse3dControl = ({ controls: preControl, setControls: updateControl }
                 />
                 <Button onClick={handelOnSelection}>View</Button>
                 <Button>Optimize</Button>
+               
             </div>
         </>
     )
