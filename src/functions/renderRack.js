@@ -13,7 +13,7 @@ const renderRack = (rackList, colorize = false) => {
         const color = colorize ? getRackColorForLabourCost(z) : '';
         const textZPos = depth * scale / 2;
         const pos = [x, y + 0.5, z - (textZPos + 7)];
-        console.log({ type })
+        // console.log({ type })
         if (type == 'rack') return (
             <RackLabelled
                 rackObj={rest}

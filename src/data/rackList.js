@@ -1,365 +1,885 @@
-//Planning 📐
+/*                                                                     
+                +--------+   +--------+ +--------+                
+                |  20x12 |   |  20x12 | |  20x12 |                 
+                |(Space1)|   |(Space2)| |(Space3)|                   
+                +--------+   +--------+ +--------+                   
+                                                                               
+   +--------+    +-------------+  +-------------+ +-------------+              
+   |  20x12 |    |   16x8 s-3  |  |   16x8 s-3  | |   16x8 s-3  |              
+   |(Space4)|    |   (Rack 1)  |  |   (Rack 2)  | |   (Rack 3)  |              
+   +--------+    +-------------+  +-------------+ +-------------+              
+                 +-------------+  +-------------+ +-------------+              
+                 |   16x8 s-5  |  |   16x8 s-5  | |   16x8 s-5  |              
+                 |   (Rack 4)  |  |   (Rack 5)  | |   (Rack 6)  |              
+                 +-------------+  +-------------+ +-------------+              
+   +--------+    +-------------+  +--------------------------+              
+   |  20x12 |    |   16x8 s-9  |  |        32x16 s-9         |              
+   |(Space5)|    |   (Rack 7)  |  |     	(Rack 8)         |              
+   +--------+    +-------------+  +--------------------------+              
+ 
+*/
+//Rack generator function....👇 
 /*
-   +-----------+
-   |  devison2 |
-   +-----------+
-                  +--------+
-                  |devison3|
-   +-----------+  +--------+
-   |  devison1 |
-   +-----------+
-   |devison1.5 |
-   +-----------+
- */
-//
 
+let rackList = [];
+let initRow =-50 -(250 / 5) * 1.5;
+let finalRow = (250 / 5) * 1.5;
+let initCol = -125 - (250 / 3) * 1.5;
+let finalCol = -125 + (250 / 3) * 1.5;
+let rowCount = 1;
+let colCount = 1;
+
+const nxtRowDiff = 40;
+const nxtColDiff = 30 ;
+
+for(let row = initRow;row <= finalRow;row=nxtRowDiff+row){
+let nxtRowCor = row;
+    for(let col = initCol;col<=finalCol;col = nxtColDiff+col){
+    let nxtColCor = col;
+        rackList.push({
+         name: `Z1RACKR${rowCount}C${colCount}`,
+         dim: {
+            width: 16,
+            height: 0.2,
+            depth: 8
+         },
+         position: { x: nxtRowCor, y: 1, z: nxtColCor  },
+         shelfCount: 9,
+         type: "rack"
+        })
+        colCount++;
+    }
+    rowCount++;
+    colCount =1;
+}
+*/
 
 const data = [
-    //division 1 &  devison 1.5 (rack with 3 shelf)
     {
-        id: "rack1",
-        shelf_count: 9,
-        coordinate: {
-            x: 0,
-            y: 0
-        }
+        "name": "Z1RACKR1C1",
+        "dim": {
+            "width": 16,
+            "height": 0.2,
+            "depth": 8
+        },
+        "position": {
+            "x": -170,
+            "y": 1,
+            "z": -250
+        },
+        "shelfCount": 5,
+        "type": "rack"
     },
     {
-        id: "rack1.5",
-        shelf_count: 3,
-        coordinate: {
-            x: 0,
-            y: 9
-        }
+        "name": "Z1RACKR1C2",
+        "dim": {
+            "width": 16,
+            "height": 0.2,
+            "depth": 8
+        },
+        "position": {
+            "x": -170,
+            "y": 1,
+            "z": -210
+        },
+        "shelfCount": 5,
+        "type": "rack"
     },
     {
-        id: "rack2",
-        shelf_count: 9,
-        coordinate: {
-            x: 26,
-            y: 0
-        }
+        "name": "Z1RACKR1C3",
+        "dim": {
+            "width": 16,
+            "height": 0.2,
+            "depth": 8
+        },
+        "position": {
+            "x": -170,
+            "y": 1,
+            "z": -170
+        },
+        "shelfCount": 5,
+        "type": "rack"
     },
     {
-        id: "rack2.5",
-        shelf_count: 3,
-        coordinate: {
-            x: 26,
-            y: 9
-        }
+        "name": "Z1RACKR1C4",
+        "dim": {
+            "width": 16,
+            "height": 0.2,
+            "depth": 8
+        },
+        "position": {
+            "x": -170,
+            "y": 1,
+            "z": -130
+        },
+        "shelfCount": 5,
+        "type": "rack"
     },
     {
-        id: "rack3",
-        shelf_count: 9,
-        coordinate: {
-            x: 26 * 2,
-            y: 0
-        }
+        "name": "Z1RACKR1C5",
+        "dim": {
+            "width": 16,
+            "height": 0.2,
+            "depth": 8
+        },
+        "position": {
+            "x": -170,
+            "y": 1,
+            "z": -90
+        },
+        "shelfCount": 5,
+        "type": "rack"
     },
     {
-        id: "rack3.5",
-        shelf_count: 3,
-        coordinate: {
-            x: 26 * 2,
-            y: 9
-        }
+        "name": "Z1RACKR1C6",
+        "dim": {
+            "width": 16,
+            "height": 0.2,
+            "depth": 8
+        },
+        "position": {
+            "x": -170,
+            "y": 1,
+            "z": -50
+        },
+        "shelfCount": 5,
+        "type": "rack"
     },
     {
-        id: "rack4",
-        shelf_count: 9,
-        coordinate: {
-            x: 26 * 3,
-            y: 0
-        }
+        "name": "Z1RACKR1C7",
+        "dim": {
+            "width": 16,
+            "height": 0.2,
+            "depth": 8
+        },
+        "position": {
+            "x": -170,
+            "y": 1,
+            "z": -10
+        },
+        "shelfCount": 5,
+        "type": "rack"
     },
     {
-        id: "rack4.5",
-        shelf_count: 3,
-        coordinate: {
-            x: 26 * 3,
-            y: 9
-        }
+        "name": "Z1RACKR2C1",
+        "dim": {
+            "width": 16,
+            "height": 0.2,
+            "depth": 8
+        },
+        "position": {
+            "x": -95,
+            "y": 1,
+            "z": -250
+        },
+        "shelfCount": 5,
+        "type": "rack"
     },
     {
-        id: "rack5",
-        shelf_count: 9,
-        coordinate: {
-            x: 26 * 4,
-            y: 0
-        }
+        "name": "Z1RACKR2C2",
+        "dim": {
+            "width": 16,
+            "height": 0.2,
+            "depth": 8
+        },
+        "position": {
+            "x": -95,
+            "y": 1,
+            "z": -210
+        },
+        "shelfCount": 5,
+        "type": "rack"
     },
     {
-        id: "rack5.5",
-        shelf_count: 3,
-        coordinate: {
-            x: 26 * 4,
-            y: 9
-        }
-    },
-    //division 2
-    {
-        id: "rack6",
-        shelf_count: 9,
-        coordinate: {
-            x: 0,
-            y: -60
-        }
+        "name": "Z1RACKR2C3",
+        "dim": {
+            "width": 16,
+            "height": 0.2,
+            "depth": 8
+        },
+        "position": {
+            "x": -95,
+            "y": 1,
+            "z": -170
+        },
+        "shelfCount": 5,
+        "type": "rack"
     },
     {
-        id: "rack7",
-        shelf_count: 9,
-        coordinate: {
-            x: 26,
-            y: -60
-        }
+        "name": "Z1RACKR2C4",
+        "dim": {
+            "width": 16,
+            "height": 0.2,
+            "depth": 8
+        },
+        "position": {
+            "x": -95,
+            "y": 1,
+            "z": -130
+        },
+        "shelfCount": 5,
+        "type": "rack"
     },
     {
-        id: "rack8",
-        shelf_count: 9,
-        coordinate: {
-            x: 26 * 2,
-            y: -60
-        }
+        "name": "Z1RACKR2C5",
+        "dim": {
+            "width": 16,
+            "height": 0.2,
+            "depth": 8
+        },
+        "position": {
+            "x": -95,
+            "y": 1,
+            "z": -90
+        },
+        "shelfCount": 5,
+        "type": "rack"
     },
     {
-        id: "rack9",
-        shelf_count: 9,
-        coordinate: {
-            x: 26 * 3,
-            y: -60
-        }
+        "name": "Z1RACKR2C6",
+        "dim": {
+            "width": 16,
+            "height": 0.2,
+            "depth": 8
+        },
+        "position": {
+            "x": -95,
+            "y": 1,
+            "z": -50
+        },
+        "shelfCount": 5,
+        "type": "rack"
     },
     {
-        id: "rack10",
-        shelf_count: 9,
-        coordinate: {
-            x: 26 * 4,
-            y: -60
-        }
-    },
-    //division 2.1
-    {
-        id: "rack11",
-        shelf_count: 9,
-        coordinate: {
-            x: 0,
-            y: -120
-        }
+        "name": "Z1RACKR2C7",
+        "dim": {
+            "width": 16,
+            "height": 0.2,
+            "depth": 8
+        },
+        "position": {
+            "x": -95,
+            "y": 1,
+            "z": -10
+        },
+        "shelfCount": 5,
+        "type": "rack"
     },
     {
-        id: "rack12",
-        shelf_count: 9,
-        coordinate: {
-            x: 26,
-            y: -120
-        }
+        "name": "Z1RACKR3C1",
+        "dim": {
+            "width": 16,
+            "height": 0.2,
+            "depth": 8
+        },
+        "position": {
+            "x": -65,
+            "y": 1,
+            "z": -250
+        },
+        "shelfCount": 5,
+        "type": "rack"
     },
     {
-        id: "rack13",
-        shelf_count: 9,
-        coordinate: {
-            x: 26 * 2,
-            y: -120
-        }
+        "name": "Z1RACKR3C2",
+        "dim": {
+            "width": 16,
+            "height": 0.2,
+            "depth": 8
+        },
+        "position": {
+            "x": -65,
+            "y": 1,
+            "z": -210
+        },
+        "shelfCount": 5,
+        "type": "rack"
     },
     {
-        id: "rack14",
-        shelf_count: 9,
-        coordinate: {
-            x: 26 * 3,
-            y: -120
-        }
+        "name": "Z1RACKR3C3",
+        "dim": {
+            "width": 16,
+            "height": 0.2,
+            "depth": 8
+        },
+        "position": {
+            "x": -65,
+            "y": 1,
+            "z": -170
+        },
+        "shelfCount": 5,
+        "type": "rack"
     },
     {
-        id: "rack15",
-        shelf_count: 9,
-        coordinate: {
-            x: 26 * 4,
-            y: -120
-        }
-    },
-    //division 2.2
-    {
-        id: "rack16",
-        shelf_count: 9,
-        coordinate: {
-            x: 0,
-            y: -180
-        }
+        "name": "Z1RACKR3C4",
+        "dim": {
+            "width": 16,
+            "height": 0.2,
+            "depth": 8
+        },
+        "position": {
+            "x": -65,
+            "y": 1,
+            "z": -130
+        },
+        "shelfCount": 5,
+        "type": "rack"
     },
     {
-        id: "rack17",
-        shelf_count: 9,
-        coordinate: {
-            x: 26,
-            y: -180
-        }
+        "name": "Z1RACKR3C5",
+        "dim": {
+            "width": 16,
+            "height": 0.2,
+            "depth": 8
+        },
+        "position": {
+            "x": -65,
+            "y": 1,
+            "z": -90
+        },
+        "shelfCount": 5,
+        "type": "rack"
     },
     {
-        id: "rack18",
-        shelf_count: 9,
-        coordinate: {
-            x: 26 * 2,
-            y: -180
-        }
+        "name": "Z1RACKR3C6",
+        "dim": {
+            "width": 16,
+            "height": 0.2,
+            "depth": 8
+        },
+        "position": {
+            "x": -65,
+            "y": 1,
+            "z": -50
+        },
+        "shelfCount": 5,
+        "type": "rack"
     },
     {
-        id: "rack19",
-        shelf_count: 9,
-        coordinate: {
-            x: 26 * 3,
-            y: -180
-        }
+        "name": "Z1RACKR3C7",
+        "dim": {
+            "width": 16,
+            "height": 0.2,
+            "depth": 8
+        },
+        "position": {
+            "x": -65,
+            "y": 1,
+            "z": -10
+        },
+        "shelfCount": 5,
+        "type": "rack"
     },
     {
-        id: "rack20",
-        shelf_count: 9,
-        coordinate: {
-            x: 26 * 4,
-            y: -180
-        }
-    },
-    //division 2.3
-    {
-        id: "rack21",
-        shelf_count: 9,
-        coordinate: {
-            x: 0,
-            y: -240
-        }
+        "name": "Z1RACKR4C1",
+        "dim": {
+            "width": 16,
+            "height": 0.2,
+            "depth": 8
+        },
+        "position": {
+            "x": -35,
+            "y": 1,
+            "z": -250
+        },
+        "shelfCount": 5,
+        "type": "rack"
     },
     {
-        id: "rack22",
-        shelf_count: 9,
-        coordinate: {
-            x: 26,
-            y: -240
-        }
+        "name": "Z1RACKR4C2",
+        "dim": {
+            "width": 16,
+            "height": 0.2,
+            "depth": 8
+        },
+        "position": {
+            "x": -35,
+            "y": 1,
+            "z": -210
+        },
+        "shelfCount": 5,
+        "type": "rack"
     },
     {
-        id: "rack23",
-        shelf_count: 9,
-        coordinate: {
-            x: 26 * 2,
-            y: -240
-        }
+        "name": "Z1RACKR4C3",
+        "dim": {
+            "width": 16,
+            "height": 0.2,
+            "depth": 8
+        },
+        "position": {
+            "x": -35,
+            "y": 1,
+            "z": -170
+        },
+        "shelfCount": 5,
+        "type": "rack"
     },
     {
-        id: "rack24",
-        shelf_count: 9,
-        coordinate: {
-            x: 26 * 3,
-            y: -240
-        }
+        "name": "Z1RACKR4C4",
+        "dim": {
+            "width": 16,
+            "height": 0.2,
+            "depth": 8
+        },
+        "position": {
+            "x": -35,
+            "y": 1,
+            "z": -130
+        },
+        "shelfCount": 5,
+        "type": "rack"
     },
     {
-        id: "rack25",
-        shelf_count: 9,
-        coordinate: {
-            x: 26 * 4,
-            y: -240
-        }
-    },
-    //division 3
-    {
-        id: "rack26",
-        shelf_count: 5,
-        coordinate: {
-            x: -60,
-            y: -30
-        }
+        "name": "Z1RACKR4C5",
+        "dim": {
+            "width": 16,
+            "height": 0.2,
+            "depth": 8
+        },
+        "position": {
+            "x": -35,
+            "y": 1,
+            "z": -90
+        },
+        "shelfCount": 5,
+        "type": "rack"
     },
     {
-        id: "rack27",
-        shelf_count: 5,
-        coordinate: {
-            x: -60 + -26,
-            y: -30
-        }
+        "name": "Z1RACKR4C6",
+        "dim": {
+            "width": 16,
+            "height": 0.2,
+            "depth": 8
+        },
+        "position": {
+            "x": -35,
+            "y": 1,
+            "z": -50
+        },
+        "shelfCount": 5,
+        "type": "rack"
     },
     {
-        id: "rack28",
-        shelf_count: 5,
-        coordinate: {
-            x: -60 + -26 * 2,
-            y: -30
-        }
-    },
-    //division 3.1
-    {
-        id: "rack29",
-        shelf_count: 5,
-        coordinate: {
-            x: -60,
-            y: -30 * 3
-        }
+        "name": "Z1RACKR4C7",
+        "dim": {
+            "width": 16,
+            "height": 0.2,
+            "depth": 8
+        },
+        "position": {
+            "x": -35,
+            "y": 1,
+            "z": -10
+        },
+        "shelfCount": 5,
+        "type": "rack"
     },
     {
-        id: "rack30",
-        shelf_count: 5,
-        coordinate: {
-            x: -60 + -26,
-            y: -30 * 3
-        }
+        "name": "Z1RACKR5C1",
+        "dim": {
+            "width": 16,
+            "height": 0.2,
+            "depth": 8
+        },
+        "position": {
+            "x": -5,
+            "y": 1,
+            "z": -250
+        },
+        "shelfCount": 5,
+        "type": "rack"
     },
     {
-        id: "rack31",
-        shelf_count: 5,
-        coordinate: {
-            x: -60 + -26 * 2,
-            y: -30 * 3
-        }
-    },
-    //division 3.2
-    {
-        id: "rack32",
-        shelf_count: 5,
-        coordinate: {
-            x: -60,
-            y: -30 * 5
-        }
+        "name": "Z1RACKR5C2",
+        "dim": {
+            "width": 16,
+            "height": 0.2,
+            "depth": 8
+        },
+        "position": {
+            "x": -5,
+            "y": 1,
+            "z": -210
+        },
+        "shelfCount": 5,
+        "type": "rack"
     },
     {
-        id: "rack33",
-        shelf_count: 5,
-        coordinate: {
-            x: -60 + -26,
-            y: -30 * 5
-        }
+        "name": "Z1RACKR5C3",
+        "dim": {
+            "width": 16,
+            "height": 0.2,
+            "depth": 8
+        },
+        "position": {
+            "x": -5,
+            "y": 1,
+            "z": -170
+        },
+        "shelfCount": 5,
+        "type": "rack"
     },
     {
-        id: "rack34",
-        shelf_count: 5,
-        coordinate: {
-            x: -60 + -26 * 2,
-            y: -30 * 5
-        }
-    },
-    //division 3.3
-    {
-        id: "rack35",
-        shelf_count: 5,
-        coordinate: {
-            x: -60,
-            y: -30 * 7
-        }
+        "name": "Z1RACKR5C4",
+        "dim": {
+            "width": 16,
+            "height": 0.2,
+            "depth": 8
+        },
+        "position": {
+            "x": -5,
+            "y": 1,
+            "z": -130
+        },
+        "shelfCount": 5,
+        "type": "rack"
     },
     {
-        id: "rack36",
-        shelf_count: 5,
-        coordinate: {
-            x: -60 + -26,
-            y: -30 * 7
-        }
+        "name": "Z1RACKR5C5",
+        "dim": {
+            "width": 16,
+            "height": 0.2,
+            "depth": 8
+        },
+        "position": {
+            "x": -5,
+            "y": 1,
+            "z": -90
+        },
+        "shelfCount": 5,
+        "type": "rack"
     },
     {
-        id: "rack37",
-        shelf_count: 5,
-        coordinate: {
-            x: -60 + -26 * 2,
-            y: -30 * 7
-        }
+        "name": "Z1RACKR5C6",
+        "dim": {
+            "width": 16,
+            "height": 0.2,
+            "depth": 8
+        },
+        "position": {
+            "x": -5,
+            "y": 1,
+            "z": -50
+        },
+        "shelfCount": 5,
+        "type": "rack"
     },
-];
+    {
+        "name": "Z1RACKR5C7",
+        "dim": {
+            "width": 16,
+            "height": 0.2,
+            "depth": 8
+        },
+        "position": {
+            "x": -5,
+            "y": 1,
+            "z": -10
+        },
+        "shelfCount": 5,
+        "type": "rack"
+    },
+    {
+        "name": "Z1RACKR6C1",
+        "dim": {
+            "width": 16,
+            "height": 0.2,
+            "depth": 8
+        },
+        "position": {
+            "x": 120,
+            "y": 1,
+            "z": -250
+        },
+        "shelfCount": 5,
+        "type": "rack"
+    },
+    {
+        "name": "Z1RACKR6C2",
+        "dim": {
+            "width": 16,
+            "height": 0.2,
+            "depth": 8
+        },
+        "position": {
+            "x": 120,
+            "y": 1,
+            "z": -210
+        },
+        "shelfCount": 5,
+        "type": "rack"
+    },
+    {
+        "name": "Z1RACKR6C3",
+        "dim": {
+            "width": 16,
+            "height": 0.2,
+            "depth": 8
+        },
+        "position": {
+            "x": 120,
+            "y": 1,
+            "z": -170
+        },
+        "shelfCount": 5,
+        "type": "rack"
+    },
+    {
+        "name": "Z1RACKR6C4",
+        "dim": {
+            "width": 16,
+            "height": 0.2,
+            "depth": 8
+        },
+        "position": {
+            "x": 120,
+            "y": 1,
+            "z": -130
+        },
+        "shelfCount": 5,
+        "type": "rack"
+    },
+    {
+        "name": "Z1RACKR6C5",
+        "dim": {
+            "width": 16,
+            "height": 0.2,
+            "depth": 8
+        },
+        "position": {
+            "x": 120,
+            "y": 1,
+            "z": -90
+        },
+        "shelfCount": 5,
+        "type": "rack"
+    },
+    {
+        "name": "Z1RACKR6C6",
+        "dim": {
+            "width": 16,
+            "height": 0.2,
+            "depth": 8
+        },
+        "position": {
+            "x": 120,
+            "y": 1,
+            "z": -50
+        },
+        "shelfCount": 5,
+        "type": "rack"
+    },
+    {
+        "name": "Z1RACKR6C7",
+        "dim": {
+            "width": 16,
+            "height": 0.2,
+            "depth": 8
+        },
+        "position": {
+            "x": 120,
+            "y": 1,
+            "z": -10
+        },
+        "shelfCount": 5,
+        "type": "rack"
+    },
+    {
+        "name": "Z1RACKR7C1",
+        "dim": {
+            "width": 16,
+            "height": 0.2,
+            "depth": 8
+        },
+        "position": {
+            "x": 150,
+            "y": 1,
+            "z": -250
+        },
+        "shelfCount": 5,
+        "type": "rack"
+    },
+    {
+        "name": "Z1RACKR7C2",
+        "dim": {
+            "width": 16,
+            "height": 0.2,
+            "depth": 8
+        },
+        "position": {
+            "x": 150,
+            "y": 1,
+            "z": -210
+        },
+        "shelfCount": 5,
+        "type": "rack"
+    },
+    {
+        "name": "Z1RACKR7C3",
+        "dim": {
+            "width": 16,
+            "height": 0.2,
+            "depth": 8
+        },
+        "position": {
+            "x": 150,
+            "y": 1,
+            "z": -170
+        },
+        "shelfCount": 5,
+        "type": "rack"
+    },
+    {
+        "name": "Z1RACKR7C4",
+        "dim": {
+            "width": 16,
+            "height": 0.2,
+            "depth": 8
+        },
+        "position": {
+            "x": 150,
+            "y": 1,
+            "z": -130
+        },
+        "shelfCount": 5,
+        "type": "rack"
+    },
+    {
+        "name": "Z1RACKR7C5",
+        "dim": {
+            "width": 16,
+            "height": 0.2,
+            "depth": 8
+        },
+        "position": {
+            "x": 150,
+            "y": 1,
+            "z": -90
+        },
+        "shelfCount": 5,
+        "type": "rack"
+    },
+    {
+        "name": "Z1RACKR7C6",
+        "dim": {
+            "width": 16,
+            "height": 0.2,
+            "depth": 8
+        },
+        "position": {
+            "x": 150,
+            "y": 1,
+            "z": -50
+        },
+        "shelfCount": 5,
+        "type": "rack"
+    },
+    {
+        "name": "Z1RACKR7C7",
+        "dim": {
+            "width": 16,
+            "height": 0.2,
+            "depth": 8
+        },
+        "position": {
+            "x": 150,
+            "y": 1,
+            "z": -10
+        },
+        "shelfCount": 5,
+        "type": "rack"
+    },
+    {
+        "name": "Z1SPACER1C2",
+        "dim": {
+            "width": 10,
+            "height": 0.2,
+            "depth": 30
+        },
+        "position": {
+            "x": 60,
+            "y": 1,
+            "z": -240
+        },
+        "shelfCount": 3,
+        "type": "space"
+    },
+    {
+        "name": "Z1SPACER2C2",
+        "dim": {
+            "width": 10,
+            "height": 0.2,
+            "depth": 30
+        },
+        "position": {
+            "x": 60,
+            "y": 1,
+            "z": -140
+        },
+        "shelfCount": 3,
+        "type": "space"
+    },
+    {
+        "name": "Z1SPACER3C2",
+        "dim": {
+            "width": 10,
+            "height": 0.2,
+            "depth": 30
+        },
+        "position": {
+            "x": 60,
+            "y": 1,
+            "z": -40
+        },
+        "shelfCount": 3,
+        "type": "space"
+    },
+    {
+        "name": "Z1SPACER4C1",
+        "dim": {
+            "width": 10,
+            "height": 0.2,
+            "depth": 10
+        },
+        "position": {
+            "x": 60,
+            "y": 1,
+            "z": -290
+        },
+        "shelfCount": 3,
+        "type": "space"
+    },
+    {
+        "name": "Z1SPACER4C2",
+        "dim": {
+            "width": 30,
+            "height": 0.2,
+            "depth": 10
+        },
+        "position": {
+            "x": 130,
+            "y": 1,
+            "z": -290
+        },
+        "shelfCount": 3,
+        "type": "space"
+    },
+    {
+        "name": "Z1SPACER4C3",
+        "dim": {
+            "width": 100,
+            "height": 0.2,
+            "depth": 10
+        },
+        "position": {
+            "x": -100,
+            "y": 1,
+            "z": -290
+        },
+        "shelfCount": 3,
+        "type": "space"
+    }
+]
 
 export default data;

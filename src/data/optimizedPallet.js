@@ -1,3 +1,23 @@
+/*                                                                     
+                +--------+   +--------+ +--------+                
+                |  20x12 |   |  20x12 | |  20x12 |                 
+                |(Space1)|   |(Space2)| |(Space3)|                   
+                +--------+   +--------+ +--------+                   
+                                                                               
+   +--------+    +-------------+  +-------------+ +-------------+              
+   |  20x12 |    |   16x8 s-3  |  |   16x8 s-3  | |   16x8 s-3  |              
+   |(Space4)|    |   (Rack 1)  |  |   (Rack 2)  | |   (Rack 3)  |              
+   +--------+    +-------------+  +-------------+ +-------------+              
+                 +-------------+  +-------------+ +-------------+              
+                 |   16x8 s-5  |  |   16x8 s-5  | |   16x8 s-5  |              
+                 |   (Rack 4)  |  |   (Rack 5)  | |   (Rack 6)  |              
+                 +-------------+  +-------------+ +-------------+              
+   +--------+    +-------------+  +--------------------------+              
+   |  20x12 |    |   16x8 s-9  |  |        32x16 s-9         |              
+   |(Space5)|    |   (Rack 7)  |  |     	(Rack 8)         |              
+   +--------+    +-------------+  +--------------------------+              
+ 
+*/
 const data = [
     {
         "productName": "amazon groceries",
@@ -156,9 +176,9 @@ const data = [
     {
         "productName": "amazon groceries",
         "rack": "Z1RACKR4C2",
-        "qty": 10,
+        "qty": 0,
         "detail": {},
-        "demand": 1
+        "demand": 0
     },
     {
         "productName": "amazon groceries",
@@ -219,9 +239,9 @@ const data = [
     {
         "productName": "amazon groceries",
         "rack": "Z1RACKR5C4",
-        "qty": 10,
+        "qty": 0,
         "detail": {},
-        "demand": 1
+        "demand": 0
     },
     {
         "productName": "amazon groceries",
@@ -268,9 +288,9 @@ const data = [
     {
         "productName": "amazon groceries",
         "rack": "Z1RACKR6C4",
-        "qty": 10,
+        "qty": 0,
         "detail": {},
-        "demand": 1
+        "demand": 0
     },
     {
         "productName": "amazon groceries",
@@ -310,9 +330,9 @@ const data = [
     {
         "productName": "amazon groceries",
         "rack": "Z1RACKR7C3",
-        "qty": 10,
+        "qty": 0,
         "detail": {},
-        "demand": 1
+        "demand": 0
     },
     {
         "productName": "amazon groceries",
@@ -338,16 +358,16 @@ const data = [
     {
         "productName": "amazon groceries",
         "rack": "Z1RACKR7C7",
-        "qty": 10,
+        "qty": 0,
         "detail": {},
-        "demand": 1
+        "demand": 0
     },
     {
         "productName": "amazon groceries",
         "rack": "Z1SPACER1C2",
-        "qty": 10,
+        "qty": 0,
         "detail": {},
-        "demand": 1
+        "demand": 0
     },
     {
         "productName": "amazon groceries",
@@ -380,9 +400,9 @@ const data = [
     {
         "productName": "amazon groceries",
         "rack": "Z1SPACER4C3",
-        "qty": 10,
+        "qty": 70,
         "detail": {},
-        "demand": 0
+        "demand": 1
     }
 ]
 
