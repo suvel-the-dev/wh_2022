@@ -12,6 +12,7 @@ import UnLoadingFloor from './UnLoadingFloor'
 import AppLayout from './AppLayout'
 import SearchBar from './SearchBar'
 import Warehouse3d from './Warehouse3d'
+import Truck from './Truck'
 export {
     Line,
     Pallet,
@@ -26,5 +27,6 @@ export {
     UnLoadingFloor,
     AppLayout,
     SearchBar,
-    Warehouse3d
+    Warehouse3d,
+    Truck
 };
