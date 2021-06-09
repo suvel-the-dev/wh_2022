@@ -13,6 +13,7 @@ import AppLayout from './AppLayout'
 import SearchBar from './SearchBar'
 import Warehouse3d from './Warehouse3d'
 import Truck from './Truck'
+import LoginLayout from './LoginLayout'
 export {
     Line,
     Pallet,
@@ -28,5 +29,6 @@ export {
     AppLayout,
     SearchBar,
     Warehouse3d,
-    Truck
+    Truck,
+    LoginLayout
 };

@@ -1,0 +1,81 @@
+.container {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1.8fr 0.1fr;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "main-area main-area main-area"
+    "main-area main-area main-area"
+    "footer-area footer-area footer-area";
+}
+
+.main-area {
+  grid-area: main-area;
+  background-image: url("../../asset/bg_img/istockphoto-893494012-1024x1024\ 1.png");
+  background-size: inherit;
+  background-position: center;
+  background-blend-mode: luminosity;
+  background-color: #00000094;
+  display: grid;
+  place-content: center;
+}
+
+.footer-area {
+  grid-area: footer-area;
+  background: #d40511;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffcc00;
+}
+
+.login-form-container {
+  width: 400px;
+  height: 400px;
+  background: #ffcc00;
+  border-radius: 10px;
+  border: 2px solid #d40511;
+  display: flex;
+  padding: 10px;
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: center;
+}
+
+.brand-logo-md {
+  width: 276px;
+  height: 80px;
+  background-image: url("../../asset/band/logo-md.png");
+  background-repeat: no-repeat;
+  margin-top: 30px;
+}
+
+.login-forms {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  height: 100%;
+  margin-top: 25px;
+}
+
+.login-forms input {
+  border: 2px solid #d40511;
+  height: 30px;
+  width: 300px;
+}
+
+.login-forms label {
+  color: #d40511;
+  text-align: left;
+  margin-top: 10px;
+}
+
+.login-forms button {
+  background: #d40511;
+  color: #ffcc00;
+  border: 0;
+  width: 153px;
+  height: 40px;
+  margin: auto auto 0 auto;
+}

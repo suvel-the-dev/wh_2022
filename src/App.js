@@ -1,10 +1,19 @@
 import './App.css';
-import { AppLayout } from './components'
+import {
+  AppLayout,
+  LoginLayout
+} from './components'
+import { useState } from 'react'
 function App() {
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
   return (
     <>
       <div className="App">
-        <AppLayout />
+        {isLoggedIn ?
+          <AppLayout />
+          :
+          <LoginLayout handelLogin={() => setIsLoggedIn(true)} />
+        }
       </div>
     </>
   );
