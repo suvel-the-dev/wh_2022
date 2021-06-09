@@ -171,14 +171,14 @@ const data = [
         "rack": "Z1RACKR4C1",
         "qty": 10,
         "detail": {},
-        "demand": 0
+        "demand": 1
     },
     {
         "productName": "amazon groceries",
         "rack": "Z1RACKR4C2",
-        "qty": 0,
+        "qty": 10,
         "detail": {},
-        "demand": 0
+        "demand": 1
     },
     {
         "productName": "amazon groceries",
@@ -218,9 +218,9 @@ const data = [
     {
         "productName": "amazon groceries",
         "rack": "Z1RACKR5C1",
-        "qty": 10,
+        "qty": 20,
         "detail": {},
-        "demand": 0
+        "demand": 1
     },
     {
         "productName": "amazon groceries",
@@ -253,7 +253,7 @@ const data = [
     {
         "productName": "amazon groceries",
         "rack": "Z1RACKR5C6",
-        "qty": 10,
+        "qty": 0,
         "detail": {},
         "demand": 0
     },
@@ -269,7 +269,7 @@ const data = [
         "rack": "Z1RACKR6C1",
         "qty": 10,
         "detail": {},
-        "demand": 0
+        "demand": 1
     },
     {
         "productName": "amazon groceries",
@@ -318,7 +318,7 @@ const data = [
         "rack": "Z1RACKR7C1",
         "qty": 10,
         "detail": {},
-        "demand": 0
+        "demand": 1
     },
     {
         "productName": "amazon groceries",
@@ -365,9 +365,9 @@ const data = [
     {
         "productName": "amazon groceries",
         "rack": "Z1SPACER1C2",
-        "qty": 0,
+        "qty": 10,
         "detail": {},
-        "demand": 0
+        "demand": 1
     },
     {
         "productName": "amazon groceries",
@@ -400,9 +400,9 @@ const data = [
     {
         "productName": "amazon groceries",
         "rack": "Z1SPACER4C3",
-        "qty": 70,
+        "qty": 10,
         "detail": {},
-        "demand": 1
+        "demand": 0
     }
 ]
 

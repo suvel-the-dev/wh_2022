@@ -255,7 +255,7 @@ const data = [
         "rack": "Z1RACKR5C6",
         "qty": 10,
         "detail": {},
-        "demand": 0
+        "demand": 1
     },
     {
         "productName": "amazon groceries",

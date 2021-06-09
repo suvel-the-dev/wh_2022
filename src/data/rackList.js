@@ -845,7 +845,7 @@ const data = [
         "position": {
             "x": 60,
             "y": 1,
-            "z": -290
+            "z": 30
         },
         "shelfCount": 3,
         "type": "space"
@@ -860,7 +860,7 @@ const data = [
         "position": {
             "x": 130,
             "y": 1,
-            "z": -290
+            "z": 30
         },
         "shelfCount": 3,
         "type": "space"
@@ -875,7 +875,7 @@ const data = [
         "position": {
             "x": -100,
             "y": 1,
-            "z": -290
+            "z": 30
         },
         "shelfCount": 3,
         "type": "space"
