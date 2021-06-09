@@ -17,21 +17,21 @@ const WareHouse3dControl = ({ controls: preControl, setControls: updateControl }
                 <CheckBox
                     selected={controls?.lowDemand}
                     onSelect={() => setControls({ ...controls, lowDemand: !controls.lowDemand })}
-                    label="show Low Demand Pallets"
+                    label="Show Low Demand Pallets"
                 />
                 <CheckBox
                     selected={controls?.highDemand}
                     onSelect={() => setControls({ ...controls, highDemand: !controls.highDemand })}
-                    label="show High Demand Pallets"
+                    label="Show High Demand Pallets"
                 />
                 <CheckBox
                     selected={controls?.showLabourCost}
                     onSelect={() => setControls({ ...controls, showLabourCost: !controls.showLabourCost })}
-                    label="visualize labour cost heatmap"
+                    label="Labour Cost Heatmap"
                 />
-                <Button onClick={handelOnSelection}>View</Button>
+                <Button onClick={handelOnSelection}>Refresh</Button>
                 <Button>Optimize</Button>
-               
+
             </div>
         </>
     )
