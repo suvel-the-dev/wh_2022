@@ -7,7 +7,7 @@ const Truck = ({ pos }) => {
     const { nodes, materials } = useLoader(GLTFLoader, truck);
 
     return (
-        <group scale={15} position={pos} rotation={[(Math.PI / 2), 0, (Math.PI / 2) * -1]} >
+        <group scale={12} position={pos} rotation={[(Math.PI / 2), 0, (Math.PI / 2) * -1]} >
             <mesh position={[0, 0, 0]} geometry={nodes.Cesium_Milk_Truck_2.geometry} material={materials.glass} />
             <mesh position={[0, 0, 0]} geometry={nodes.Cesium_Milk_Truck_1.geometry} material={materials.truck} />
             <mesh position={[1.5, 0, -0.5]} geometry={nodes.Wheels.geometry} material={materials.wheels} />
