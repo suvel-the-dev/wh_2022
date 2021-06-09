@@ -7,3 +7,9 @@
   font-size: 16px;
   font-weight: 600;
 }
+
+.btn.secondary {
+  background: #D40511;
+  color: #ffcc00;
+  border-radius: 0;
+}

@@ -59,18 +59,6 @@
   margin-top: 25px;
 }
 
-.login-forms input {
-  border: 2px solid #d40511;
-  height: 30px;
-  width: 300px;
-}
-
-.login-forms label {
-  color: #d40511;
-  text-align: left;
-  margin-top: 10px;
-}
-
 .login-forms button {
   background: #d40511;
   color: #ffcc00;

@@ -1,0 +1,34 @@
+.optimize-modal-inner-container {
+  border-radius: 10px;
+  border: 2px solid #d40511;
+  background-color: #ffcc00;
+  padding: 10px 20px;
+  box-sizing: border-box;
+}
+
+.optimize-head {
+  font-size: 24px;
+  color: #d40511;
+  font-weight: bold;
+}
+
+.option-header {
+  color: #d40511;
+  font-weight: bold;
+  margin-top: 15px;
+  display: block;
+  text-align: left;
+}
+
+.optimize-form-container {
+  height: 100%;
+}
+
+.optimize-form-container .form-ip {
+  width: 100%;
+  margin-left: 10px;
+}
+
+.optimize-form-action-container {
+  margin-top: 30px;
+}

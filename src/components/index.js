@@ -14,6 +14,7 @@ import SearchBar from './SearchBar'
 import Warehouse3d from './Warehouse3d'
 import Truck from './Truck'
 import LoginLayout from './LoginLayout'
+import OptimizeModal from './OptimizeModal'
 export {
     Line,
     Pallet,
@@ -30,5 +31,6 @@ export {
     SearchBar,
     Warehouse3d,
     Truck,
-    LoginLayout
+    LoginLayout,
+    OptimizeModal
 };

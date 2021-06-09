@@ -1,4 +1,5 @@
 import React from 'react'
+import Input from '../Input'
 import './style.css'
 const LoginLayout = ({ handelLogin }) => {
     return (
@@ -7,10 +8,14 @@ const LoginLayout = ({ handelLogin }) => {
                 <div className='login-form-container'>
                     <div className='brand-logo-md' />
                     <div className='login-forms'>
-                        <label>USERNAME</label>
-                        <input />
-                        <label>PASSWORD</label>
-                        <input type='password' />
+                        <Input
+                            label={"USERNAME"}
+                            component={<input />}
+                        />
+                        <Input
+                            label={"PASSWORD"}
+                            component={<input type='password' />}
+                        />
                         <button onClick={handelLogin}>Login</button>
                     </div>
                 </div>

@@ -19,11 +19,21 @@ import floorTexture from '../../asset/texture/floor_texture_2.jpg'
 import grassTexture from '../../asset/texture/grass.jpg'
 import roadTexture from '../../asset/texture/road.jpg'
 import * as THREE from 'three'
+import OptimizeModal from '../OptimizeModal'
 import './style.css';
 
-const Warehouse3d = ({ warehouse, controls }) => {
+const Warehouse3d = ({ warehouse, controls, setControls }) => {
 
     const [checked, setChecked] = useState(false);
+    const [showOpzToggle, setShowOpzToggle] = useState(false);
+
+    const { showOpzModal } = controls;
+
+    const handelOpzAction = (action) => {
+        if (action == 'optimize') setShowOpzToggle(true);
+        setControls({ ...controls, showOpzModal: false });
+
+    }
 
     const pallets = useMemo(() => {
         let pallets = undefined;
@@ -48,6 +58,7 @@ const Warehouse3d = ({ warehouse, controls }) => {
                     <div className='optimized-switch'>
                         <label>View optimized </label>
                         <Switch
+                            disabled={!showOpzToggle}
                             handleDiameter={10}
                             height={20}
                             width={40}
@@ -103,6 +114,7 @@ const Warehouse3d = ({ warehouse, controls }) => {
                             {/* End */}
                         </ForwardCanvas>
                         <MessageModal />
+                        <OptimizeModal show={showOpzModal} handelAction={handelOpzAction} />
                     </MessageProvider>
                 </Suspense>
             </div>

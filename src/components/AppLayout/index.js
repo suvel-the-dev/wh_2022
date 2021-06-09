@@ -22,7 +22,8 @@ const options = [
 const initControls = {
     highDemand: true,
     lowDemand: true,
-    showLabourCost: false
+    showLabourCost: false,
+    showOpzModal: false
 }
 
 const AppLayout = () => {
@@ -55,7 +56,7 @@ const AppLayout = () => {
                 />
             </div>
             <div class="location3d">
-                <Warehouse3d warehouse={selectedOpt} controls={controls} />
+                <Warehouse3d warehouse={selectedOpt} controls={controls} setControls={setControls} />
                 <div class="loc3dconsole">
                     <WareHouse3dControl
                         controls={controls}

@@ -1,0 +1,20 @@
+.form-ip {
+  width: min-content;
+  text-align: left;
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-ip input {
+  border: 2px solid #d40511;
+  height: 30px;
+  width: 300px;
+}
+
+.form-ip label {
+  color: #d40511;
+  text-align: left;
+  margin-top: 10px;
+  text-align: left;
+}

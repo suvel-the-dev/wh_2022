@@ -11,6 +11,10 @@ const WareHouse3dControl = ({ controls: preControl, setControls: updateControl }
         updateControl(controls);
     }
 
+    const handelOnOptimize = () => {
+        updateControl({ ...controls, showOpzModal: true })
+    }
+
     return (
         <>
             <div className='threedcontroler-container'>
@@ -30,7 +34,7 @@ const WareHouse3dControl = ({ controls: preControl, setControls: updateControl }
                     label="Labour Cost Heatmap"
                 />
                 <Button onClick={handelOnSelection}>Refresh</Button>
-                <Button>Optimize</Button>
+                <Button onClick={handelOnOptimize}>Optimize</Button>
 
             </div>
         </>
