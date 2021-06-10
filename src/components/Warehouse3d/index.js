@@ -56,7 +56,13 @@ const Warehouse3d = ({ warehouse, controls, setControls }) => {
             <div style={{ width: '100%', height: '100%' }}>
                 <div className='warehousedetail-container'>
                     <div className='warehouse-title'>{warehouse?.label}</div>
-                    <button onClick={() => setSwap(v => !v)}>swap</button>
+                    {checked && (
+                        <div className='swaper-container'>
+                            <button onClick={() => setSwap(v => !v)}>
+                                {`Swap to ${swap ? 'optimized arrangement' : 'non-optimized arrangement'} 🔃`}
+                                </button>
+                        </div>
+                    )}
                     <div className='optimized-switch'>
                         <label>View optimized </label>
                         <Switch

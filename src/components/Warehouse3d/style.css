@@ -47,3 +47,11 @@
   display: flex;
   align-items: center;
 }
+
+.swaper-container {
+  margin: 0px 50px;
+}
+
+.swaper-container button {
+  border: 0;
+}
