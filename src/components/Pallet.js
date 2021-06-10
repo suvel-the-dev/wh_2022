@@ -21,8 +21,9 @@ const Pallet = ({
     ...props
 }) => {
 
-    const { position } = useSpring({
+    const { position, palletColor } = useSpring({
         position: swap ? prePos : pos,
+        palletColor: swap ? 'red' : 'yellow',
         config: config.molasses
     })
 
@@ -61,10 +62,19 @@ const Pallet = ({
                     palletDimension.depth
                 ]}
             />
-            <meshStandardMaterial
-                map={texture}
-                attach="material"
-            />
+            {
+                swap ? (
+                    <a.meshBasicMaterial
+                        color={palletColor}
+                    />
+                ) :
+                    (
+                        <meshStandardMaterial
+                            map={texture}
+                            attach="material"
+                        />
+                    )
+            }
         </a.mesh>
     )
 };
