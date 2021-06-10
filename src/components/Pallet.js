@@ -6,16 +6,34 @@ import {
     scale
 } from '../constant';
 import MessageContext from '../context/MessageContext'
-import { useContext } from 'react'
+import { useContext, useEffect, memo } from 'react'
 import { default as SampleLabel } from '../data/PalletLabel'
+import { useSpring, config } from '@react-spring/core'
+import { a } from '@react-spring/three'
 
 const palletDimension = palletObject.dim;
 
 const Pallet = ({
     pos,// position
     color = 'red',
+    swap = false,
+    prePos,
     ...props
 }) => {
+
+    const { position } = useSpring({
+        position: swap ? prePos : pos,
+        config: config.molasses
+    })
+
+    useEffect(() => {
+        console.log({ swap })
+    }, [swap])
+
+    useEffect(() => {
+        console.log({ position })
+    }, [position])
+
     const texture =
         useLoader(THREE.TextureLoader, boxSignsTexture);
 
@@ -30,10 +48,10 @@ const Pallet = ({
     }
 
     return (
-        <mesh
+        <a.mesh
             {...props}
             scale={scale}
-            position={pos}
+            position={position}
             onClick={handelPalletClick}
         >
             <boxGeometry
@@ -47,8 +65,8 @@ const Pallet = ({
                 map={texture}
                 attach="material"
             />
-        </mesh>
+        </a.mesh>
     )
 };
 
-export default Pallet;
+export default memo(Pallet);

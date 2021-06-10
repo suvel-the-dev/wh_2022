@@ -25,6 +25,7 @@ import './style.css';
 const Warehouse3d = ({ warehouse, controls, setControls }) => {
 
     const [checked, setChecked] = useState(false);
+    const [swap, setSwap] = useState(false);
     const [showOpzToggle, setShowOpzToggle] = useState(false);
 
     const { showOpzModal } = controls;
@@ -43,8 +44,8 @@ const Warehouse3d = ({ warehouse, controls, setControls }) => {
         if (controls?.highDemand && controls?.lowDemand) filteredPalets = pallets;
         else if (controls?.highDemand) filteredPalets = pallets.filter(pallet => pallet.demand == 1);
         else if (controls?.lowDemand) filteredPalets = pallets.filter(pallet => pallet.demand == 0);
-        return renderPallet(filteredPalets, rackList);
-    }, [controls, checked])
+        return renderPallet(filteredPalets, rackList, swap);
+    }, [controls, checked, swap])
 
     const racks = useMemo(() => {
         return renderRack(rackList, controls?.showLabourCost);
@@ -55,6 +56,7 @@ const Warehouse3d = ({ warehouse, controls, setControls }) => {
             <div style={{ width: '100%', height: '100%' }}>
                 <div className='warehousedetail-container'>
                     <div className='warehouse-title'>{warehouse?.label}</div>
+                    <button onClick={() => setSwap(v => !v)}>swap</button>
                     <div className='optimized-switch'>
                         <label>View optimized </label>
                         <Switch
@@ -162,11 +164,6 @@ const Ground = ({ ...props }) => {
         texture.repeat.set(5, 5);
     }
 
-
-    useEffect(() => {
-        console.log({ texture })
-    }, [texture])
-
     return (
         <mesh
             {...props}
@@ -195,11 +192,6 @@ const Road = ({ ...props }) => {
         texture.repeat.set(10, 10);
         //     // texture.rotation = (10)
     }
-
-
-    useEffect(() => {
-        console.log({ texture })
-    }, [texture])
 
     return (
         <mesh

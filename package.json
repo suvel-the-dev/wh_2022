@@ -4,6 +4,8 @@
   "private": true,
   "homepage": "http://suvel-the-dev.github.io/warehouse_management",
   "dependencies": {
+    "@react-spring/core": "^9.2.3",
+    "@react-spring/three": "^9.2.3",
     "@react-three/drei": "^5.1.7",
     "@react-three/fiber": "^6.2.0",
     "@testing-library/jest-dom": "^5.11.4",

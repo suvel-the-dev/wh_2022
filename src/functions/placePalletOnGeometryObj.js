@@ -5,20 +5,18 @@ import getNxtShelfPosition from './getNxtShelfPosition';
 import Pallet from '../components/Pallet';
 import { scale } from '../constant'
 
-export const placePalletOnGeometryObj = (
-    geometryObj,
-    capacity,
-    verticalOffset
-) => {
+const palletObj = {
+    dim: { width: 5, height: 3.5, depth: 3 },
+};
 
-    const palletObj = {
-        dim: { width: 5, height: 3.5, depth: 3 },
-    };
+const palletDimension = palletObj.dim;
+
+
+const getPalletArrangementObj = (geometryObj) => {
 
     const { shelfCount } = geometryObj;
 
     const geometryDimension = geometryObj.dim;
-    const palletDimension = palletObj.dim;
 
     const totalCol =
         getPalletCountOnWidthAxis(
@@ -34,8 +32,18 @@ export const placePalletOnGeometryObj = (
 
     const possiblePalletCount = totalCol * totalRow * shelfCount;
 
-    if (possiblePalletCount < capacity)
-        throw "dimension do not support the capacity, change the dimension or capacity to proceed."
+    return { totalCol, totalRow, possiblePalletCount }
+}
+
+const PalletsCoordinate = (
+    geometryObj,
+    totalRow,
+    totalCol,
+    capacity,
+    verticalOffset
+) => {
+
+    const { shelfCount } = geometryObj;
 
     const rackCornerCoordinateToPlacePallet =
         getRackCornerCoordinateToPlaceBox(
@@ -75,7 +83,7 @@ export const placePalletOnGeometryObj = (
         for (let row = 1; row <= totalRow; row++) {
             for (let col = 1; col <= totalCol; col++) {
                 if (palletCount >= capacity) return palletList;
-                palletList.push(<Pallet pos={[xC, yC, zC]} />)
+                palletList.push([xC, yC, zC])
                 xC = xC + palletDimension.width * scale;
                 palletCount++;
             }
@@ -88,6 +96,40 @@ export const placePalletOnGeometryObj = (
     }
 
     return palletList;
+}
+
+export const placePalletOnGeometryObj = (
+    geometryObj,
+    capacity,
+    verticalOffset,
+    swap,
+    preRackObj
+) => {
+
+    const { totalCol, totalRow, possiblePalletCount } = getPalletArrangementObj(geometryObj)
+
+    if (possiblePalletCount < capacity)
+        throw "dimension do not support the capacity, change the dimension or capacity to proceed."
+
+    const palletPositions = PalletsCoordinate(geometryObj, totalRow, totalCol, capacity, verticalOffset);
+
+    let palletPrePositions = [];
+
+    if (preRackObj) {
+        const { totalCol: preTotalCol, totalRow: preTotalRow, possiblePalletCount: prePossiblePalletCount } =
+            getPalletArrangementObj(preRackObj);
+        palletPrePositions = PalletsCoordinate(preRackObj, preTotalRow, preTotalCol, capacity, verticalOffset);
+    }
+
+    let pallets = [];
+
+    palletPositions.forEach((pos, index) => {
+        const currentPosition = pos;
+        const previousPosition = palletPrePositions[index] || [0, 0, 0];
+        pallets.push(<Pallet pos={currentPosition} prePos={previousPosition} swap={swap} />)
+    })
+
+    return pallets;
 
 }
 
