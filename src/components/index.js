@@ -15,6 +15,8 @@ import Warehouse3d from './Warehouse3d'
 import Truck from './Truck'
 import LoginLayout from './LoginLayout'
 import OptimizeModal from './OptimizeModal'
+import Ground from './Ground';
+import Environment from './Environment'
 export {
     Line,
     Pallet,
@@ -32,5 +34,7 @@ export {
     Warehouse3d,
     Truck,
     LoginLayout,
-    OptimizeModal
+    OptimizeModal,
+    Ground,
+    Environment
 };
