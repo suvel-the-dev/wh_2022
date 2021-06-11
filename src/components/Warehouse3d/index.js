@@ -82,7 +82,11 @@ const Warehouse3d = ({ warehouse, controls, setControls }) => {
                         <ForwardCanvas  >
                             <Environment />
                             <color attach="background" args={["white"]} />
-                            <OrbitControls rotateSpeed={0.2} enableDamping={false} />
+                            <OrbitControls
+                             rotateSpeed={0.2}
+                              enableDamping={false} 
+                              maxPolarAngle={Math.PI / 2}
+                              />
                             <ambientLight intensity={0.8} color={'#fffff'} />
                             {racks}
                             {pallets}
