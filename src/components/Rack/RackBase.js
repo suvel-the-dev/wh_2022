@@ -40,8 +40,9 @@ const RackBase = ({
                         <meshStandardMaterial
                             map={texture}
                             attach="material"
-                            reflectivity={1}
-                            color={'yellow'}
+                            // reflectivity={1}
+                            transparent={true}
+                            opacity={0.35}
                         />
                     )
             }
