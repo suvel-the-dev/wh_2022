@@ -82,7 +82,7 @@ const Warehouse3d = ({ warehouse, controls, setControls }) => {
                         <ForwardCanvas  >
                             <Environment />
                             <color attach="background" args={["white"]} />
-                            <OrbitControls rotateSpeed={0.1} />
+                            <OrbitControls rotateSpeed={0.2} dampingFactor={0.5} />
                             <ambientLight intensity={0.8} color={'#fffff'} />
                             {racks}
                             {pallets}
