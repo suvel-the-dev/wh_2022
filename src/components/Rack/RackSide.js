@@ -31,6 +31,8 @@ const RackSide = ({
             <meshStandardMaterial
                 map={texture}
                 attach="material"
+                transparent={true}
+                opacity={0.35}
             />
         </mesh >
     )
