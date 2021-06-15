@@ -5,6 +5,8 @@ import SearchBar from '../SearchBar';
 import LocationList from '../LocationList';
 import Warehouse3d from '../Warehouse3d'
 import WareHouse3dControl from '../WareHouse3dControl'
+import { UtilizationProvider } from '../../context/UtilizationContext';
+
 
 const options = [
     { label: "Warehouse-1", id: 'wh_1' },
@@ -55,15 +57,17 @@ const AppLayout = () => {
                     setSelectedOpt={handelSelectionChange}
                 />
             </div>
-            <div class="location3d">
-                <Warehouse3d warehouse={selectedOpt} controls={controls} setControls={setControls} />
-                <div class="loc3dconsole">
-                    <WareHouse3dControl
-                        controls={controls}
-                        setControls={setControls}
-                    />
+            <UtilizationProvider>
+                <div class="location3d">
+                    <Warehouse3d warehouse={selectedOpt} controls={controls} setControls={setControls} />
+                    <div class="loc3dconsole">
+                        <WareHouse3dControl
+                            controls={controls}
+                            setControls={setControls}
+                        />
+                    </div>
                 </div>
-            </div>
+            </UtilizationProvider>
             <div class="footer">
                 <span>dhl@20201</span>
             </div>

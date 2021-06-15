@@ -1,11 +1,13 @@
-import React, { useState } from 'react'
+import React, { useState, useContext } from 'react'
 import CheckBox from '../CheckBox'
 import './style.css'
 import Button from '../Button'
+import UtilizationContext from '../../context/UtilizationContext'
 
 const WareHouse3dControl = ({ controls: preControl, setControls: updateControl }) => {
 
     const [controls, setControls] = useState(preControl);
+    const { range, setRange, utilizationsRanges } = useContext(UtilizationContext)
 
     const handelOnSelection = () => {
         updateControl(controls);
@@ -36,6 +38,14 @@ const WareHouse3dControl = ({ controls: preControl, setControls: updateControl }
                 <Button onClick={handelOnSelection}>Refresh</Button>
                 <Button onClick={handelOnOptimize}>Optimize</Button>
 
+                <div>
+                    <div>
+                        <input value={range} onChange={e => setRange(e.target.value)} />
+                    </div>
+                    <div>
+                        {utilizationsRanges.map(range => <span style={{ color: range.color }}>{range.range}</span>)}
+                    </div>
+                </div>
             </div>
         </>
     )

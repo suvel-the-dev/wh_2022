@@ -8,12 +8,22 @@ import palletList from '../../data/palletList'
 import optimizedPallet from '../../data/optimizedPallet'
 import {
     renderRack,
-    renderPallet
+    renderPallet,
+    getRackNPalletInterlinkedObject
 } from '../../functions'
 import Switch from "react-switch";
 import OptimizeModal from '../OptimizeModal'
 import Environment from '../Environment'
 import './style.css';
+
+
+const newRackList = getRackNPalletInterlinkedObject(rackList, palletList);
+const newPalletList = newRackList.map(rack => rack.palletList[0]);
+
+// console.log({
+//     newRackList,
+//     newPalletList
+// })
 
 const Warehouse3d = ({ warehouse, controls, setControls }) => {
 
@@ -32,16 +42,16 @@ const Warehouse3d = ({ warehouse, controls, setControls }) => {
     const pallets = useMemo(() => {
         let pallets = undefined;
         if (checked) pallets = [...optimizedPallet];
-        else pallets = [...palletList];
+        else pallets = [...newPalletList];
         let filteredPalets = []
         if (controls?.highDemand && controls?.lowDemand) filteredPalets = pallets;
         else if (controls?.highDemand) filteredPalets = pallets.filter(pallet => pallet.demand == 1);
         else if (controls?.lowDemand) filteredPalets = pallets.filter(pallet => pallet.demand == 0);
-        return renderPallet(filteredPalets, rackList, swap);
+        return renderPallet(filteredPalets, newRackList, swap);
     }, [controls, checked, swap])
 
     const racks = useMemo(() => {
-        return renderRack(rackList, controls?.showLabourCost);
+        return renderRack(newRackList, controls?.showLabourCost);
     }, [controls])
 
     return (

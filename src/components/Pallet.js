@@ -26,15 +26,7 @@ const Pallet = ({
         palletColor: swap ? 'red' : 'yellow',
         config: config.molasses
     })
-
-    useEffect(() => {
-        console.log({ swap })
-    }, [swap])
-
-    useEffect(() => {
-        console.log({ position })
-    }, [position])
-
+    
     const texture =
         useLoader(THREE.TextureLoader, boxSignsTexture);
 

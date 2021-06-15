@@ -11,7 +11,7 @@ const placeSpace = (spaceObj, color) => {
         dim: { width: 5, height: 3.5, depth: 3 },
     };
 
-    const { shelfCount } = spaceObj;
+    const { shelfCount, utilization } = spaceObj;
 
     const spaceDimension = spaceObj.dim;
     const palletDimension = palletObj.dim;
@@ -54,7 +54,7 @@ const placeSpace = (spaceObj, color) => {
     for (let shelfNum = 1; shelfNum <= shelfCount; shelfNum++) {
         for (let row = 1; row <= totalRow; row++) {
             for (let col = 1; col <= totalCol; col++) {
-                palletList.push(<Space pos={[xC, yC, zC]} color={color} />)
+                palletList.push(<Space utilization={utilization} pos={[xC, yC, zC]} color={color} />)
                 xC = xC + palletDimension.width * scale;
             }
             zC = zC + palletDimension.depth * scale;
