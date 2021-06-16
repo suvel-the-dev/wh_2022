@@ -9,7 +9,9 @@ const WareHouse3dControl = () => {
 
     const { control, setControl } = useContext(ControlContext)
 
-    const { range, setRange, utilizationsRanges } = useContext(UtilizationContext)
+    const { range, setRange, utilizationsRanges, setChangeColor } = useContext(UtilizationContext);
+
+    const { } = useState();
 
     const handelOnOptimize = () => {
         setControl({ ...control, showOpzModal: true })
@@ -26,11 +28,14 @@ const WareHouse3dControl = () => {
                 <Button onClick={handelOnOptimize}>Optimize</Button>
 
                 <div>
-                    <div>
+                    <div styles={{ display: 'flex' }}>
                         <input value={range} onChange={e => setRange(e.target.value)} />
+                        <button onClick={() => setChangeColor(v => !v)}>Change colors🔃</button>
                     </div>
                     <div>
-                        {utilizationsRanges.map(range => <span style={{ color: range.color }}>{range.range}</span>)}
+                        {utilizationsRanges.map((range, index) => (
+                            <span title={`[${range.range}]\t`} key={index} style={{ cursor: 'pointer', backgroundColor: range.color, color: 'white' }}>{`[${range.range}]\t`}</span>
+                        ))}
                     </div>
                 </div>
             </div>
