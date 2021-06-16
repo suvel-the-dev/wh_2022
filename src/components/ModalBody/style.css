@@ -1,0 +1,12 @@
+.modal-body__container {
+  border-radius: 10px;
+  border: 2px solid #d40511;
+  background-color: #ffcc00;
+  padding: 10px 20px;
+  box-sizing: border-box;
+}
+.modal-body__title {
+  font-size: 24px;
+  color: #d40511;
+  font-weight: bold;
+}

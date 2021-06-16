@@ -1,0 +1,45 @@
+.workspace-filter-form__container {
+  height: 100%;
+}
+
+.workspace-filter-form__container span {
+  color: red;
+}
+
+.workspace-filter-form__container .form-ip {
+  width: 100%;
+  margin-left: 10px;
+}
+
+.workspace-filter-form__header {
+  color: #d40511;
+  font-weight: bold;
+  margin-top: 7.5px;
+  display: block;
+  text-align: left;
+}
+
+.workspace-filter-form__row {
+  display: flex;
+}
+
+.workspace-filter-form__action-container {
+  margin-top: 30px;
+}
+
+.toggle {
+  display: grid;
+  grid-template-columns: 60px auto;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-template-areas: "toggle-btn toggle-label toggle-label";
+  padding: 10px 0px 0 10px;
+}
+
+.toggle-btn {
+  grid-area: toggle-btn;
+}
+.toggle-label {
+  grid-area: toggle-label;
+  text-align: left;
+}

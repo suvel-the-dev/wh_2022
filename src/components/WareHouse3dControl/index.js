@@ -4,38 +4,22 @@ import './style.css'
 import Button from '../Button'
 import UtilizationContext from '../../context/UtilizationContext'
 
-const WareHouse3dControl = ({ controls: preControl, setControls: updateControl }) => {
+const WareHouse3dControl = ({ controls, setControls: updateControl }) => {
 
-    const [controls, setControls] = useState(preControl);
     const { range, setRange, utilizationsRanges } = useContext(UtilizationContext)
-
-    const handelOnSelection = () => {
-        updateControl(controls);
-    }
 
     const handelOnOptimize = () => {
         updateControl({ ...controls, showOpzModal: true })
     }
 
+    const handelWarhorseFilter = () => {
+        updateControl({ ...controls, showFilterModal: true })
+    }
+
     return (
         <>
             <div className='threedcontroler-container'>
-                <CheckBox
-                    selected={controls?.lowDemand}
-                    onSelect={() => setControls({ ...controls, lowDemand: !controls.lowDemand })}
-                    label="Show Low Demand Pallets"
-                />
-                <CheckBox
-                    selected={controls?.highDemand}
-                    onSelect={() => setControls({ ...controls, highDemand: !controls.highDemand })}
-                    label="Show High Demand Pallets"
-                />
-                <CheckBox
-                    selected={controls?.showLabourCost}
-                    onSelect={() => setControls({ ...controls, showLabourCost: !controls.showLabourCost })}
-                    label="Labour Cost Heatmap"
-                />
-                <Button onClick={handelOnSelection}>Refresh</Button>
+                <Button onClick={handelWarhorseFilter}>Filter Warehouse</Button>
                 <Button onClick={handelOnOptimize}>Optimize</Button>
 
                 <div>

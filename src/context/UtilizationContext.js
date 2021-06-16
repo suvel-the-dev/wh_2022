@@ -40,8 +40,6 @@ export const UtilizationProvider = ({ children }) => {
 
     const utilizationsRanges = getUtilizationRangeColorArr(range);
 
-    // console.log({ utilizationsRanges })
-
     const value = { range, setRange, utilizationsRanges }
     return (
         <UtilizationContext.Provider value={value}>

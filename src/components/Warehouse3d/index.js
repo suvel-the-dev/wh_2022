@@ -14,29 +14,33 @@ import {
 import Switch from "react-switch";
 import OptimizeModal from '../OptimizeModal'
 import Environment from '../Environment'
+import WorkSpaceFilterModal from '../WorkSpaceFilterModal'
 import './style.css';
 
 
 const newRackList = getRackNPalletInterlinkedObject(rackList, palletList);
 const newPalletList = newRackList.map(rack => rack.palletList[0]);
 
-// console.log({
-//     newRackList,
-//     newPalletList
-// })
-
 const Warehouse3d = ({ warehouse, controls, setControls }) => {
 
     const [checked, setChecked] = useState(false);
     const [swap, setSwap] = useState(false);
     const [showOpzToggle, setShowOpzToggle] = useState(false);
+    const [showFilterToggle, setShowFilterToggle] = useState(true);
 
     const { showOpzModal } = controls;
 
     const handelOpzAction = (action) => {
         if (action == 'optimize') setShowOpzToggle(true);
         setControls({ ...controls, showOpzModal: false });
+    }
 
+    const handelFilterModal = () => {
+        setControls(c => ({ ...c, showFilterModal: false }))
+    }
+
+    const handelApplyFilter = (obj) => {
+        setControls({ ...controls, showFilterModal: false, ...obj })
     }
 
     const pallets = useMemo(() => {
@@ -104,6 +108,11 @@ const Warehouse3d = ({ warehouse, controls, setControls }) => {
                         </ForwardCanvas>
                         <MessageModal />
                         <OptimizeModal show={showOpzModal} handelAction={handelOpzAction} />
+                        <WorkSpaceFilterModal
+                            show={controls?.showFilterModal}
+                            closeModal={handelFilterModal}
+                            handelFilterSubmit={handelApplyFilter}
+                        />
                     </MessageProvider>
                 </Suspense>
             </div>

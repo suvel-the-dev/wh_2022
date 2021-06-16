@@ -1,5 +1,5 @@
 import './style.css';
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import logo from '../../asset/band/logo.png';
 import SearchBar from '../SearchBar';
 import LocationList from '../LocationList';
@@ -22,15 +22,26 @@ const options = [
 ]
 
 const initControls = {
-    highDemand: true,
-    lowDemand: true,
-    showLabourCost: false,
-    showOpzModal: false
+    demand: 'All',
+    velocity: 'A',
+    dayLastPick: 0,
+    expiry: 0,
+    utilization: false,
+    costHeatMap: false,
+    showOpzModal: false,
+    showFilterModal: false,
 }
 
 const AppLayout = () => {
 
     const [controls, setControls] = useState(initControls);
+
+    useEffect(() => {
+
+        console.log({ controls })
+
+    }, [controls])
+
 
     const [selectedOpt, setSelectedOpt] = useState(options[0]);
 
@@ -59,7 +70,11 @@ const AppLayout = () => {
             </div>
             <UtilizationProvider>
                 <div class="location3d">
-                    <Warehouse3d warehouse={selectedOpt} controls={controls} setControls={setControls} />
+                    <Warehouse3d
+                        warehouse={selectedOpt}
+                        controls={controls}
+                        setControls={setControls}
+                    />
                     <div class="loc3dconsole">
                         <WareHouse3dControl
                             controls={controls}

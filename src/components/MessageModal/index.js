@@ -1,5 +1,6 @@
 import React, { useContext } from 'react'
 import MessageContext from '../../context/MessageContext'
+import ModalContainer from '../ModalContainer'
 import './style.css'
 
 const modalDimension = {
@@ -16,7 +17,7 @@ const MessageModal = () => {
     return (
         <>
             {msg.show &&
-                <div className={'modal-outer-container'}>
+                <ModalContainer>
                     <div
                         className={'modal-inner-container'}
                         style={{
@@ -27,7 +28,7 @@ const MessageModal = () => {
                         {msg.content}
                         <button onClick={handelCloseModal}>close</button>
                     </div>
-                </div>
+                </ModalContainer>
             }
         </>
     )

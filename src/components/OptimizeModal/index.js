@@ -1,6 +1,8 @@
 import React from 'react'
 import Input from '../Input'
 import Button from '../Button'
+import ModalContainer from '../ModalContainer'
+import ModalBody from '../ModalBody'
 import './style.css'
 
 const modalDimension = {
@@ -13,22 +15,15 @@ const OptimizeModal = ({ show = false, handelAction }) => {
     return (
         <>
             {show &&
-                <div className={'modal-outer-container'}>
-                    <div
-                        className={'optimize-modal-inner-container'}
-                        style={{
-                            width: `${modalDimension.width}px`,
-                            height: `${modalDimension.height}px`,
-                        }}
-                    >
-                        <div className='optimize-head'>OPTIMIZE PALLETS</div>
-                        <div className='optimize-form-container'>
+                <ModalContainer>
+                    <ModalBody dimensionInPixel={{ ...modalDimension }} title={'OPTIMIZE PALLETS'}>
+                        <div className='optimize-form__container'>
                             <Input label={"Labour cost per hour"} component={<input type='number' />} />
                             <Input label={"Number of labour"} component={<input type='number' />} />
-                            <label className='option-header'>Window Time</label>
+                            <label className='optimize-form__header'>Window Time</label>
                             <Input label={"Start time"} component={<input type='time' />} />
                             <Input label={"End time"} component={<input type='time' />} />
-                            <div className='optimize-form-action-container'>
+                            <div className='optimize-form__action-container'>
                                 <Button
                                     variant={'secondary'}
                                     onClick={() => handelAction("optimize")} >
@@ -40,8 +35,8 @@ const OptimizeModal = ({ show = false, handelAction }) => {
                                 </Button>
                             </div>
                         </div>
-                    </div>
-                </div>
+                    </ModalBody>
+                </ModalContainer>
             }
         </>
     )
