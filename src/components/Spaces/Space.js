@@ -25,9 +25,9 @@ const Space = ({
                 ]}
             />
             <meshStandardMaterial
-                opacity={0.3}
+                opacity={0.1}
                 transparent={true}
-                color={color || 'blue'}
+                color={color || 'gray'}
                 wireframe={true}
             />
         </mesh>

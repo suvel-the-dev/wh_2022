@@ -43,37 +43,8 @@ const Rack = ({ rackObj, color }) => {
                 verticalOffset
             );
     }
-    return (
-        <>
-            {racks}
-            <RackFoot rackObj={rackObj} color={color} />
-        </>
-    )
+    return racks
 
 }
 
 export default Rack;
-
-const RackFoot = ({ rackObj, color }) => {
-    let rackFootPosition = [
-        rackObj.position.x,
-        rackObj.position.y,
-        rackObj.position.z
-    ];
-    return (
-        <mesh
-            scale={1.5}
-            position={rackFootPosition}
-            rotation={[(Math.PI / 2) * -1, 0, 0]}
-        >
-            <planeGeometry
-                args={[rackObj.dim.width + 5 * 1.5, rackObj.dim.depth + 5 * 1.5]}
-            />
-            <meshStandardMaterial
-                opacity={color ? 1 : 0}
-                transparent={true}
-                color={color}
-            />
-        </mesh>
-    )
-}

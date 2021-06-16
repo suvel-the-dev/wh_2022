@@ -1,5 +1,7 @@
 import Rack from './index';
 import FloorLabel from '../FloorLabel';
+import ComponentMat from '../ComponentMat'
+
 
 const RackLabelled = ({
     rackObj, color, pos, label
@@ -10,6 +12,7 @@ const RackLabelled = ({
             <FloorLabel pos={pos}>
                 {label}
             </FloorLabel>
+            <ComponentMat comObj={rackObj} color={color} />
         </>
     )
 };
