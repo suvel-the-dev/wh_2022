@@ -1,4 +1,4 @@
-import { Suspense, useState, useMemo } from 'react';
+import { Suspense, useState, useMemo, useContext } from 'react';
 import { OrbitControls } from "@react-three/drei";
 import ForwardCanvas from '../ForwardCanvas'
 import MessageModal from '../MessageModal'
@@ -15,32 +15,34 @@ import Switch from "react-switch";
 import OptimizeModal from '../OptimizeModal'
 import Environment from '../Environment'
 import WorkSpaceFilterModal from '../WorkSpaceFilterModal'
+import ControlContext from '../../context/ControlContext'
 import './style.css';
 
 
 const newRackList = getRackNPalletInterlinkedObject(rackList, palletList);
 const newPalletList = newRackList.map(rack => rack.palletList[0]);
 
-const Warehouse3d = ({ warehouse, controls, setControls }) => {
+const Warehouse3d = ({ warehouse }) => {
+
+    const { control, setControl } = useContext(ControlContext)
 
     const [checked, setChecked] = useState(false);
     const [swap, setSwap] = useState(false);
     const [showOpzToggle, setShowOpzToggle] = useState(false);
-    const [showFilterToggle, setShowFilterToggle] = useState(true);
 
-    const { showOpzModal } = controls;
+    const { showOpzModal } = control;
 
     const handelOpzAction = (action) => {
         if (action == 'optimize') setShowOpzToggle(true);
-        setControls({ ...controls, showOpzModal: false });
+        setControl({ ...control, showOpzModal: false });
     }
 
     const handelFilterModal = () => {
-        setControls(c => ({ ...c, showFilterModal: false }))
+        setControl(c => ({ ...c, showFilterModal: false }))
     }
 
     const handelApplyFilter = (obj) => {
-        setControls({ ...controls, showFilterModal: false, ...obj })
+        setControl({ ...control, showFilterModal: false, ...obj })
     }
 
     const pallets = useMemo(() => {
@@ -48,15 +50,15 @@ const Warehouse3d = ({ warehouse, controls, setControls }) => {
         if (checked) pallets = [...optimizedPallet];
         else pallets = [...newPalletList];
         let filteredPalets = []
-        if (controls?.highDemand && controls?.lowDemand) filteredPalets = pallets;
-        else if (controls?.highDemand) filteredPalets = pallets.filter(pallet => pallet.demand == 1);
-        else if (controls?.lowDemand) filteredPalets = pallets.filter(pallet => pallet.demand == 0);
+        if (control?.demand == 'All') filteredPalets = pallets;
+        else if (control?.demand == 'Yes') filteredPalets = pallets.filter(pallet => pallet.demand == 1);
+        else if (control?.demand == 'No') filteredPalets = pallets.filter(pallet => pallet.demand == 0);
         return renderPallet(filteredPalets, newRackList, swap);
-    }, [controls, checked, swap])
+    }, [control, checked, swap])
 
     const racks = useMemo(() => {
-        return renderRack(newRackList, controls?.showLabourCost);
-    }, [controls])
+        return renderRack(newRackList, control?.costHeatMap);
+    }, [control])
 
     return (
         <>
@@ -82,7 +84,7 @@ const Warehouse3d = ({ warehouse, controls, setControls }) => {
                             onColor={"#ffcc00"}
                         />
                     </div>
-                    <div className={`cost-color-container-${controls?.showLabourCost}`}>
+                    <div className={`cost-color-container-${control?.costHeatMap}`}>
                         <label>Low</label>
                         <div className={'cost-color low-cost'}></div>
                         <label>Medium</label>
@@ -109,7 +111,7 @@ const Warehouse3d = ({ warehouse, controls, setControls }) => {
                         <MessageModal />
                         <OptimizeModal show={showOpzModal} handelAction={handelOpzAction} />
                         <WorkSpaceFilterModal
-                            show={controls?.showFilterModal}
+                            show={control?.showFilterModal}
                             closeModal={handelFilterModal}
                             handelFilterSubmit={handelApplyFilter}
                         />

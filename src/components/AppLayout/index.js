@@ -1,12 +1,12 @@
 import './style.css';
-import { useEffect, useState } from 'react'
+import { useState, useContext } from 'react'
 import logo from '../../asset/band/logo.png';
 import SearchBar from '../SearchBar';
 import LocationList from '../LocationList';
 import Warehouse3d from '../Warehouse3d'
 import WareHouse3dControl from '../WareHouse3dControl'
 import { UtilizationProvider } from '../../context/UtilizationContext';
-
+import ControlContext from '../../context/ControlContext';
 
 const options = [
     { label: "Warehouse-1", id: 'wh_1' },
@@ -21,7 +21,7 @@ const options = [
     { label: "Warehouse-10", id: 'wh_10' },
 ]
 
-const initControls = {
+const initControl = {
     demand: 'All',
     velocity: 'A',
     dayLastPick: 0,
@@ -33,21 +33,12 @@ const initControls = {
 }
 
 const AppLayout = () => {
-
-    const [controls, setControls] = useState(initControls);
-
-    useEffect(() => {
-
-        console.log({ controls })
-
-    }, [controls])
-
-
     const [selectedOpt, setSelectedOpt] = useState(options[0]);
+    const { setControl } = useContext(ControlContext);
 
     const handelSelectionChange = (opt) => {
         setSelectedOpt(opt)
-        setControls(initControls)
+        setControl(initControl)
     };
 
     return (
@@ -72,13 +63,9 @@ const AppLayout = () => {
                 <div class="location3d">
                     <Warehouse3d
                         warehouse={selectedOpt}
-                        controls={controls}
-                        setControls={setControls}
                     />
                     <div class="loc3dconsole">
                         <WareHouse3dControl
-                            controls={controls}
-                            setControls={setControls}
                         />
                     </div>
                 </div>

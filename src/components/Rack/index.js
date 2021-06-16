@@ -21,6 +21,8 @@ const Rack = ({ rackObj, color }) => {
         position.z
     ];
 
+    
+
     for (let rack = 1; rack <= shelfCount; rack++) {
         racks.push(
             < >

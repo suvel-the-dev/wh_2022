@@ -7,14 +7,8 @@ import { useLoader } from '@react-three/fiber'
 import rackBaseTexture from '../../asset/texture/rack_base_2.jpg';
 import { useContext } from 'react'
 import UtilizationContext from '../../context/UtilizationContext'
+import ControlContext from '../../context/ControlContext'
 const rackBasePadding = rackBaseObject.padding;
-
-const getUtilization = (percent) => {
-    if (!percent) return 'yellow'
-    if (percent >= 100) return 'red'
-    if (percent < 100 && percent >= 50) return 'orange'
-    if (percent < 50 && percent >= 0) return 'green'
-}
 
 const RackBase = ({
     rackObj: {
@@ -27,6 +21,7 @@ const RackBase = ({
 }) => {
 
     const { utilizationsRanges } = useContext(UtilizationContext)
+    const { control } = useContext(ControlContext)
 
     const getUtilization = (percent = 0) => {
         return utilizationsRanges.find(r => {
@@ -52,18 +47,28 @@ const RackBase = ({
                 color ? (
                     <meshBasicMaterial
                         wireframe={true}
+                        opacity={1}
                         color={color}
+                        transparent={false}
                     />
                 ) :
                     (
-                        <meshStandardMaterial
-                            // map={texture}
-                            // attach="material"
-                            // reflectivity={1}
-                            transparent={true}
-                            opacity={1}
-                            color={getUtilization(utilization)}
-                        />
+                        control?.utilization ?
+                            (
+                                <meshBasicMaterial
+                                    opacity={1}
+                                    color={getUtilization(utilization)}
+                                    wireframe={false}
+                                />
+                            )
+                            :
+                            (
+                                <meshStandardMaterial
+                                    map={texture}
+                                    attach="material"
+                                    reflectivity={1}
+                                />
+                            )
                     )
             }
         </mesh >

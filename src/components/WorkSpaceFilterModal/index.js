@@ -12,7 +12,7 @@ const modalDimension = {
     height: 550
 }
 
-const demandOptions = ['All', 'Low', 'High'];
+const demandOptions = ['All', 'Yes', 'No'];
 const DemandDropdown = ({ value, setValue }) => {
     return (
         <select value={value} onChange={e => setValue(e.target.value)}>
@@ -80,7 +80,7 @@ const WorkSpaceFilterModal = ({ show, closeModal, handelFilterSubmit }) => {
                     <div className='workspace-filter-form__container'>
                         <label className='workspace-filter-form__header'>Pallet’s Attribute</label>
                         <Input
-                            label={"Demand"}
+                            label={"To be picked"}
                             component={
                                 <DemandDropdown
                                     value={formState.demand}

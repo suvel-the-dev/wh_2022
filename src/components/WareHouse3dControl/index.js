@@ -3,17 +3,20 @@ import CheckBox from '../CheckBox'
 import './style.css'
 import Button from '../Button'
 import UtilizationContext from '../../context/UtilizationContext'
+import ControlContext from '../../context/ControlContext'
 
-const WareHouse3dControl = ({ controls, setControls: updateControl }) => {
+const WareHouse3dControl = () => {
+
+    const { control, setControl } = useContext(ControlContext)
 
     const { range, setRange, utilizationsRanges } = useContext(UtilizationContext)
 
     const handelOnOptimize = () => {
-        updateControl({ ...controls, showOpzModal: true })
+        setControl({ ...control, showOpzModal: true })
     }
 
     const handelWarhorseFilter = () => {
-        updateControl({ ...controls, showFilterModal: true })
+        setControl({ ...control, showFilterModal: true })
     }
 
     return (
