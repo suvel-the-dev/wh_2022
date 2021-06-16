@@ -16,7 +16,6 @@ const RackBase = ({
         utilization
     },
     pos,//position,
-    color,
     ...props
 }) => {
 
@@ -44,31 +43,24 @@ const RackBase = ({
                 dim.depth + rackBasePadding,
             ]} />
             {
-                color ? (
-                    <meshBasicMaterial
-                        wireframe={true}
-                        opacity={1}
-                        color={color}
-                        transparent={false}
-                    />
-                ) :
+                control?.utilization ?
                     (
-                        control?.utilization ?
-                            (
-                                <meshBasicMaterial
-                                    opacity={1}
-                                    color={getUtilization(utilization)}
-                                    wireframe={false}
-                                />
-                            )
-                            :
-                            (
-                                <meshStandardMaterial
-                                    map={texture}
-                                    attach="material"
-                                    reflectivity={1}
-                                />
-                            )
+                        <meshBasicMaterial
+                            opacity={0.8}
+                            transparent={true}
+                            color={getUtilization(utilization)}
+                            wireframe={false}
+                        />
+                    )
+                    :
+                    (
+                        <meshStandardMaterial
+                            map={texture}
+                            attach="material"
+                            reflectivity={1}
+                            opacity={0.5}
+                            transparent={true}
+                        />
                     )
             }
         </mesh >

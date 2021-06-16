@@ -107,6 +107,7 @@ const Warehouse3d = ({ warehouse }) => {
                             <ambientLight intensity={0.8} color={'#fffff'} />
                             {racks}
                             {pallets}
+                            {/* <RackFoot /> */}
                         </ForwardCanvas>
                         <MessageModal />
                         <OptimizeModal show={showOpzModal} handelAction={handelOpzAction} />
@@ -123,3 +124,23 @@ const Warehouse3d = ({ warehouse }) => {
 }
 
 export default Warehouse3d;
+
+
+
+const RackFoot = ({ rackObj, color }) => {
+    debugger
+    return (
+        <mesh
+            scale={1.5}
+            position={[0, 2, 0]}
+            rotation={[(Math.PI / 2) * -1, 0, 0]}
+        >
+            <planeGeometry
+                args={[20, 20]}
+            />
+            <meshStandardMaterial
+                color={'red'}
+            />
+        </mesh>
+    )
+}
