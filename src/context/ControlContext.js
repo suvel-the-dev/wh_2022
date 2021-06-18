@@ -5,7 +5,7 @@ const ControlContext = createContext({});
 export const ControlProvider = ({ children }) => {
     const [control, setControl] = useState({
         demand: 'All',
-        velocity: 'A',
+        velocity: 'NONE',
         dayLastPick: 0,
         expiry: 0,
         utilization: false,

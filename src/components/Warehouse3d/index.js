@@ -22,6 +22,27 @@ import './style.css';
 const newRackList = getRackNPalletInterlinkedObject(rackList, palletList);
 const newPalletList = newRackList.map(rack => rack.palletList[0]);
 
+const filterPallets = (pallets, currentFilters) => {
+    let filteredPallets = [];
+    const { demand, velocity } = currentFilters;
+    debugger
+    filteredPallets = pallets.filter(pallet => {
+        let isValidPallet = true;
+
+        if (demand == 'Yes' && pallet.demand != 1)
+            isValidPallet = false;
+        else if (demand == 'No' && pallet.demand != 0)
+            isValidPallet = false;
+        debugger
+        if (velocity != 'NONE' && velocity != pallet.velocity)
+            isValidPallet = false;
+
+        return isValidPallet;
+    })
+    debugger
+    return filteredPallets
+}
+
 const Warehouse3d = ({ warehouse }) => {
 
     const { control, setControl } = useContext(ControlContext)
@@ -49,10 +70,7 @@ const Warehouse3d = ({ warehouse }) => {
         let pallets = undefined;
         if (checked) pallets = [...optimizedPallet];
         else pallets = [...newPalletList];
-        let filteredPalets = []
-        if (control?.demand == 'All') filteredPalets = pallets;
-        else if (control?.demand == 'Yes') filteredPalets = pallets.filter(pallet => pallet.demand == 1);
-        else if (control?.demand == 'No') filteredPalets = pallets.filter(pallet => pallet.demand == 0);
+        const filteredPalets = filterPallets(pallets, control);
         return renderPallet(filteredPalets, newRackList, swap);
     }, [control, checked, swap])
 

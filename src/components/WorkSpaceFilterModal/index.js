@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import ModalContainer from '../ModalContainer'
 import ModalBody from '../ModalBody'
 import Button from '../Button'
@@ -21,7 +21,7 @@ const DemandDropdown = ({ value, setValue }) => {
         </select >
     )
 }
-const velocityOptions = ['C', 'D', 'AB', 'A', 'B'];
+const velocityOptions = ['NONE', 'C', 'D', 'AB', 'A', 'B'];
 const VelocityDropdown = ({ value, setValue }) => {
     return (
         <select value={value} onChange={e => setValue(e.target.value)}>
