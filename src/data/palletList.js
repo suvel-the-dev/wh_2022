@@ -27,7 +27,7 @@ const data = [
         "demand": 0,
         "velocity": "C",
         "dayLastPick": 2,
-        "expiry": 20240210
+        "skuType": "ACCESSORY"
     },
     {
         "productName": "amazon groceries",
@@ -37,7 +37,7 @@ const data = [
         "demand": 0,
         "velocity": "C",
         "dayLastPick": 150,
-        "expiry": 20221007
+        "skuType": "BEVERAGE"
     },
     {
         "productName": "amazon groceries",
@@ -47,7 +47,7 @@ const data = [
         "demand": 0,
         "velocity": "C",
         "dayLastPick": 40,
-        "expiry": 20240101
+        "skuType": "OTHER"
     },
     {
         "productName": "amazon groceries",
@@ -57,7 +57,7 @@ const data = [
         "demand": 0,
         "velocity": "C",
         "dayLastPick": 118,
-        "expiry": 20240310
+        "skuType": "ACCESSORY"
     },
     {
         "productName": "amazon groceries",
@@ -67,7 +67,7 @@ const data = [
         "demand": 0,
         "velocity": "C",
         "dayLastPick": 112,
-        "expiry": 20220816
+        "skuType": "BEVERAGE"
     },
     {
         "productName": "amazon groceries",
@@ -77,7 +77,7 @@ const data = [
         "demand": 0,
         "velocity": "C",
         "dayLastPick": 14,
-        "expiry": 20230423
+        "skuType": "BEVERAGE"
     },
     {
         "productName": "amazon groceries",
@@ -87,7 +87,7 @@ const data = [
         "demand": 0,
         "velocity": "C",
         "dayLastPick": 147,
-        "expiry": 20211112
+        "skuType": "BEVERAGE"
     },
     {
         "productName": "amazon groceries",
@@ -97,7 +97,7 @@ const data = [
         "demand": 0,
         "velocity": "C",
         "dayLastPick": 189,
-        "expiry": 20211004
+        "skuType": "APPLIANCE"
     },
     {
         "productName": "amazon groceries",
@@ -107,7 +107,7 @@ const data = [
         "demand": 0,
         "velocity": "C",
         "dayLastPick": 251,
-        "expiry": 20300824
+        "skuType": "APPLIANCE"
     },
     {
         "productName": "amazon groceries",
@@ -117,7 +117,7 @@ const data = [
         "demand": 0,
         "velocity": "C",
         "dayLastPick": 250,
-        "expiry": 20230928
+        "skuType": "APPLIANCE"
     },
     {
         "productName": "amazon groceries",
@@ -127,7 +127,7 @@ const data = [
         "demand": 0,
         "velocity": "C",
         "dayLastPick": 233,
-        "expiry": 20240519
+        "skuType": "OTHER"
     },
     {
         "productName": "amazon groceries",
@@ -137,7 +137,7 @@ const data = [
         "demand": 0,
         "velocity": "C",
         "dayLastPick": 208,
-        "expiry": 20220305
+        "skuType": "APPLIANCE"
     },
     {
         "productName": "amazon groceries",
@@ -147,7 +147,7 @@ const data = [
         "demand": 0,
         "velocity": "C",
         "dayLastPick": 188,
-        "expiry": 20230808
+        "skuType": "APPLIANCE"
     },
     {
         "productName": "amazon groceries",
@@ -157,7 +157,7 @@ const data = [
         "demand": 0,
         "velocity": "C",
         "dayLastPick": 181,
-        "expiry": 20220408
+        "skuType": "APPLIANCE"
     },
     {
         "productName": "amazon groceries",
@@ -167,7 +167,7 @@ const data = [
         "demand": 0,
         "velocity": "C",
         "dayLastPick": 117,
-        "expiry": 20220304
+        "skuType": "BEVERAGE"
     },
     {
         "productName": "amazon groceries",
@@ -177,7 +177,7 @@ const data = [
         "demand": 0,
         "velocity": "C",
         "dayLastPick": 46,
-        "expiry": 20230209
+        "skuType": "ACCESSORY"
     },
     {
         "productName": "amazon groceries",
@@ -187,7 +187,7 @@ const data = [
         "demand": 0,
         "velocity": "C",
         "dayLastPick": 138,
-        "expiry": 20231104
+        "skuType": "BEVERAGE"
     },
     {
         "productName": "amazon groceries",
@@ -197,7 +197,7 @@ const data = [
         "demand": 0,
         "velocity": "C",
         "dayLastPick": 262,
-        "expiry": 20300824
+        "skuType": "OTHER"
     },
     {
         "productName": "amazon groceries",
@@ -207,7 +207,7 @@ const data = [
         "demand": 0,
         "velocity": "C",
         "dayLastPick": 196,
-        "expiry": 20240309
+        "skuType": "BEVERAGE"
     },
     {
         "productName": "amazon groceries",
@@ -217,7 +217,7 @@ const data = [
         "demand": 0,
         "velocity": "C",
         "dayLastPick": 32,
-        "expiry": 20211021
+        "skuType": "ACCESSORY"
     },
     {
         "productName": "amazon groceries",
@@ -227,7 +227,7 @@ const data = [
         "demand": 0,
         "velocity": "C",
         "dayLastPick": 105,
-        "expiry": 20230714
+        "skuType": "APPLIANCE"
     },
     {
         "productName": "amazon groceries",
@@ -237,7 +237,7 @@ const data = [
         "demand": 0,
         "velocity": "C",
         "dayLastPick": 39,
-        "expiry": 20220304
+        "skuType": "BEVERAGE"
     },
     {
         "productName": "amazon groceries",
@@ -247,7 +247,7 @@ const data = [
         "demand": 1,
         "velocity": "C",
         "dayLastPick": 149,
-        "expiry": 20240202
+        "skuType": "APPLIANCE"
     },
     {
         "productName": "amazon groceries",
@@ -257,7 +257,7 @@ const data = [
         "demand": 0,
         "velocity": "C",
         "dayLastPick": 86,
-        "expiry": 20300824
+        "skuType": "BEVERAGE"
     },
     {
         "productName": "amazon groceries",
@@ -267,7 +267,7 @@ const data = [
         "demand": 0,
         "velocity": "C",
         "dayLastPick": 194,
-        "expiry": 20240313
+        "skuType": "BEVERAGE"
     },
     {
         "productName": "amazon groceries",
@@ -277,7 +277,7 @@ const data = [
         "demand": 0,
         "velocity": "C",
         "dayLastPick": 136,
-        "expiry": 20240313
+        "skuType": "APPLIANCE"
     },
     {
         "productName": "amazon groceries",
@@ -287,7 +287,7 @@ const data = [
         "demand": 0,
         "velocity": "C",
         "dayLastPick": 108,
-        "expiry": 20220224
+        "skuType": "ACCESSORY"
     },
     {
         "productName": "amazon groceries",
@@ -297,7 +297,7 @@ const data = [
         "demand": 0,
         "velocity": "C",
         "dayLastPick": 181,
-        "expiry": 20230106
+        "skuType": "ACCESSORY"
     },
     {
         "productName": "amazon groceries",
@@ -307,7 +307,7 @@ const data = [
         "demand": 0,
         "velocity": "C",
         "dayLastPick": 239,
-        "expiry": 20211004
+        "skuType": "BEVERAGE"
     },
     {
         "productName": "amazon groceries",
@@ -317,7 +317,7 @@ const data = [
         "demand": 0,
         "velocity": "C",
         "dayLastPick": 148,
-        "expiry": 20220228
+        "skuType": "BEVERAGE"
     },
     {
         "productName": "amazon groceries",
@@ -327,7 +327,7 @@ const data = [
         "demand": 0,
         "velocity": "C",
         "dayLastPick": 53,
-        "expiry": 20240213
+        "skuType": "APPLIANCE"
     },
     {
         "productName": "amazon groceries",
@@ -337,7 +337,7 @@ const data = [
         "demand": 1,
         "velocity": "C",
         "dayLastPick": 259,
-        "expiry": 20240227
+        "skuType": "APPLIANCE"
     },
     {
         "productName": "amazon groceries",
@@ -347,7 +347,7 @@ const data = [
         "demand": 0,
         "velocity": "C",
         "dayLastPick": 51,
-        "expiry": 20301104
+        "skuType": "ACCESSORY"
     },
     {
         "productName": "amazon groceries",
@@ -357,7 +357,7 @@ const data = [
         "demand": 1,
         "velocity": "C",
         "dayLastPick": 61,
-        "expiry": 20231210
+        "skuType": "BEVERAGE"
     },
     {
         "productName": "amazon groceries",
@@ -367,7 +367,7 @@ const data = [
         "demand": 0,
         "velocity": "C",
         "dayLastPick": 207,
-        "expiry": 20230413
+        "skuType": "APPLIANCE"
     },
     {
         "productName": "amazon groceries",
@@ -377,7 +377,7 @@ const data = [
         "demand": 0,
         "velocity": "C",
         "dayLastPick": 45,
-        "expiry": 20240313
+        "skuType": "BEVERAGE"
     },
     {
         "productName": "amazon groceries",
@@ -387,7 +387,7 @@ const data = [
         "demand": 0,
         "velocity": "C",
         "dayLastPick": 79,
-        "expiry": 20220503
+        "skuType": "ACCESSORY"
     },
     {
         "productName": "amazon groceries",
@@ -397,7 +397,7 @@ const data = [
         "demand": 0,
         "velocity": "C",
         "dayLastPick": 126,
-        "expiry": 20231028
+        "skuType": "BEVERAGE"
     },
     {
         "productName": "amazon groceries",
@@ -407,7 +407,7 @@ const data = [
         "demand": 1,
         "velocity": "C",
         "dayLastPick": 239,
-        "expiry": 20300131
+        "skuType": "BEVERAGE"
     },
     {
         "productName": "amazon groceries",
@@ -417,7 +417,7 @@ const data = [
         "demand": 0,
         "velocity": "C",
         "dayLastPick": 38,
-        "expiry": 20240109
+        "skuType": "ACCESSORY"
     },
     {
         "productName": "amazon groceries",
@@ -427,7 +427,7 @@ const data = [
         "demand": 0,
         "velocity": "C",
         "dayLastPick": 200,
-        "expiry": 20231218
+        "skuType": "ACCESSORY"
     },
     {
         "productName": "amazon groceries",
@@ -437,7 +437,7 @@ const data = [
         "demand": 0,
         "velocity": "C",
         "dayLastPick": 84,
-        "expiry": 20231016
+        "skuType": "APPLIANCE"
     },
     {
         "productName": "amazon groceries",
@@ -447,7 +447,7 @@ const data = [
         "demand": 0,
         "velocity": "C",
         "dayLastPick": 230,
-        "expiry": 20300131
+        "skuType": "APPLIANCE"
     },
     {
         "productName": "amazon groceries",
@@ -457,7 +457,7 @@ const data = [
         "demand": 0,
         "velocity": "C",
         "dayLastPick": 148,
-        "expiry": 20240309
+        "skuType": "BEVERAGE"
     },
     {
         "productName": "amazon groceries",
@@ -467,7 +467,7 @@ const data = [
         "demand": 1,
         "velocity": "C",
         "dayLastPick": 73,
-        "expiry": 20240213
+        "skuType": "BEVERAGE"
     },
     {
         "productName": "amazon groceries",
@@ -477,7 +477,7 @@ const data = [
         "demand": 0,
         "velocity": "C",
         "dayLastPick": 223,
-        "expiry": 20231010
+        "skuType": "APPLIANCE"
     },
     {
         "productName": "amazon groceries",
@@ -487,7 +487,7 @@ const data = [
         "demand": 0,
         "velocity": "C",
         "dayLastPick": 24,
-        "expiry": 20210930
+        "skuType": "APPLIANCE"
     },
     {
         "productName": "amazon groceries",
@@ -497,7 +497,7 @@ const data = [
         "demand": 0,
         "velocity": "C",
         "dayLastPick": 64,
-        "expiry": 20220408
+        "skuType": "ACCESSORY"
     },
     {
         "productName": "amazon groceries",
@@ -507,7 +507,7 @@ const data = [
         "demand": 1,
         "velocity": "C",
         "dayLastPick": 39,
-        "expiry": 20240202
+        "skuType": "APPLIANCE"
     },
     {
         "productName": "amazon groceries",
@@ -517,7 +517,7 @@ const data = [
         "demand": 1,
         "velocity": "C",
         "dayLastPick": 96,
-        "expiry": 20300624
+        "skuType": "APPLIANCE"
     },
     {
         "productName": "amazon groceries",
@@ -527,7 +527,7 @@ const data = [
         "demand": 0,
         "velocity": "C",
         "dayLastPick": 205,
-        "expiry": 20230730
+        "skuType": "ACCESSORY"
     },
     {
         "productName": "amazon groceries",
@@ -537,7 +537,7 @@ const data = [
         "demand": 0,
         "velocity": "C",
         "dayLastPick": 178,
-        "expiry": 20210919
+        "skuType": "BEVERAGE"
     },
     {
         "productName": "amazon groceries",
@@ -547,7 +547,7 @@ const data = [
         "demand": 0,
         "velocity": "C",
         "dayLastPick": 85,
-        "expiry": 20240415
+        "skuType": "APPLIANCE"
     },
     {
         "productName": "amazon groceries",
@@ -557,7 +557,7 @@ const data = [
         "demand": 0,
         "velocity": "AB",
         "dayLastPick": 251,
-        "expiry": 20240121
+        "skuType": "BEVERAGE"
     },
     {
         "productName": "amazon groceries",
@@ -567,7 +567,7 @@ const data = [
         "demand": 0,
         "velocity": "C",
         "dayLastPick": 204,
-        "expiry": 20240528
+        "skuType": "ACCESSORY"
     }
 ]
 

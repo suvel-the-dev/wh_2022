@@ -52,7 +52,6 @@ const filterPallets = (pallets, currentFilters) => {
         }
         return isValidPallet;
     })
-    debugger
     return filteredPallets
 }
 

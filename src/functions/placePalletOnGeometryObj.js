@@ -123,10 +123,12 @@ export const placePalletOnGeometryObj = (
 
     let pallets = [];
 
+    debugger
+
     palletPositions.forEach((pos, index) => {
         const currentPosition = pos;
         const previousPosition = palletPrePositions[index] || [0, 0, 0];
-        pallets.push(<Pallet pos={currentPosition} prePos={previousPosition} swap={swap} />)
+        pallets.push(<Pallet skuType={geometryObj.palletList[0].skuType} pos={currentPosition} prePos={previousPosition} swap={swap} />)
     })
 
     return pallets;

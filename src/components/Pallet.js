@@ -1,6 +1,9 @@
 import * as THREE from 'three'
 import { useLoader } from '@react-three/fiber'
-import boxSignsTexture from '../asset/texture/box_texture_3.jpg';
+import OTHERBoxTexture from '../asset/texture/box_texture_3.jpg';
+import BEVERAGEBoxTexture from '../asset/texture/BEVERAGE.jpg';
+import ACCESSORYBoxTexture from '../asset/texture/ACCESSORY.webp';
+import APPLIANCEBoxTexture from '../asset/texture/APPLIANCE.JPG';
 import {
     palletObject,
     scale
@@ -13,11 +16,20 @@ import { a } from '@react-spring/three'
 
 const palletDimension = palletObject.dim;
 
+const palletSKUnTextureJoin = {
+    BEVERAGE: BEVERAGEBoxTexture,
+    APPLIANCE: APPLIANCEBoxTexture,
+    ACCESSORY: ACCESSORYBoxTexture,
+    OTHER: OTHERBoxTexture
+}
+
+
 const Pallet = ({
     pos,// position
     color = 'red',
     swap = false,
     prePos,
+    skuType = 'OTHER',
     ...props
 }) => {
 
@@ -26,9 +38,9 @@ const Pallet = ({
         palletColor: swap ? 'red' : 'yellow',
         config: config.molasses
     })
-    
+
     const texture =
-        useLoader(THREE.TextureLoader, boxSignsTexture);
+        useLoader(THREE.TextureLoader, palletSKUnTextureJoin[skuType]);
 
     const { setMsg } = useContext(MessageContext);
 
