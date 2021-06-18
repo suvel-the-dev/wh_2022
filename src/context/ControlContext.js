@@ -6,8 +6,8 @@ export const ControlProvider = ({ children }) => {
     const [control, setControl] = useState({
         demand: 'All',
         velocity: 'NONE',
-        dayLastPick: 0,
-        expiry: 0,
+        dayLastPick: '',
+        expiry: '',
         utilization: false,
         costHeatMap: false,
         showOpzModal: false,

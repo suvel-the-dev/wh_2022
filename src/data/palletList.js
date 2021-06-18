@@ -26,7 +26,8 @@ const data = [
         "detail": {},
         "demand": 0,
         "velocity": "C",
-        "dayLastPick": 2
+        "dayLastPick": 2,
+        "expiry": 20240210
     },
     {
         "productName": "amazon groceries",
@@ -35,7 +36,8 @@ const data = [
         "detail": {},
         "demand": 0,
         "velocity": "C",
-        "dayLastPick": 150
+        "dayLastPick": 150,
+        "expiry": 20221007
     },
     {
         "productName": "amazon groceries",
@@ -44,7 +46,8 @@ const data = [
         "detail": {},
         "demand": 0,
         "velocity": "C",
-        "dayLastPick": 40
+        "dayLastPick": 40,
+        "expiry": 20240101
     },
     {
         "productName": "amazon groceries",
@@ -53,7 +56,8 @@ const data = [
         "detail": {},
         "demand": 0,
         "velocity": "C",
-        "dayLastPick": 118
+        "dayLastPick": 118,
+        "expiry": 20240310
     },
     {
         "productName": "amazon groceries",
@@ -62,7 +66,8 @@ const data = [
         "detail": {},
         "demand": 0,
         "velocity": "C",
-        "dayLastPick": 112
+        "dayLastPick": 112,
+        "expiry": 20220816
     },
     {
         "productName": "amazon groceries",
@@ -71,7 +76,8 @@ const data = [
         "detail": {},
         "demand": 0,
         "velocity": "C",
-        "dayLastPick": 14
+        "dayLastPick": 14,
+        "expiry": 20230423
     },
     {
         "productName": "amazon groceries",
@@ -80,7 +86,8 @@ const data = [
         "detail": {},
         "demand": 0,
         "velocity": "C",
-        "dayLastPick": 147
+        "dayLastPick": 147,
+        "expiry": 20211112
     },
     {
         "productName": "amazon groceries",
@@ -89,7 +96,8 @@ const data = [
         "detail": {},
         "demand": 0,
         "velocity": "C",
-        "dayLastPick": 189
+        "dayLastPick": 189,
+        "expiry": 20211004
     },
     {
         "productName": "amazon groceries",
@@ -98,7 +106,8 @@ const data = [
         "detail": {},
         "demand": 0,
         "velocity": "C",
-        "dayLastPick": 251
+        "dayLastPick": 251,
+        "expiry": 20300824
     },
     {
         "productName": "amazon groceries",
@@ -107,7 +116,8 @@ const data = [
         "detail": {},
         "demand": 0,
         "velocity": "C",
-        "dayLastPick": 250
+        "dayLastPick": 250,
+        "expiry": 20230928
     },
     {
         "productName": "amazon groceries",
@@ -116,7 +126,8 @@ const data = [
         "detail": {},
         "demand": 0,
         "velocity": "C",
-        "dayLastPick": 233
+        "dayLastPick": 233,
+        "expiry": 20240519
     },
     {
         "productName": "amazon groceries",
@@ -125,7 +136,8 @@ const data = [
         "detail": {},
         "demand": 0,
         "velocity": "C",
-        "dayLastPick": 208
+        "dayLastPick": 208,
+        "expiry": 20220305
     },
     {
         "productName": "amazon groceries",
@@ -134,7 +146,8 @@ const data = [
         "detail": {},
         "demand": 0,
         "velocity": "C",
-        "dayLastPick": 188
+        "dayLastPick": 188,
+        "expiry": 20230808
     },
     {
         "productName": "amazon groceries",
@@ -143,7 +156,8 @@ const data = [
         "detail": {},
         "demand": 0,
         "velocity": "C",
-        "dayLastPick": 181
+        "dayLastPick": 181,
+        "expiry": 20220408
     },
     {
         "productName": "amazon groceries",
@@ -152,7 +166,8 @@ const data = [
         "detail": {},
         "demand": 0,
         "velocity": "C",
-        "dayLastPick": 117
+        "dayLastPick": 117,
+        "expiry": 20220304
     },
     {
         "productName": "amazon groceries",
@@ -161,7 +176,8 @@ const data = [
         "detail": {},
         "demand": 0,
         "velocity": "C",
-        "dayLastPick": 46
+        "dayLastPick": 46,
+        "expiry": 20230209
     },
     {
         "productName": "amazon groceries",
@@ -170,7 +186,8 @@ const data = [
         "detail": {},
         "demand": 0,
         "velocity": "C",
-        "dayLastPick": 138
+        "dayLastPick": 138,
+        "expiry": 20231104
     },
     {
         "productName": "amazon groceries",
@@ -179,7 +196,8 @@ const data = [
         "detail": {},
         "demand": 0,
         "velocity": "C",
-        "dayLastPick": 262
+        "dayLastPick": 262,
+        "expiry": 20300824
     },
     {
         "productName": "amazon groceries",
@@ -188,7 +206,8 @@ const data = [
         "detail": {},
         "demand": 0,
         "velocity": "C",
-        "dayLastPick": 196
+        "dayLastPick": 196,
+        "expiry": 20240309
     },
     {
         "productName": "amazon groceries",
@@ -197,7 +216,8 @@ const data = [
         "detail": {},
         "demand": 0,
         "velocity": "C",
-        "dayLastPick": 32
+        "dayLastPick": 32,
+        "expiry": 20211021
     },
     {
         "productName": "amazon groceries",
@@ -206,7 +226,8 @@ const data = [
         "detail": {},
         "demand": 0,
         "velocity": "C",
-        "dayLastPick": 105
+        "dayLastPick": 105,
+        "expiry": 20230714
     },
     {
         "productName": "amazon groceries",
@@ -215,7 +236,8 @@ const data = [
         "detail": {},
         "demand": 0,
         "velocity": "C",
-        "dayLastPick": 39
+        "dayLastPick": 39,
+        "expiry": 20220304
     },
     {
         "productName": "amazon groceries",
@@ -224,7 +246,8 @@ const data = [
         "detail": {},
         "demand": 1,
         "velocity": "C",
-        "dayLastPick": 149
+        "dayLastPick": 149,
+        "expiry": 20240202
     },
     {
         "productName": "amazon groceries",
@@ -233,7 +256,8 @@ const data = [
         "detail": {},
         "demand": 0,
         "velocity": "C",
-        "dayLastPick": 86
+        "dayLastPick": 86,
+        "expiry": 20300824
     },
     {
         "productName": "amazon groceries",
@@ -242,7 +266,8 @@ const data = [
         "detail": {},
         "demand": 0,
         "velocity": "C",
-        "dayLastPick": 194
+        "dayLastPick": 194,
+        "expiry": 20240313
     },
     {
         "productName": "amazon groceries",
@@ -251,7 +276,8 @@ const data = [
         "detail": {},
         "demand": 0,
         "velocity": "C",
-        "dayLastPick": 136
+        "dayLastPick": 136,
+        "expiry": 20240313
     },
     {
         "productName": "amazon groceries",
@@ -260,7 +286,8 @@ const data = [
         "detail": {},
         "demand": 0,
         "velocity": "C",
-        "dayLastPick": 108
+        "dayLastPick": 108,
+        "expiry": 20220224
     },
     {
         "productName": "amazon groceries",
@@ -269,7 +296,8 @@ const data = [
         "detail": {},
         "demand": 0,
         "velocity": "C",
-        "dayLastPick": 181
+        "dayLastPick": 181,
+        "expiry": 20230106
     },
     {
         "productName": "amazon groceries",
@@ -278,7 +306,8 @@ const data = [
         "detail": {},
         "demand": 0,
         "velocity": "C",
-        "dayLastPick": 239
+        "dayLastPick": 239,
+        "expiry": 20211004
     },
     {
         "productName": "amazon groceries",
@@ -287,7 +316,8 @@ const data = [
         "detail": {},
         "demand": 0,
         "velocity": "C",
-        "dayLastPick": 148
+        "dayLastPick": 148,
+        "expiry": 20220228
     },
     {
         "productName": "amazon groceries",
@@ -296,7 +326,8 @@ const data = [
         "detail": {},
         "demand": 0,
         "velocity": "C",
-        "dayLastPick": 53
+        "dayLastPick": 53,
+        "expiry": 20240213
     },
     {
         "productName": "amazon groceries",
@@ -305,7 +336,8 @@ const data = [
         "detail": {},
         "demand": 1,
         "velocity": "C",
-        "dayLastPick": 259
+        "dayLastPick": 259,
+        "expiry": 20240227
     },
     {
         "productName": "amazon groceries",
@@ -314,7 +346,8 @@ const data = [
         "detail": {},
         "demand": 0,
         "velocity": "C",
-        "dayLastPick": 51
+        "dayLastPick": 51,
+        "expiry": 20301104
     },
     {
         "productName": "amazon groceries",
@@ -323,7 +356,8 @@ const data = [
         "detail": {},
         "demand": 1,
         "velocity": "C",
-        "dayLastPick": 61
+        "dayLastPick": 61,
+        "expiry": 20231210
     },
     {
         "productName": "amazon groceries",
@@ -332,7 +366,8 @@ const data = [
         "detail": {},
         "demand": 0,
         "velocity": "C",
-        "dayLastPick": 207
+        "dayLastPick": 207,
+        "expiry": 20230413
     },
     {
         "productName": "amazon groceries",
@@ -341,7 +376,8 @@ const data = [
         "detail": {},
         "demand": 0,
         "velocity": "C",
-        "dayLastPick": 45
+        "dayLastPick": 45,
+        "expiry": 20240313
     },
     {
         "productName": "amazon groceries",
@@ -350,7 +386,8 @@ const data = [
         "detail": {},
         "demand": 0,
         "velocity": "C",
-        "dayLastPick": 79
+        "dayLastPick": 79,
+        "expiry": 20220503
     },
     {
         "productName": "amazon groceries",
@@ -359,7 +396,8 @@ const data = [
         "detail": {},
         "demand": 0,
         "velocity": "C",
-        "dayLastPick": 126
+        "dayLastPick": 126,
+        "expiry": 20231028
     },
     {
         "productName": "amazon groceries",
@@ -368,7 +406,8 @@ const data = [
         "detail": {},
         "demand": 1,
         "velocity": "C",
-        "dayLastPick": 239
+        "dayLastPick": 239,
+        "expiry": 20300131
     },
     {
         "productName": "amazon groceries",
@@ -377,7 +416,8 @@ const data = [
         "detail": {},
         "demand": 0,
         "velocity": "C",
-        "dayLastPick": 38
+        "dayLastPick": 38,
+        "expiry": 20240109
     },
     {
         "productName": "amazon groceries",
@@ -386,7 +426,8 @@ const data = [
         "detail": {},
         "demand": 0,
         "velocity": "C",
-        "dayLastPick": 200
+        "dayLastPick": 200,
+        "expiry": 20231218
     },
     {
         "productName": "amazon groceries",
@@ -395,7 +436,8 @@ const data = [
         "detail": {},
         "demand": 0,
         "velocity": "C",
-        "dayLastPick": 84
+        "dayLastPick": 84,
+        "expiry": 20231016
     },
     {
         "productName": "amazon groceries",
@@ -404,7 +446,8 @@ const data = [
         "detail": {},
         "demand": 0,
         "velocity": "C",
-        "dayLastPick": 230
+        "dayLastPick": 230,
+        "expiry": 20300131
     },
     {
         "productName": "amazon groceries",
@@ -413,7 +456,8 @@ const data = [
         "detail": {},
         "demand": 0,
         "velocity": "C",
-        "dayLastPick": 148
+        "dayLastPick": 148,
+        "expiry": 20240309
     },
     {
         "productName": "amazon groceries",
@@ -422,7 +466,8 @@ const data = [
         "detail": {},
         "demand": 1,
         "velocity": "C",
-        "dayLastPick": 73
+        "dayLastPick": 73,
+        "expiry": 20240213
     },
     {
         "productName": "amazon groceries",
@@ -431,7 +476,8 @@ const data = [
         "detail": {},
         "demand": 0,
         "velocity": "C",
-        "dayLastPick": 223
+        "dayLastPick": 223,
+        "expiry": 20231010
     },
     {
         "productName": "amazon groceries",
@@ -440,7 +486,8 @@ const data = [
         "detail": {},
         "demand": 0,
         "velocity": "C",
-        "dayLastPick": 24
+        "dayLastPick": 24,
+        "expiry": 20210930
     },
     {
         "productName": "amazon groceries",
@@ -449,7 +496,8 @@ const data = [
         "detail": {},
         "demand": 0,
         "velocity": "C",
-        "dayLastPick": 64
+        "dayLastPick": 64,
+        "expiry": 20220408
     },
     {
         "productName": "amazon groceries",
@@ -458,7 +506,8 @@ const data = [
         "detail": {},
         "demand": 1,
         "velocity": "C",
-        "dayLastPick": 39
+        "dayLastPick": 39,
+        "expiry": 20240202
     },
     {
         "productName": "amazon groceries",
@@ -467,7 +516,8 @@ const data = [
         "detail": {},
         "demand": 1,
         "velocity": "C",
-        "dayLastPick": 96
+        "dayLastPick": 96,
+        "expiry": 20300624
     },
     {
         "productName": "amazon groceries",
@@ -476,7 +526,8 @@ const data = [
         "detail": {},
         "demand": 0,
         "velocity": "C",
-        "dayLastPick": 205
+        "dayLastPick": 205,
+        "expiry": 20230730
     },
     {
         "productName": "amazon groceries",
@@ -485,7 +536,8 @@ const data = [
         "detail": {},
         "demand": 0,
         "velocity": "C",
-        "dayLastPick": 178
+        "dayLastPick": 178,
+        "expiry": 20210919
     },
     {
         "productName": "amazon groceries",
@@ -494,7 +546,8 @@ const data = [
         "detail": {},
         "demand": 0,
         "velocity": "C",
-        "dayLastPick": 85
+        "dayLastPick": 85,
+        "expiry": 20240415
     },
     {
         "productName": "amazon groceries",
@@ -503,7 +556,8 @@ const data = [
         "detail": {},
         "demand": 0,
         "velocity": "AB",
-        "dayLastPick": 251
+        "dayLastPick": 251,
+        "expiry": 20240121
     },
     {
         "productName": "amazon groceries",
@@ -512,7 +566,8 @@ const data = [
         "detail": {},
         "demand": 0,
         "velocity": "C",
-        "dayLastPick": 204
+        "dayLastPick": 204,
+        "expiry": 20240528
     }
 ]
 

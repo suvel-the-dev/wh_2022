@@ -59,8 +59,8 @@ const WorkSpaceFilterModal = ({ show, closeModal, handelFilterSubmit }) => {
     const [formState, setFormState] = useState({
         demand: demandOptions[0],
         velocity: velocityOptions[0],
-        dayLastPick: 0,
-        expiry: 0,
+        dayLastPick: '',
+        expiry: '',
         utilization: false,
         costHeatMap: false,
     })
@@ -116,7 +116,7 @@ const WorkSpaceFilterModal = ({ show, closeModal, handelFilterSubmit }) => {
                                 label={"Expiry"}
                                 component={
                                     <input
-                                        type='number'
+                                        type='date'
                                         value={formState.expiry}
                                         onChange={e => {
                                             const val = e.target.value;

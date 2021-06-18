@@ -24,8 +24,8 @@ const newPalletList = newRackList.map(rack => rack.palletList[0]);
 
 const filterPallets = (pallets, currentFilters) => {
     let filteredPallets = [];
-    const { demand, velocity } = currentFilters;
-    debugger
+    const { demand, velocity, dayLastPick, expiry } = currentFilters;
+
     filteredPallets = pallets.filter(pallet => {
         let isValidPallet = true;
 
@@ -33,10 +33,23 @@ const filterPallets = (pallets, currentFilters) => {
             isValidPallet = false;
         else if (demand == 'No' && pallet.demand != 0)
             isValidPallet = false;
-        debugger
+
         if (velocity != 'NONE' && velocity != pallet.velocity)
             isValidPallet = false;
 
+        if (dayLastPick && dayLastPick <= pallet.dayLastPick)
+            isValidPallet = false;
+
+        if (expiry) {
+            const [, year, month, date] =
+                (/(\d{4})(\d{2})(\d{2})/).exec(pallet.expiry);
+
+            const palletExpDate = new Date(year, month, date);
+            const selectedExpDate = new Date(expiry);
+
+            if (palletExpDate.getTime() < selectedExpDate.getTime())
+                isValidPallet = false;
+        }
         return isValidPallet;
     })
     debugger
@@ -146,7 +159,6 @@ export default Warehouse3d;
 
 
 const RackFoot = ({ rackObj, color }) => {
-    debugger
     return (
         <mesh
             scale={1.5}
