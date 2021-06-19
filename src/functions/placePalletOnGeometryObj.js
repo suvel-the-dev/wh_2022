@@ -123,7 +123,6 @@ export const placePalletOnGeometryObj = (
 
     let pallets = [];
 
-    debugger
 
     palletPositions.forEach((pos, index) => {
         const currentPosition = pos;

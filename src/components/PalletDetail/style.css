@@ -1,0 +1,20 @@
+.pallet__detail {
+  height: 90%;
+}
+
+.pallet__detail table {
+  border-collapse: collapse;
+  /* width: 100%; */
+  margin: auto;
+  height: 100%;
+}
+
+.pallet__detail th,
+.pallet__detail td {
+  text-align: left;
+  padding: 8px;
+}
+
+.pallet__detail tr:nth-child(even) {
+  background-color: #f2f2f2;
+}

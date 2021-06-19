@@ -10,7 +10,7 @@ import {
 } from '../constant';
 import MessageContext from '../context/MessageContext'
 import { useContext, useEffect, memo } from 'react'
-import { default as SampleLabel } from '../data/PalletLabel'
+import PalletDetail from './PalletDetail'
 import { useSpring, config } from '@react-spring/core'
 import { a } from '@react-spring/three'
 
@@ -47,7 +47,7 @@ const Pallet = ({
     const handelPalletClick = (event) => {
         setMsg({
             show: true,
-            content: <SampleLabel />
+            content: <PalletDetail />
         })
         event.stopPropagation();
     }
