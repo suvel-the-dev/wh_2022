@@ -1,41 +1,15 @@
 import React from 'react'
 import './style.css'
 
-const PalletDetail = () => {
+const PalletDetail = (props) => {
+
+    const detail = Object.keys(props).map(key => {
+        return { key, value: props[key] }
+    })
+
     return (
         <div className='pallet__detail' >
-            <Detail list={
-                [
-                    {
-                        "key": "LOC",
-                        "value": "CP25042A01"
-                    },
-                    {
-                        "key": "SKU",
-                        "value": "5000359888"
-                    },
-                    {
-                        "key": "SKU_DESC",
-                        "value": "KEUR BRWR KSLCT GRAPHITE"
-                    },
-                    {
-                        "key": "EXPIRY",
-                        "value": "2030/10/20"
-                    },
-                    {
-                        "key": "TOBEPICK",
-                        "value": "40"
-                    },
-                    {
-                        "key": "DAYS_LAST_PICK",
-                        "value": "1"
-                    },
-                    {
-                        "key": "VELOCITY",
-                        "value": "C"
-                    }
-                ]
-            } />
+            <Detail list={detail} />
         </div>
     )
 }

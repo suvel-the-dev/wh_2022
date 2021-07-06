@@ -1,0 +1,27 @@
+.sku_list {
+  max-height: 80vh;
+  overflow-y: auto;
+}
+
+.sku_list li {
+  text-align: left;
+  font-size: 12px;
+  font-family: monospace;
+  padding: 2.5px 0;
+  cursor: pointer;
+}
+
+.sku_list li:hover {
+  background: lemonchiffon;
+}
+
+.sku_list-selected {
+  background: lemonchiffon;
+}
+
+.sku_color {
+  width: 10px;
+  height: 10px;
+  display: inline-flex;
+  margin: 0 2px;
+}

@@ -1,0 +1,29 @@
+.spinner__bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  width: 100vw;
+  height: 100vh;
+  background: #ffcc00;
+  display: grid;
+  place-items: center;
+}
+
+.spinner {
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 175px;
+  height: 36px;
+  background-image: url("../../asset/band/logo.png");
+  margin: 100px auto;
+  -webkit-animation: rotateY 3s infinite linear;
+  animation: rotateY 3s infinite linear;
+}
+
+@-webkit-keyframes rotateY {
+  to { -webkit-transform: rotateY(360deg); }
+}
+@keyframes rotateY {
+  to { transform: rotateY(360deg); }
+}

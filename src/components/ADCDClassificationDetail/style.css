@@ -1,0 +1,9 @@
+.ABCDClassification__container {
+  display: flex;
+  gap: 5px;
+}
+
+.ABCDClassification__item {
+  width: 25px;
+  font-weight: 700;
+}

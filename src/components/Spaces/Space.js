@@ -48,9 +48,9 @@ const Space = ({
                     :
                     (
                         <meshStandardMaterial
-                            opacity={0.1}
+                            opacity={control?.componentOpacity}
                             transparent={true}
-                            color={'gray'}
+                            color={'#ffff'}
                             wireframe={true}
                         />
                     )

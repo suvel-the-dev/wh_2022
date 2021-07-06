@@ -1,0 +1,33 @@
+.cost-color-container-true {
+  display: flex;
+  background: white;
+}
+
+/* .cost-color-container-true label {
+  color: #80808063;
+} */
+
+.cost-color-container-false {
+  display: none;
+}
+
+.cost-color {
+  width: 10px;
+  height: 10px;
+  place-self: center;
+  margin: 3px;
+}
+.vlow-cost {
+  background: #00fff0;
+}
+.low-cost {
+  background: #dbff00;
+}
+
+.med-cost {
+  background: #ff9900;
+}
+
+.hig-cost {
+  background: #ff0000;
+}

@@ -6,6 +6,9 @@ import placePalletOnSpace from './placePalletOnSpace'
 import renderRack from './renderRack'
 import renderPallet from './renderPallet'
 import getRackNPalletInterlinkedObject from './getRackNPalletInterlinkedObject'
+import filterPallets from './filterPallets'
+import renderPallets from './renderPallets'
+import calculateUtilization from './calculateUtilization'
 export {
     getNxtShelfPosition,
     getRackCornerCoordinateToPlaceBox,
@@ -14,5 +17,8 @@ export {
     placePalletOnSpace,
     renderRack,
     renderPallet,
-    getRackNPalletInterlinkedObject
+    getRackNPalletInterlinkedObject,
+    filterPallets,
+    renderPallets,
+    calculateUtilization
 };

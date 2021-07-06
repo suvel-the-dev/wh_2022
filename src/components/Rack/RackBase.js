@@ -15,6 +15,7 @@ const RackBase = ({
         dim,//dimension
         utilization
     },
+    color,
     pos,//position,
     ...props
 }) => {
@@ -58,7 +59,7 @@ const RackBase = ({
                             map={texture}
                             attach="material"
                             reflectivity={1}
-                            opacity={0.5}
+                            opacity={control?.componentOpacity}
                             transparent={true}
                         />
                     )

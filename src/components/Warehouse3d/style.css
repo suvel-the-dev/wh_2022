@@ -6,35 +6,6 @@
   display: flex;
 }
 
-.cost-color-container-true {
-  display: flex;
-  background: white;
-  margin-left: auto;
-}
-
-.cost-color-container-false {
-  display: none;
-}
-
-.cost-color {
-  width: 10px;
-  height: 10px;
-  place-self: center;
-  margin: 3px;
-}
-
-.low-cost {
-  background: #05a1fd;
-}
-
-.med-cost {
-  background: #fec766;
-}
-
-.hig-cost {
-  background: #c72719;
-}
-
 .warehouse-title {
   font-weight: 600;
   font-size: 16px;
@@ -54,4 +25,9 @@
 
 .swaper-container button {
   border: 0;
+}
+
+.pallets {
+  display: flex;
+  gap: 10px;
 }

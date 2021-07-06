@@ -1,0 +1,31 @@
+.mini-map__container {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.mini-map__container img {
+  width: 200px;
+}
+
+.mini-map__btn {
+  position: absolute;
+  background: transparent;
+  width: 24px;
+  height: 20px;
+}
+
+.screen_cam {
+  top: 12px;
+  left: 85px;
+}
+
+.warehouse_mid {
+  top: 81px;
+  left: 85px;
+}
+
+.warehouse_dock_door {
+  top: 152px;
+  left: 85px;
+}

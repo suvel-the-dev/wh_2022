@@ -6,6 +6,8 @@ import {
     scale,
     rackSideObject
 } from '../../constant'
+import { useContext } from 'react'
+import ControlContext from '../../context/ControlContext'
 
 const rackSideDim = rackSideObject.dim;
 
@@ -13,6 +15,7 @@ const RackSide = ({
     pos,//position
     ...props
 }) => {
+    const { control } = useContext(ControlContext)
     const texture =
         useLoader(THREE.TextureLoader, rackSideTexture);
     return (
@@ -32,7 +35,8 @@ const RackSide = ({
                 map={texture}
                 attach="material"
                 transparent={true}
-                opacity={0.35}
+                opacity={1}
+                opacity={control?.componentOpacity}
             />
         </mesh >
     )

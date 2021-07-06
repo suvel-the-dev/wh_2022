@@ -1,0 +1,21 @@
+.skuTextureDetail {
+  display: flex;
+  gap: 5px;
+  width: fit-content;
+}
+
+.skuTextureDetail__type {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.skuTextureDetail__type img {
+  width: 15px;
+  height: 15px;
+}
+
+.skuTextureDetail__type label {
+  font-size: 12px;
+  font-family: monospace;
+}

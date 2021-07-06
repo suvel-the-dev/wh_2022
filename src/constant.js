@@ -17,8 +17,8 @@ export const rackSideObject = {
 export const palletObject = {
     dim: {
         width: 5,
-        height: 3.5,
-        depth: 3,
+        height: 5,
+        depth: 5,
     }
 }
 

@@ -1,15 +1,21 @@
-import React, { useState, useContext } from 'react'
+import React, { useState, useContext, useEffect } from 'react'
 import CheckBox from '../CheckBox'
 import './style.css'
 import Button from '../Button'
 import UtilizationContext from '../../context/UtilizationContext'
 import ControlContext from '../../context/ControlContext'
+import Toggle from '../Toggle'
 
 const WareHouse3dControl = () => {
 
     const { control, setControl } = useContext(ControlContext)
 
-    const { range, setRange, utilizationsRanges, setChangeColor } = useContext(UtilizationContext);
+    const {
+        range,
+        setRange,
+        utilizationsRanges,
+        setChangeColor,
+    } = useContext(UtilizationContext);
 
     const { } = useState();
 
@@ -21,11 +27,91 @@ const WareHouse3dControl = () => {
         setControl({ ...control, showFilterModal: true })
     }
 
+    useEffect(() => {
+        console.log({ "==>": control })
+    }, [control])
+
     return (
         <>
             <div className='threedcontroler-container'>
                 <Button onClick={handelWarhorseFilter}>Filter Warehouse</Button>
                 <Button onClick={handelOnOptimize}>Optimize</Button>
+                <Toggle
+                    label={"Show stats"}
+                    checked={control.showStats}
+                    setChecked={(val) => {
+                        setControl({ ...control, showStats: val })
+                    }} />
+                <Toggle
+                    label={"Show Aisle Marks"}
+                    checked={control.showAisleMark}
+                    setChecked={(val) => {
+                        setControl({ ...control, showAisleMark: val })
+                    }} />
+                <Toggle label={"Cost heat-map"}
+                    checked={control.costHeatMap}
+                    setChecked={(val) => {
+                        setControl({ ...control, costHeatMap: val })
+                    }} />
+                <Toggle label={"SKU Texture"}
+                    checked={control.showSKUType}
+                    setChecked={(val) => {
+                        setControl({
+                            ...control,
+                            showSKUType: val,
+                            displacement: false,
+                            abcdClassification: false
+                        })
+                    }} />
+                <Toggle label={"Displacement"}
+                    checked={control.displacement}
+                    setChecked={(val) => {
+                        setControl({
+                            ...control,
+                            showSKUType: false,
+                            displacement: val,
+                            abcdClassification: false
+                        })
+                    }} />
+                <Toggle label={"ABCD Classification"}
+                    checked={control.abcdClassification}
+                    setChecked={(val) => {
+                        setControl({
+                            ...control,
+                            showSKUType: false,
+                            displacement: false,
+                            abcdClassification: val
+                        })
+                    }} />
+            </div>
+            <div className='common_tools' >
+                <div>
+                    <labe>transparent</labe>
+                    <input type="range"
+                        min={0.0}
+                        max={1.0}
+                        step={0.1}
+                        value={control?.componentOpacity}
+                        onChange={(e) => {
+                            setControl({
+                                ...control,
+                                componentOpacity: Number(e.target.value)
+                            })
+                        }}
+                    />
+                    <labe>opaque</labe>
+                </div>
+                <div className='optimizationToggle__container'>
+                    {control?.showOptimizationSwitch &&
+                        <>
+                            <Toggle label={`Show ${!control.swap ? 'Original' : 'Optimized'} Arrangement`}
+                                checked={control.swap}
+                                setChecked={(val) => {
+                                    setControl({ ...control, swap: val })
+                                }} />
+                        </>
+                    }
+                </div>
                 {control.utilization &&
                     <div>
                         <div styles={{ display: 'flex' }}>
@@ -40,6 +126,7 @@ const WareHouse3dControl = () => {
                     </div>
                 }
             </div>
+
         </>
     )
 }

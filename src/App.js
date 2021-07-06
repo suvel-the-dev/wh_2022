@@ -5,7 +5,8 @@ import {
 } from './components'
 import { useState } from 'react'
 import { ControlProvider } from './context/ControlContext'
-
+import { SKUColorMapProvider } from './context/SKUColorMapContext'
+import { SpinnerProvider } from './context/SpinnerContext'
 
 function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
@@ -13,11 +14,13 @@ function App() {
     <>
       <div className="App">
         {isLoggedIn ?
-          (
+          <SpinnerProvider>
             <ControlProvider>
-              <AppLayout />
+              <SKUColorMapProvider>
+                <AppLayout />
+              </SKUColorMapProvider>
             </ControlProvider>
-          )
+          </SpinnerProvider>
           :
           <LoginLayout handelLogin={() => setIsLoggedIn(true)} />
         }

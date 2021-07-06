@@ -4,8 +4,7 @@ import ModalBody from '../ModalBody'
 import Button from '../Button'
 import Input from '../Input'
 import './style.css'
-import Switch from "react-switch";
-
+import Toggle from '../Toggle'
 
 const modalDimension = {
     width: 397,
@@ -30,32 +29,17 @@ const VelocityDropdown = ({ value, setValue }) => {
     )
 }
 
-const Toggle = ({ label, checked, setChecked }) => {
+const abcOptions = ['NONE', 'A', 'B', 'C', 'D'];
+const ABCDropdown = ({ value, setValue }) => {
     return (
-        <div className='toggle'>
-            <div className='toggle-btn'>
-                <Switch
-                    handleDiameter={10}
-                    height={20}
-                    width={40}
-                    onChange={(chk) => setChecked(chk)}
-                    checked={checked}
-                    onColor={"#ffcc00"}
-                />
-            </div>
-            <div className='toggle-label'>
-                <span>
-                    {
-                        label
-                    }
-                </span>
-            </div>
-
-        </div>
+        <select value={value} onChange={e => setValue(e.target.value)}>
+            {abcOptions.map(opt => <option value={opt} >{opt}</option>)}
+        </select>
     )
 }
 
 const WorkSpaceFilterModal = ({ show, closeModal, handelFilterSubmit }) => {
+
     const [formState, setFormState] = useState({
         demand: demandOptions[0],
         velocity: velocityOptions[0],
@@ -63,6 +47,7 @@ const WorkSpaceFilterModal = ({ show, closeModal, handelFilterSubmit }) => {
         expiry: '',
         utilization: false,
         costHeatMap: false,
+        abc: 'NONE',
     })
 
     const handelFormStateChange = (type, value) => {
@@ -96,6 +81,16 @@ const WorkSpaceFilterModal = ({ show, closeModal, handelFilterSubmit }) => {
                                     value={formState.velocity}
                                     setValue={(val) => {
                                         handelFormStateChange('velocity', val)
+                                    }}
+                                />
+                            } />
+                        <Input
+                            label={"ABC classification"}
+                            component={
+                                <ABCDropdown
+                                    value={formState.abc}
+                                    setValue={(val) => {
+                                        handelFormStateChange('abc', val)
                                     }}
                                 />
                             } />
@@ -133,25 +128,24 @@ const WorkSpaceFilterModal = ({ show, closeModal, handelFilterSubmit }) => {
                             setChecked={(val) => {
                                 handelFormStateChange('utilization', val)
                             }} />
-                        <Toggle label={"Cost heat-map"}
-                            checked={formState.costHeatMap}
-                            setChecked={(val) => {
-                                handelFormStateChange('costHeatMap', val)
-                            }} />
                         <div className='workspace-filter-form__action-container'>
                             <Button
                                 variant={'secondary'}
-                                onClick={() => handelFilterSubmit(formState)}
+                                onClick={() => {
+                                    handelFilterSubmit(formState)
+                                }}
                             >
                                 Apply
                             </Button>
-                            <Button onClick={() => closeModal()}>
+                            <Button onClick={() => {
+                                closeModal()
+                            }}>
                                 Cancel
                             </Button>
                         </div>
                     </div>
                 </ModalBody>
-            </ModalContainer>
+            </ModalContainer >
         )
     )
 }

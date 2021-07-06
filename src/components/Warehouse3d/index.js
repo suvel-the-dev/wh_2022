@@ -1,5 +1,5 @@
 import { Suspense, useState, useMemo, useContext } from 'react';
-import { OrbitControls } from "@react-three/drei";
+import { OrbitControls, PerspectiveCamera } from "@react-three/drei";
 import ForwardCanvas from '../ForwardCanvas'
 import MessageModal from '../MessageModal'
 import { MessageProvider } from '../../context/MessageContext';
@@ -7,7 +7,7 @@ import rackList from '../../data/rackList'
 import palletList from '../../data/palletList'
 import optimizedPallet from '../../data/optimizedPallet'
 import {
-    renderRack,
+    // renderRack,
     renderPallet,
     getRackNPalletInterlinkedObject
 } from '../../functions'
@@ -18,6 +18,32 @@ import WorkSpaceFilterModal from '../WorkSpaceFilterModal'
 import ControlContext from '../../context/ControlContext'
 import './style.css';
 
+import { renderRack, renderSpace } from './temp_fun'
+import Spaces from '../Spaces'
+import Pallet from '../Pallet'
+import Rack from '../Rack'
+
+import _1deepSpaceList from '../../data/_1deepSpaceList'
+import _1deepPalletList from '../../data/_1deepPalletList'
+import rackAisleList from '../../data/rackAisleList'
+
+const renderPallets = (palletArr) => {
+    return palletArr.map(pallet => {
+        const { LOC } = pallet;
+        const position = _1deepSpaceList.find(rack => rack.LOC == LOC)?.position;
+        // if (!position) {
+        //     console.log({ pallet })
+        // }
+        return (<Pallet pos={[
+            position?.x || 0,
+            position?.y + (3.5 / 2 + 1) * 1.5 || 0,
+            position?.z || 0
+        ]} />)
+    })
+
+}
+
+const getPallets = renderPallets(_1deepPalletList);
 
 const newRackList = getRackNPalletInterlinkedObject(rackList, palletList);
 const newPalletList = newRackList.map(rack => rack.palletList[0]);
@@ -53,6 +79,16 @@ const filterPallets = (pallets, currentFilters) => {
         return isValidPallet;
     })
     return filteredPallets
+}
+
+const rackObject = {
+    dim: {
+        width: 5,
+        height: 0.2,
+        depth: 5
+    },
+    position: { x: 225, y: 1, z: -75 },
+    shelfCount: 1
 }
 
 const Warehouse3d = ({ warehouse }) => {
@@ -93,51 +129,60 @@ const Warehouse3d = ({ warehouse }) => {
     return (
         <>
             <div style={{ width: '100%', height: '100%' }}>
-                <div className='warehousedetail-container'>
-                    <div className='warehouse-title'>{warehouse?.label}</div>
-                    {checked && (
-                        <div className='swaper-container'>
-                            <button onClick={() => setSwap(v => !v)}>
-                                {`Swap to ${swap ? 'optimized arrangement' : 'non-optimized arrangement'} 🔃`}
-                            </button>
-                        </div>
-                    )}
-                    <div className='optimized-switch'>
-                        <label>View optimized </label>
-                        <Switch
-                            disabled={!showOpzToggle}
-                            handleDiameter={10}
-                            height={20}
-                            width={40}
-                            onChange={(chk) => setChecked(chk)}
-                            checked={checked}
-                            onColor={"#ffcc00"}
-                        />
-                    </div>
-                    <div className={`cost-color-container-${control?.costHeatMap}`}>
-                        <label>Low</label>
-                        <div className={'cost-color low-cost'}></div>
-                        <label>Medium</label>
-                        <div className={'cost-color med-cost'}></div>
-                        <label>High</label>
-                        <div className={'cost-color hig-cost'}></div>
-                    </div>
-                </div>
                 <Suspense fallback={<div>Loading...</div>} >
                     <MessageProvider>
                         <ForwardCanvas  >
+                            <PerspectiveCamera
+                                args={[100, 2.59, 0.1, 2000]}
+                                makeDefault
+                                position={[0, 500, 40]} />
                             <Environment />
-                            <color attach="background" args={["white"]} />
                             <OrbitControls
-                                rotateSpeed={.07}
-                                enableDamping
-                                dampingFactor={.05}
                                 maxPolarAngle={Math.PI / 2}
                             />
+                            {/* {
+                                renderRack({ x: 372, y: 1, z: -76 })
+                            }
+                            {
+                                renderSpace(1, { x: 203, y: 1, z: -36 })
+                            }
+                            {
+                                renderSpace(2, { x: 17, y: 1, z: -36 })
+                            } */}
+                            {
+                                _1deepSpaceList.map(spaceObj => {
+                                    return (
+                                        <Rack rackObj={spaceObj} />
+                                        // <Spaces spaceObj={spaceObj} />
+                                    )
+                                })
+                            }
+                            {
+                                [
+                                    {
+                                        "LOC": "RR24061A01",
+                                        "dim": {
+                                            "width": 7,
+                                            "height": 0.2,
+                                            "depth": 7
+                                        },
+                                        "position": {
+                                            "x": 372,
+                                            "y": 1,
+                                            "z": -76
+                                        },
+                                        "shelfCount": 1,
+                                        "type": "rack"
+                                    }
+                                ].map(rack => {
+                                    return <Rack rackObj={rack} />
+                                })
+                            }
+                            {/* {
+                                getPallets
+                            } */}
+
                             <ambientLight intensity={0.8} color={'#fffff'} />
-                            {racks}
-                            {pallets}
-                            {/* <RackFoot /> */}
                         </ForwardCanvas>
                         <MessageModal />
                         <OptimizeModal show={showOpzModal} handelAction={handelOpzAction} />
@@ -154,22 +199,3 @@ const Warehouse3d = ({ warehouse }) => {
 }
 
 export default Warehouse3d;
-
-
-
-const RackFoot = ({ rackObj, color }) => {
-    return (
-        <mesh
-            scale={1.5}
-            position={[0, 2, 0]}
-            rotation={[(Math.PI / 2) * -1, 0, 0]}
-        >
-            <planeGeometry
-                args={[20, 20]}
-            />
-            <meshStandardMaterial
-                color={'red'}
-            />
-        </mesh>
-    )
-}

@@ -1,5 +1,6 @@
 .pallet__detail {
   height: 90%;
+  overflow-y: auto;
 }
 
 .pallet__detail table {
