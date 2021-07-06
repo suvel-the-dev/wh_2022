@@ -101,10 +101,14 @@ const WareHouse3dControl = () => {
                     />
                     <labe>opaque</labe>
                 </div>
-                <div className='optimizationToggle__container'>
+                <div
+                    onMouseEnter={() => setControl({ ...control, animate: true })}
+                    onMouseLeave={() => setControl({ ...control, animate: false })}
+                    className='optimizationToggle__container'>
                     {control?.showOptimizationSwitch &&
                         <>
-                            <Toggle label={`Show ${!control.swap ? 'Original' : 'Optimized'} Arrangement`}
+                            <Toggle
+                                label={`Show ${!control.swap ? 'Original' : 'Optimized'} Arrangement`}
                                 checked={control.swap}
                                 setChecked={(val) => {
                                     setControl({ ...control, swap: val })
@@ -125,6 +129,14 @@ const WareHouse3dControl = () => {
                         </div>
                     </div>
                 }
+                {/* <Toggle label={"animate"}
+                    checked={control.animate}
+                    setChecked={(val) => {
+                        setControl({
+                            ...control,
+                            animate: val
+                        })
+                    }} /> */}
             </div>
 
         </>

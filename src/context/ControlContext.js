@@ -29,7 +29,8 @@ export const ControlProvider = ({ children }) => {
 
         },
         cameraPosition: [0, 50, 500],
-        abcdClassification: false
+        abcdClassification: false,
+        animate: false
     })
     const value = { control, setControl }
 

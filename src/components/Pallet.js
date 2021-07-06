@@ -42,7 +42,7 @@ const Pallet = ({
         position: swap ? prePos : pos,
         palletColor: swap ? 'red' : color,
         config: config.molasses,
-        // immediate: !control?.swap
+        immediate: !control?.animate
     })
 
     const texture =
