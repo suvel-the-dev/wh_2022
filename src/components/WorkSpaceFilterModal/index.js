@@ -7,7 +7,7 @@ import './style.css'
 import Toggle from '../Toggle'
 
 const modalDimension = {
-    width: 397,
+    width: 505,
     height: 550
 }
 
@@ -38,17 +38,19 @@ const ABCDropdown = ({ value, setValue }) => {
     )
 }
 
+const initState = {
+    demand: demandOptions[0],
+    velocity: velocityOptions[0],
+    dayLastPick: '',
+    expiry: '',
+    utilization: false,
+    costHeatMap: false,
+    abc: 'NONE',
+}
+
 const WorkSpaceFilterModal = ({ show, closeModal, handelFilterSubmit }) => {
 
-    const [formState, setFormState] = useState({
-        demand: demandOptions[0],
-        velocity: velocityOptions[0],
-        dayLastPick: '',
-        expiry: '',
-        utilization: false,
-        costHeatMap: false,
-        abc: 'NONE',
-    })
+    const [formState, setFormState] = useState(initState)
 
     const handelFormStateChange = (type, value) => {
         let clonedFormState = { ...formState, [type]: value };
@@ -136,6 +138,14 @@ const WorkSpaceFilterModal = ({ show, closeModal, handelFilterSubmit }) => {
                                 }}
                             >
                                 Apply
+                            </Button>
+                            <Button
+                                variant={'secondary'}
+                                onClick={() => {
+                                    handelFilterSubmit(initState)
+                                }}
+                            >
+                                Reset
                             </Button>
                             <Button onClick={() => {
                                 closeModal()

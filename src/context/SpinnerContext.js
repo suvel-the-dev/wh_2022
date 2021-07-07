@@ -8,7 +8,7 @@ export const SpinnerProvider = ({ children }) => {
 
     useEffect(() => {
         if (loading) {
-            setTimeout(() => setLoading(false), 5000)
+            setTimeout(() => setLoading(false), 3000)
         }
     }, [loading])
 

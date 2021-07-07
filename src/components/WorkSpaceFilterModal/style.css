@@ -25,4 +25,6 @@
 
 .workspace-filter-form__action-container {
   margin-top: 30px;
+  display: flex;
+  gap: 5px;
 }

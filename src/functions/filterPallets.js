@@ -28,7 +28,7 @@ const filterPallets = (pallets, currentFilters) => {
         if (abc != 'NONE' && abc != pallet.ABC)
             return false;
 
-        if (dayLastPick && dayLastPick < pallet.DAYS_LAST_PICK)
+        if (dayLastPick && (0 == pallet.DAYS_LAST_PICK || dayLastPick < pallet.DAYS_LAST_PICK))
             return false;
 
         if (expiry) {

@@ -108,7 +108,7 @@ const WareHouse3dControl = () => {
                     {control?.showOptimizationSwitch &&
                         <>
                             <Toggle
-                                label={`Show ${!control.swap ? 'Original' : 'Optimized'} Arrangement`}
+                                label={`${!control.swap ? 'Optimized' : 'Original'} Arrangement`}
                                 checked={control.swap}
                                 setChecked={(val) => {
                                     setControl({ ...control, swap: val })
