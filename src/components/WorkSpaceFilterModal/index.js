@@ -124,12 +124,17 @@ const WorkSpaceFilterModal = ({ show, closeModal, handelFilterSubmit }) => {
                             />
                         </div>
                         <label className='workspace-filter-form__header'>Rack's Attribute</label>
-                        <Toggle
-                            label={"Utilization"}
-                            checked={formState.utilization}
-                            setChecked={(val) => {
-                                handelFormStateChange('utilization', val)
-                            }} />
+                        <div className='workspace-filter-form__utilization'>
+                            <Toggle
+                                label={"Utilization"}
+                                checked={formState.utilization}
+                                setChecked={(val) => {
+                                    handelFormStateChange('utilization', val)
+                                }} />
+                            <select className='utilization__select' disabled={!formState.utilization}>
+                                <option>utilization by aisle</option>
+                            </select>
+                        </div>
                         <div className='workspace-filter-form__action-container'>
                             <Button
                                 variant={'secondary'}

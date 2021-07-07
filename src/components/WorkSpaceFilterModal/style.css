@@ -28,3 +28,11 @@
   display: flex;
   gap: 5px;
 }
+
+.workspace-filter-form__utilization {
+  display: flex;
+}
+
+.utilization__select {
+  margin-left: 10px;
+}
