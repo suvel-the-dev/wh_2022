@@ -70,7 +70,7 @@ const RackAisle = ({
             {
                 (control?.utilization) &&
                 <RackUtilizationZone
-                    pos={[265, 1, 160]}
+                    pos={[265, 1, 200]}
                     percentage={utilizationPercentage}
                 />
             }

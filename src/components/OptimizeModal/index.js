@@ -26,7 +26,8 @@ const OptimizeModal = ({ show = false, handelAction }) => {
             ...control,
             optimizationForm: state,
             showOptimizationSwitch: howOptimizationSwitch,
-            showOpzModal: false
+            showOpzModal: false,
+            swap: false
         };
         setControl(updateControl);
     }

@@ -9,7 +9,7 @@ const textProps = {
 
 const RackUtilizationZone = ({
     pos,
-    dim = { width: 9, depth: 465 },
+    dim = { width: 9, depth: 390 },
     percentage,
     color = '#fffd00', ...props
 }) => {
