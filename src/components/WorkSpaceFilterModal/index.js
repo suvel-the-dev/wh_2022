@@ -142,6 +142,7 @@ const WorkSpaceFilterModal = ({ show, closeModal, handelFilterSubmit }) => {
                             <Button
                                 variant={'secondary'}
                                 onClick={() => {
+                                    setFormState(initState)
                                     handelFilterSubmit(initState)
                                 }}
                             >
