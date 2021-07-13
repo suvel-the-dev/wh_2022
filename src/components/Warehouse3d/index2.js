@@ -40,7 +40,7 @@ import SKUTextureDetail from '../SKUTextureDetail'
 
 import OptimizeModal from '../OptimizeModal'
 import ADCDClassificationDetail from '../ADCDClassificationDetail'
-import { useFrame } from '@react-three/fiber'
+import exportText from '../../functions/exportText'
 
 const getPlaceholders = () => {
     return ([
@@ -75,10 +75,6 @@ const Warehouse3d = ({ }) => {
         setControl({ ...control, showFilterModal: false, ...obj });
     };
 
-    const handelOpzAction = () => {
-        setControl({ ...control, showOpzModal: false });
-    }
-
     const getPallets = () => {
         if (control.optimizationForm.OptimizationType == 'TBP')
             return {
@@ -94,6 +90,36 @@ const Warehouse3d = ({ }) => {
             }
         else
             return { _1: _1deepPalletList, _2: _2deepPalletList, rack: rackPalletList }
+    }
+
+    const handelOpzAction = (type) => {
+        if (type === 'EXPORT') {
+            const { _1, _2, rack } = getPallets();
+            const filteredData_1 = _1.filter(d => d.PRE_LOC);
+            const filteredData_2 = _2.filter(d => d.PRE_LOC);
+            const filteredDataRack = rack.filter(d => d.PRE_LOC);
+
+            const filterFun = ((d, index) => str.push(`\t ${index + 1}. [${d.PRE_LOC}]--->[${d.LOC}]
+            \n\t  SKU:${d.SKU}
+            \n\t  SKU_DESC:${d.SKU_DESC}
+            \n\t  SKU_TYPE:${d.SKU_TYPE}
+            `))
+
+            let str = [];
+            str.push(`\n
+            ${control.optimizationForm.OptimizationType == 'DIS' ?
+                    'Displacement Optimization' : 'To Be Picked optimization'} 
+            \n\n`)
+            str.push('\n1 Deep Aisle \n')
+            filteredData_1.forEach(filterFun)
+            str.push('\n2 Deep Aisle \n')
+            filteredData_2.forEach(filterFun)
+            str.push('\nRack Aisle \n')
+            filteredDataRack.forEach(filterFun)
+            // console.log(str.join('\n'))
+            exportText(str.join('\n'), 'exports')
+        }
+        setControl({ ...control, showOpzModal: false });
     }
 
     const showDisplayScreen = control.showStats || control.showAisleMark;

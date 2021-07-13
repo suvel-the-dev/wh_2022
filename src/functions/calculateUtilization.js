@@ -8,9 +8,7 @@ const calculateUtilization = (palletList) => {
         maxPalletsSum = maxPalletsSum + pallet.MAX_PALLETS;
     });
 
-    console.log({ actualPalletsSum, maxPalletsSum })
-
-
+    // console.log({ actualPalletsSum, maxPalletsSum })
 
     return Math.floor((actualPalletsSum / maxPalletsSum) * 100)
 }

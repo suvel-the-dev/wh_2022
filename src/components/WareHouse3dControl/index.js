@@ -27,9 +27,9 @@ const WareHouse3dControl = () => {
         setControl({ ...control, showFilterModal: true })
     }
 
-    useEffect(() => {
-        console.log({ "==>": control })
-    }, [control])
+    // useEffect(() => {
+    //     console.log({ "==>": control })
+    // }, [control])
 
     return (
         <>

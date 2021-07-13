@@ -32,6 +32,10 @@ const OptimizeModal = ({ show = false, handelAction }) => {
         setControl(updateControl);
     }
 
+    const handelExport = () => {
+        handelAction('EXPORT')
+    }
+
     return (
         <>
             {show &&
@@ -89,6 +93,12 @@ const OptimizeModal = ({ show = false, handelAction }) => {
                                     </select>
                                 }
                             />
+                            <button
+                                disabled={state.OptimizationType === 'NONE'}
+                                className='export_btn'
+                                onClick={handelExport}>
+                                export
+                            </button>
                             <div className='optimize-form__action-container'>
                                 <Button
                                     variant={'secondary'}

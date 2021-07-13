@@ -10,8 +10,6 @@ const filterPallets = (pallets, currentFilters) => {
         displacedDesc
     } = currentFilters;
 
-    console.log(displacedDesc)
-
     filteredPallets = pallets.filter(pallet => {
 
         if (pallet.ACTUAL_PALLETS < 1) return false;
