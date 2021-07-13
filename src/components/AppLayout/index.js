@@ -9,6 +9,7 @@ import { UtilizationProvider } from '../../context/UtilizationContext';
 import ControlContext from '../../context/ControlContext';
 import SKUDescriptionColorList from '../SKUDescriptionColorList'
 import MiniMap from '../MiniMap'
+import OptimizationCam from '../OptimizationCam'
 
 // var sortColors = function (list) {
 //     list.sort()
@@ -127,6 +128,7 @@ const AppLayout = () => {
             </div> */}
             </div >
             <MiniMap />
+            <OptimizationCam />
         </>
     )
 }

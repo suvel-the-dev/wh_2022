@@ -40,6 +40,7 @@ import SKUTextureDetail from '../SKUTextureDetail'
 
 import OptimizeModal from '../OptimizeModal'
 import ADCDClassificationDetail from '../ADCDClassificationDetail'
+import { useFrame } from '@react-three/fiber'
 
 const getPlaceholders = () => {
     return ([
@@ -101,11 +102,6 @@ const Warehouse3d = ({ }) => {
         return 'STATS'
     }
 
-    // useEffect(() => {
-    //     if (control.cameraPosition && orbitRef.current) {
-    //         // orbitRef.current.reset()
-    //     }
-    // }, [control])
 
     return (
         <>
@@ -119,7 +115,7 @@ const Warehouse3d = ({ }) => {
                     <MessageProvider>
                         <ForwardCanvas  >
                             <PerspectiveCamera
-                                args={[100, 2.59, 0.1, 2000]}
+                                args={[40, 0.5, 100, 2000]}
                                 makeDefault
                                 // position={[0, 500, 40]} 
                                 position={control.cameraPosition}
