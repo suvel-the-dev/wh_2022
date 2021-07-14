@@ -1,6 +1,6 @@
 .threedcontroler-container {
   width: 97%;
-  height: 71px;
+  height: 100px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.17);
   border-radius: 10px;
   display: flex;
@@ -9,6 +9,7 @@
   padding: 0 5px;
   font-size: small;
   white-space: nowrap;
+  flex-wrap: wrap;
 }
 
 .common_tools {
