@@ -1,12 +1,12 @@
 import React, { useMemo, useContext } from 'react'
-import Spaces from './Spaces'
-import Pallet from './Pallet'
 import ControlContext from '../context/ControlContext'
 import { renderPallets, filterPallets, calculateUtilization } from '../functions'
 import SpaceUtilizationZone from './SpaceUtilizationZone'
 import SKUColorMapContext from '../context/SKUColorMapContext'
 import getABCDColorMap from '../data/getABCDColorMap'
 
+const Pallet = React.lazy(() => import('./Pallet'));
+const Spaces = React.lazy(() => import('./Spaces'));
 
 const _2DeepSpaceAisle = ({
     spacesList = [],
@@ -19,7 +19,7 @@ const _2DeepSpaceAisle = ({
     const pallets = useMemo(() => {
         const filteredPallets = filterPallets(palletList, control);
         return renderPallets(filteredPallets, storageList, (pos, detail, prevPos, swap) => {
-            const { ACTUAL_PALLETS = 0, SKU_TYPE = 'OTHER', SKU_DESC,ABC} = detail;
+            const { ACTUAL_PALLETS = 0, SKU_TYPE = 'OTHER', SKU_DESC, ABC } = detail;
             const leftPosition = [pos[0] - 4, pos[1], pos[2]];
             const rightPosition = [pos[0] + 4, pos[1], pos[2]];
             const preLeftPosition = [prevPos[0] - 4, prevPos[1], prevPos[2]];

@@ -1,11 +1,12 @@
 import React, { useMemo, useContext } from 'react'
-import Rack from './Rack'
-import Pallet from './Pallet'
 import { filterPallets, renderPallets, calculateUtilization } from '../functions'
 import ControlContext from '../context/ControlContext'
 import RackUtilizationZone from './RackUtilizationZone'
 import SKUColorMapContext from '../context/SKUColorMapContext'
 import getABCDColorMap from '../data/getABCDColorMap'
+
+const Pallet = React.lazy(() => import('./Pallet'));
+const Rack = React.lazy(() => import('./Rack'))
 
 const RackAisle = ({
     rackList = [],
