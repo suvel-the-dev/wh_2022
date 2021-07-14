@@ -1,196 +1,196 @@
-import { Suspense, useState, useMemo, useContext } from 'react';
+import { Suspense, useContext } from 'react';
 import { OrbitControls, PerspectiveCamera } from "@react-three/drei";
 import ForwardCanvas from '../ForwardCanvas'
 import MessageModal from '../MessageModal'
 import { MessageProvider } from '../../context/MessageContext';
-import rackList from '../../data/rackList'
-import palletList from '../../data/palletList'
-import optimizedPallet from '../../data/optimizedPallet'
-import {
-    // renderRack,
-    renderPallet,
-    getRackNPalletInterlinkedObject
-} from '../../functions'
-import Switch from "react-switch";
-import OptimizeModal from '../OptimizeModal'
 import Environment from '../Environment'
+import './style.css';
 import WorkSpaceFilterModal from '../WorkSpaceFilterModal'
 import ControlContext from '../../context/ControlContext'
-import './style.css';
 
-import { renderRack, renderSpace } from './temp_fun'
-import Spaces from '../Spaces'
-import Pallet from '../Pallet'
-import Rack from '../Rack'
+import LabourCostHeatMap from '../LabourCostHeatMap'
+import LabourCostHeatColorPallet from '../LabourCostHeatColorPallet'
+import AisleMarks from '../AisleMarks'
 
+import _2DeepSpaceAisle from '../_2DeepSpaceAisle'
+import _2deepSpaceList from '../../data/_2deepSpaceList'
+import _2deepPalletList from '../../data/_2deepPalletList'
+import optimized2DeepPalletList from '../../data/_2deepPalletList_opt'
+import displacementOptimized2DeepPalletList from '../../data/_2deepPalletList_dis_opt_2'
+
+import _1DeepSpaceAisle from '../_1DeepSpaceAisle'
 import _1deepSpaceList from '../../data/_1deepSpaceList'
 import _1deepPalletList from '../../data/_1deepPalletList'
+import optimized1DeepPalletList from '../../data/_1deepPalletList_opt'
+import displacementOptimized1DeepPalletList from '../../data/_1deepPalletList_dis_opt_2'
+
+
+import RackAisle from '../RackAisle'
 import rackAisleList from '../../data/rackAisleList'
+import rackPalletList from '../../data/rackPalletList'
+import optimizedRackPalletList from '../../data/rackPalletList_opt'
+import displacementOptimizedRackList from '../../data/rackPalletList_dis_opt_2'
 
-const renderPallets = (palletArr) => {
-    return palletArr.map(pallet => {
-        const { LOC } = pallet;
-        const position = _1deepSpaceList.find(rack => rack.LOC == LOC)?.position;
-        // if (!position) {
-        //     console.log({ pallet })
-        // }
-        return (<Pallet pos={[
-            position?.x || 0,
-            position?.y + (3.5 / 2 + 1) * 1.5 || 0,
-            position?.z || 0
-        ]} />)
-    })
+import DisplayScreen from '../DisplayScreen'
 
+import _1DeepSpacePlaceholder from '../Placeholder/_1DeepSpacePlaceholder'
+import _2DeepSpacePlaceholder from '../Placeholder/_2DeepSpacePlaceholder'
+import RackPlaceholder from '../Placeholder/RackPlaceholder'
+import SKUTextureDetail from '../SKUTextureDetail'
+
+import OptimizeModal from '../OptimizeModal'
+import ADCDClassificationDetail from '../ADCDClassificationDetail'
+import exportText from '../../functions/exportText'
+
+const getPlaceholders = () => {
+    return ([
+        [809, 741, 673, 469, 401, 333, 197, -7, -211, -279, -483, -551, -619, -687].
+            map((xCor, key) => <_1DeepSpacePlaceholder key={key} pos={{ x: xCor, y: 1, z: -36 }} />)
+        ,
+        [-75, -143, -347, -415].
+            map((xCor, key) => <_2DeepSpacePlaceholder key={key} pos={{ x: xCor, y: 1, z: -36 }} />)
+        ,
+
+        [605, 537].
+            map((xCor, key) => <RackPlaceholder key={key} pos={{ x: xCor, y: 1, z: -76 }} />)
+        ,
+        [197, 61, -75, -211, -211, -347, -483, -619].
+            map((xCor, key) => <_2DeepSpacePlaceholder key={key} pos={{ x: xCor, y: 1, z: -550 }} count={35} />)
+    ])
 }
 
-const getPallets = renderPallets(_1deepPalletList);
+const allStorageObjects = [..._1deepSpaceList,
+..._2deepSpaceList, ...rackAisleList];
 
-const newRackList = getRackNPalletInterlinkedObject(rackList, palletList);
-const newPalletList = newRackList.map(rack => rack.palletList[0]);
+const Warehouse3d = ({ }) => {
 
-const filterPallets = (pallets, currentFilters) => {
-    let filteredPallets = [];
-    const { demand, velocity, dayLastPick, expiry } = currentFilters;
+    const { control, setControl, orbitRef } = useContext(ControlContext);
 
-    filteredPallets = pallets.filter(pallet => {
-        let isValidPallet = true;
+    const handelFilterModal = () => {
+        setControl(c => ({ ...c, showFilterModal: false }));
+    };
 
-        if (demand == 'Yes' && pallet.demand != 1)
-            isValidPallet = false;
-        else if (demand == 'No' && pallet.demand != 0)
-            isValidPallet = false;
+    const handelApplyFilter = (obj) => {
+        setControl({ ...control, showFilterModal: false, ...obj });
+    };
 
-        if (velocity != 'NONE' && velocity != pallet.velocity)
-            isValidPallet = false;
+    const getPallets = () => {
+        if (control.optimizationForm.OptimizationType == 'TBP')
+            return {
+                _1: optimized1DeepPalletList,
+                _2: optimized2DeepPalletList,
+                rack: optimizedRackPalletList
+            }
+        if (control.optimizationForm.OptimizationType == 'DIS')
+            return {
+                _1: displacementOptimized1DeepPalletList,
+                _2: displacementOptimized2DeepPalletList,
+                rack: displacementOptimizedRackList
+            }
+        else
+            return { _1: _1deepPalletList, _2: _2deepPalletList, rack: rackPalletList }
+    }
 
-        if (dayLastPick && dayLastPick <= pallet.dayLastPick)
-            isValidPallet = false;
+    const handelOpzAction = (type) => {
+        if (type === 'EXPORT') {
+            const { _1, _2, rack } = getPallets();
+            const filteredData_1 = _1.filter(d => d.PRE_LOC);
+            const filteredData_2 = _2.filter(d => d.PRE_LOC);
+            const filteredDataRack = rack.filter(d => d.PRE_LOC);
 
-        if (expiry) {
-            const [, year, month, date] =
-                (/(\d{4})(\d{2})(\d{2})/).exec(pallet.expiry);
+            const filterFun = ((d, index) => str.push(`\t ${index + 1}. [${d.PRE_LOC}]--->[${d.LOC}]
+            \n\t  SKU:${d.SKU}
+            \n\t  SKU_DESC:${d.SKU_DESC}
+            \n\t  SKU_TYPE:${d.SKU_TYPE}
+            `))
 
-            const palletExpDate = new Date(year, month, date);
-            const selectedExpDate = new Date(expiry);
-
-            if (palletExpDate.getTime() < selectedExpDate.getTime())
-                isValidPallet = false;
+            let str = [];
+            str.push(`\n
+            ${control.optimizationForm.OptimizationType == 'DIS' ?
+                    'Displacement Optimization' : 'To Be Picked optimization'} 
+            \n\n`)
+            str.push('\n1 Deep Aisle \n')
+            filteredData_1.forEach(filterFun)
+            str.push('\n2 Deep Aisle \n')
+            filteredData_2.forEach(filterFun)
+            str.push('\nRack Aisle \n')
+            filteredDataRack.forEach(filterFun)
+            // console.log(str.join('\n'))
+            exportText(str.join('\n'), 'exports')
         }
-        return isValidPallet;
-    })
-    return filteredPallets
-}
-
-const rackObject = {
-    dim: {
-        width: 5,
-        height: 0.2,
-        depth: 5
-    },
-    position: { x: 225, y: 1, z: -75 },
-    shelfCount: 1
-}
-
-const Warehouse3d = ({ warehouse }) => {
-
-    const { control, setControl } = useContext(ControlContext)
-
-    const [checked, setChecked] = useState(false);
-    const [swap, setSwap] = useState(false);
-    const [showOpzToggle, setShowOpzToggle] = useState(false);
-
-    const { showOpzModal } = control;
-
-    const handelOpzAction = (action) => {
-        if (action == 'optimize') setShowOpzToggle(true);
         setControl({ ...control, showOpzModal: false });
     }
 
-    const handelFilterModal = () => {
-        setControl(c => ({ ...c, showFilterModal: false }))
+    const showDisplayScreen = control.showStats || control.showAisleMark;
+    const getScreenType = () => {
+        if (control.showAisleMark) return 'AISLE'
+        return 'STATS'
     }
-
-    const handelApplyFilter = (obj) => {
-        setControl({ ...control, showFilterModal: false, ...obj })
-    }
-
-    const pallets = useMemo(() => {
-        let pallets = undefined;
-        if (checked) pallets = [...optimizedPallet];
-        else pallets = [...newPalletList];
-        const filteredPalets = filterPallets(pallets, control);
-        return renderPallet(filteredPalets, newRackList, swap);
-    }, [control, checked, swap])
-
-    const racks = useMemo(() => {
-        return renderRack(newRackList, control?.costHeatMap);
-    }, [control])
 
     return (
         <>
             <div style={{ width: '100%', height: '100%' }}>
+                <div className='pallets'>
+                    <LabourCostHeatColorPallet show={control?.costHeatMap} />
+                    <SKUTextureDetail show={control?.showSKUType} />
+                    <ADCDClassificationDetail show={control?.abcdClassification} />
+                </div>
                 <Suspense fallback={<div>Loading...</div>} >
                     <MessageProvider>
                         <ForwardCanvas  >
                             <PerspectiveCamera
-                                args={[100, 2.59, 0.1, 2000]}
+                                args={[40, 0.5, 100, 2000]}
                                 makeDefault
-                                position={[0, 500, 40]} />
+                                // position={[0, 500, 40]} 
+                                position={control.cameraPosition}
+                                rotateZ={Math.PI / 2}
+
+                            />
                             <Environment />
                             <OrbitControls
+                                ref={orbitRef}
+                                rotateSpeed={.07}
+                                enableDamping
+                                dampingFactor={.05}
                                 maxPolarAngle={Math.PI / 2}
+                                target={control.orbitTarget}
+                            // maxPolarAngle={Math.PI / 2}
                             />
-                            {/* {
-                                renderRack({ x: 372, y: 1, z: -76 })
-                            }
+                            <_2DeepSpaceAisle
+                                spacesList={_2deepSpaceList}
+                                palletList={getPallets()['_2']}
+                                storageList={allStorageObjects}
+                            />
+                            <_1DeepSpaceAisle
+                                spacesList={_1deepSpaceList}
+                                palletList={getPallets()['_1']}
+                                storageList={allStorageObjects}
+                            />
+                            <RackAisle
+                                rackList={rackAisleList}
+                                palletList={getPallets()['rack']}
+                                storageList={allStorageObjects}
+                            />
+                            <LabourCostHeatMap show={control?.costHeatMap} />
+                            <AisleMarks show={control?.showAisleMark} />
+                            <DisplayScreen
+                                pos={[0, 250, 700]}
+                                show={showDisplayScreen}
+                                screen={getScreenType()}
+                            />
                             {
-                                renderSpace(1, { x: 203, y: 1, z: -36 })
+                                getPlaceholders()
                             }
-                            {
-                                renderSpace(2, { x: 17, y: 1, z: -36 })
-                            } */}
-                            {
-                                _1deepSpaceList.map(spaceObj => {
-                                    return (
-                                        <Rack rackObj={spaceObj} />
-                                        // <Spaces spaceObj={spaceObj} />
-                                    )
-                                })
-                            }
-                            {
-                                [
-                                    {
-                                        "LOC": "RR24061A01",
-                                        "dim": {
-                                            "width": 7,
-                                            "height": 0.2,
-                                            "depth": 7
-                                        },
-                                        "position": {
-                                            "x": 372,
-                                            "y": 1,
-                                            "z": -76
-                                        },
-                                        "shelfCount": 1,
-                                        "type": "rack"
-                                    }
-                                ].map(rack => {
-                                    return <Rack rackObj={rack} />
-                                })
-                            }
-                            {/* {
-                                getPallets
-                            } */}
-
-                            <ambientLight intensity={0.8} color={'#fffff'} />
+                            <ambientLight intensity={0.5} color={'#fffff'} />
+                            <color attach="background" args={["#ffffff"]} />
                         </ForwardCanvas>
                         <MessageModal />
-                        <OptimizeModal show={showOpzModal} handelAction={handelOpzAction} />
                         <WorkSpaceFilterModal
                             show={control?.showFilterModal}
                             closeModal={handelFilterModal}
                             handelFilterSubmit={handelApplyFilter}
                         />
+                        <OptimizeModal show={control?.showOpzModal} handelAction={handelOpzAction} />
                     </MessageProvider>
                 </Suspense>
             </div>

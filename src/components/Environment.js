@@ -27,12 +27,6 @@ const nxtUnloadingWallX = (count = 1) => {
         - (UnLoadWallDim.w * 1.5 + (unLoadingWallGap * (2 * count)))
     );
 }
-//(UnLoadWallDim.w + unLoadingWallGap) are in negative as i'm placing them in the
-//direction on negative number line
-
-// const heatMapRange = {
-//     vLow
-// }
 
 const Environment = () => {
     return (
