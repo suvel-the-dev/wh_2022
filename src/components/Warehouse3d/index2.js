@@ -64,8 +64,7 @@ const allStorageObjects = [..._1deepSpaceList,
 
 const Warehouse3d = ({ }) => {
 
-    const { control, setControl } = useContext(ControlContext);
-    const orbitRef = useRef()
+    const { control, setControl, orbitRef } = useContext(ControlContext);
 
     const handelFilterModal = () => {
         setControl(c => ({ ...c, showFilterModal: false }));
@@ -128,7 +127,6 @@ const Warehouse3d = ({ }) => {
         return 'STATS'
     }
 
-
     return (
         <>
             <div style={{ width: '100%', height: '100%' }}>
@@ -145,6 +143,8 @@ const Warehouse3d = ({ }) => {
                                 makeDefault
                                 // position={[0, 500, 40]} 
                                 position={control.cameraPosition}
+                                rotateZ={Math.PI / 2}
+
                             />
                             <Environment />
                             <OrbitControls
@@ -153,7 +153,7 @@ const Warehouse3d = ({ }) => {
                                 enableDamping
                                 dampingFactor={.05}
                                 maxPolarAngle={Math.PI / 2}
-                                target={[0, 50, 1000]}
+                                target={control.orbitTarget}
                             // maxPolarAngle={Math.PI / 2}
                             />
                             <_2DeepSpaceAisle

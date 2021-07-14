@@ -2,4 +2,7 @@
   position: absolute;
   top: 181px;
   right: 35px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
 }

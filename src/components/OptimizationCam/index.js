@@ -3,24 +3,48 @@ import './style.css'
 import ControlContext from '../../context/ControlContext'
 
 const OptimizationCam = () => {
-    const { control, setControl } = useContext(ControlContext)
+    const { control, setControl, orbitRef } = useContext(ControlContext)
 
-    const handelChangeView = () => {
-        if (control.optimizationForm.OptimizationType === 'DIS')
-            setControl(s => ({ ...control, cameraPosition: [150, 0, -150] }))
-        else if (control.optimizationForm.OptimizationType === 'TBP')
-            setControl({ ...control, cameraPosition: [0, 300, -600] })
+    const handelFavCam = () => {
+        if (!orbitRef?.current) return;
+        const target = orbitRef.current.target;
+        const position = orbitRef.current.object.position
+        const cameraPosition = [position.x, position.y, position.z];
+        const orbitTarget = [target.x, target.y, target.z];
+
+        const favCams = [
+            ...control.favCams,
+            {
+                cameraPosition,
+                orbitTarget,
+            }
+        ]
+        localStorage.setItem("favCams", JSON.stringify(favCams));
+        setControl({
+            ...control,
+            favCams
+        })
+
     }
-
-    const hideBtn = control.optimizationForm.OptimizationType === 'NONE';
 
     return (
         <div className='opt_cam__container'>
-            {!hideBtn &&
-                <button
-                    onClick={handelChangeView}
-                > Optimized view </button>
-            }
+            {control.favCams.map((cam, index) => {
+                return (
+                    <button
+                        onClick={() => {
+                            setControl({
+                                ...control,
+                                ...cam
+                            })
+                        }}
+                    >
+                        {`Fav Cam ${index + 1}`}
+                    </button>)
+            })}
+            <button
+                onClick={handelFavCam}
+            >Add Fav Cam</button>
         </div>
     )
 }
