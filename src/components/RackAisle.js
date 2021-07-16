@@ -44,6 +44,7 @@ const RackAisle = ({
 
             return (
                 <Pallet
+                    key={detail.LOC}
                     swap={control?.swap && swap}
                     color={getColor()}
                     changeColor={showColor}
@@ -54,7 +55,7 @@ const RackAisle = ({
                 />
             )
         });
-    }, [control, palletList, rackList]);
+    }, [control, palletList, skuDescColorMap, storageList]);
 
     const utilizationPercentage = useMemo(() => {
         return calculateUtilization(palletList)
@@ -74,9 +75,9 @@ const RackAisle = ({
     return (
         <>
             {
-                rackList?.map(rackObj => {
+                rackList?.map((rackObj, index) => {
                     return (
-                        <Rack rackObj={rackObj} />
+                        <Rack key={`${rackObj.LOC}_${index}`} rackObj={rackObj} />
                     )
                 })
             }
@@ -84,14 +85,14 @@ const RackAisle = ({
                 pallets
             }
             {
-                (control?.utilization && control?.utilizationType == 'UBA') &&
+                (control?.utilization && control?.utilizationType === 'UBA') &&
                 <RackUtilizationZone
                     pos={[265, 1, 200]}
                     percentage={utilizationPercentage}
                 />
             }
             {
-                (control?.utilization && control?.utilizationType == 'UBLC') &&
+                (control?.utilization && control?.utilizationType === 'UBLC') &&
                 <>
                     <RackUtilizationZone
                         color='blue'

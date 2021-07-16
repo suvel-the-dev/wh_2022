@@ -7,7 +7,7 @@ const LocationList = ({ options, selectedOpt, setSelectedOpt }) => {
     const handelOptionSelect = (locObj) => {
         setSelectedOpt(locObj);
     }
-    
+
     return (
         <div className='loclist-container'>
             {

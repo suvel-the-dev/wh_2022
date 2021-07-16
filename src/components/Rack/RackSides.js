@@ -31,10 +31,10 @@ const RackSides = ({
         );
 
     return ([
-        <RackSide pos={coordinates[0].cor} />,
-        <RackSide pos={coordinates[1].cor} />,
-        <RackSide pos={coordinates[2].cor} />,
-        <RackSide pos={coordinates[3].cor} />
+        <RackSide key={`${coordinates[0].cor}`} pos={coordinates[0].cor} />,
+        <RackSide key={`${coordinates[1].cor}`} pos={coordinates[1].cor} />,
+        <RackSide key={`${coordinates[2].cor}`} pos={coordinates[2].cor} />,
+        <RackSide key={`${coordinates[3].cor}`} pos={coordinates[3].cor} />
     ])
 };
 

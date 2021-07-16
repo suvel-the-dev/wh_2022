@@ -27,7 +27,7 @@ const palletSKUnTextureJoin = {
 
 const Pallet = ({
     pos,// position
-    color = '#ffffff',
+    color = '#fff',
     swap = false,
     changeColor,
     prePos,

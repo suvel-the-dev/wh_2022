@@ -56,8 +56,8 @@ const RackPlaceholder = ({ pos }) => {
         getRackPositions(pos).map((position, key) => {
             return (
                 <React.Fragment key={key}>
-                    <RackBasePlaceholder pos={position} />
-                    <RackSidesPlaceholder pos={position} />
+                    <RackBasePlaceholder key={`${key}1_${JSON.stringify(position)}`} pos={position} />
+                    <RackSidesPlaceholder key={`${key}2_${JSON.stringify(position)}`} pos={position} />
                 </React.Fragment>
             )
         })
@@ -111,10 +111,10 @@ const RackSidesPlaceholder = ({
         );
 
     return ([
-        <RackSidePlaceholder pos={coordinates[0].cor} />,
-        <RackSidePlaceholder pos={coordinates[1].cor} />,
-        <RackSidePlaceholder pos={coordinates[2].cor} />,
-        <RackSidePlaceholder pos={coordinates[3].cor} />
+        <RackSidePlaceholder key={`${coordinates[0].cor}`} pos={coordinates[0].cor} />,
+        <RackSidePlaceholder key={`${coordinates[1].cor}`} pos={coordinates[1].cor} />,
+        <RackSidePlaceholder key={`${coordinates[2].cor}`} pos={coordinates[2].cor} />,
+        <RackSidePlaceholder key={`${coordinates[3].cor}`} pos={coordinates[3].cor} />
     ])
 };
 

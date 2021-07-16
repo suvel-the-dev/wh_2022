@@ -1,5 +1,4 @@
-import React, { useState, useContext, useEffect } from 'react'
-import CheckBox from '../CheckBox'
+import React, { useState, useContext } from 'react'
 import './style.css'
 import Button from '../Button'
 import UtilizationContext from '../../context/UtilizationContext'
@@ -17,8 +16,6 @@ const WareHouse3dControl = () => {
         setChangeColor,
     } = useContext(UtilizationContext);
 
-    const { } = useState();
-
     const handelOnOptimize = () => {
         setControl({ ...control, showOpzModal: true })
     }
@@ -26,10 +23,6 @@ const WareHouse3dControl = () => {
     const handelWarhorseFilter = () => {
         setControl({ ...control, showFilterModal: true })
     }
-
-    // useEffect(() => {
-    //     console.log({ "==>": control })
-    // }, [control])
 
     return (
         <>
@@ -86,7 +79,7 @@ const WareHouse3dControl = () => {
             </div>
             <div className='common_tools' >
                 <div>
-                    <labe>transparent</labe>
+                    <label>transparent</label>
                     <input type="range"
                         min={0.0}
                         max={1.0}
@@ -99,7 +92,7 @@ const WareHouse3dControl = () => {
                             })
                         }}
                     />
-                    <labe>opaque</labe>
+                    <label>opaque</label>
                 </div>
                 <div
                     onMouseEnter={() => setControl({ ...control, animate: true })}
@@ -129,14 +122,6 @@ const WareHouse3dControl = () => {
                         </div>
                     </div>
                 }
-                {/* <Toggle label={"animate"}
-                    checked={control.animate}
-                    setChecked={(val) => {
-                        setControl({
-                            ...control,
-                            animate: val
-                        })
-                    }} /> */}
             </div>
 
         </>

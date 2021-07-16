@@ -27,7 +27,7 @@ const SKUDescriptionColorList = ({ show }) => {
             >reset</button>
             <ul className='sku_list'>
                 {filteredList.map(sku => {
-                    const selected = sku.id == control.displacedDesc;
+                    const selected = sku.id === control.displacedDesc;
                     return (
                         <li className={selected ? `sku_list-selected` : ''}
                             onClick={() => setControl({ ...control, displacedDesc: sku.id })}

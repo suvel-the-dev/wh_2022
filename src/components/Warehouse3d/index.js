@@ -75,13 +75,13 @@ const Warehouse3d = ({ }) => {
     };
 
     const getPallets = () => {
-        if (control.optimizationForm.OptimizationType == 'TBP')
+        if (control.optimizationForm.OptimizationType === 'TBP')
             return {
                 _1: optimized1DeepPalletList,
                 _2: optimized2DeepPalletList,
                 rack: optimizedRackPalletList
             }
-        if (control.optimizationForm.OptimizationType == 'DIS')
+        if (control.optimizationForm.OptimizationType === 'DIS')
             return {
                 _1: displacementOptimized1DeepPalletList,
                 _2: displacementOptimized2DeepPalletList,
@@ -106,7 +106,7 @@ const Warehouse3d = ({ }) => {
 
             let str = [];
             str.push(`\n
-            ${control.optimizationForm.OptimizationType == 'DIS' ?
+            ${control.optimizationForm.OptimizationType === 'DIS' ?
                     'Displacement Optimization' : 'To Be Picked optimization'} 
             \n\n`)
             str.push('\nCP25 (1 Deep) Aisle \n')
@@ -181,8 +181,8 @@ const Warehouse3d = ({ }) => {
                             {
                                 getPlaceholders()
                             }
-                            <ambientLight intensity={0.5} color={'#fffff'} />
-                            <color attach="background" args={["#ffffff"]} />
+                            <ambientLight intensity={0.5} color={'#fff'} />
+                            <color attach="background" args={["#fff"]} />
                         </ForwardCanvas>
                         <MessageModal />
                         <WorkSpaceFilterModal

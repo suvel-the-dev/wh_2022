@@ -32,6 +32,7 @@ const FavCam = () => {
             {control.favCams.map((cam, index) => {
                 return (
                     <button
+                        key={index}
                         onClick={() => {
                             setControl({
                                 ...control,

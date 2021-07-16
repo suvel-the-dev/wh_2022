@@ -50,7 +50,7 @@ const Space = ({
                         <meshStandardMaterial
                             opacity={control?.componentOpacity}
                             transparent={true}
-                            color={'#ffff'}
+                            color={'#fff'}
                             wireframe={true}
                         />
                     )

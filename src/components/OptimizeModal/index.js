@@ -21,7 +21,7 @@ const OptimizeModal = ({ show = false, handelAction }) => {
 
     const handelOptimizeSubmit = () => {
         setLoading(true)
-        let howOptimizationSwitch = state.OptimizationType != 'NONE' ? true : false;
+        let howOptimizationSwitch = state.OptimizationType !== 'NONE' ? true : false;
         const updateControl = {
             ...control,
             optimizationForm: state,

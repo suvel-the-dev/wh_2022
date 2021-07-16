@@ -1,5 +1,6 @@
 import RackBase from './RackBase';
 import RackSides from './RackSides';
+import React from 'react'
 import { getNxtShelfPosition } from '../../functions';
 import { rackSideObject } from '../../constant';
 
@@ -25,16 +26,18 @@ const Rack = ({ rackObj, color }) => {
 
     for (let shelf = 1; shelf <= shelfCount; shelf++) {
         racks.push(
-            < >
+            <React.Fragment key={`container_${JSON.stringify(nxtPosition)}`}>
                 <RackBase
+                    key={`base_${JSON.stringify(nxtPosition)}`}
                     rackObj={rackObj}
                     pos={nxtPosition}
                 />
                 <RackSides
+                    key={`side_${JSON.stringify(nxtPosition)}`}
                     rackObj={rackObj}
                     pos={nxtPosition}
                 />
-            </>
+            </React.Fragment>
         )
         const verticalOffset = rackSideDim.height + dim.height;
         nxtPosition =

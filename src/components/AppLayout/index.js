@@ -21,33 +21,22 @@ const options = [
     { label: "Warehouse-10", id: 'wh_10' },
 ]
 
-const initControl = {
-    demand: 'All',
-    velocity: 'A',
-    dayLastPick: 0,
-    expiry: 0,
-    utilization: false,
-    costHeatMap: false,
-    showOpzModal: false,
-    showFilterModal: false,
-}
-
 const AppLayout = () => {
     const [selectedOpt] = useState(options[0]);
     const { control } = useContext(ControlContext);
 
     return (
         <>
-            <div class="grid-container">
-                <div class="location">
+            <div className="grid-container">
+                <div className="location">
                     <SKUDescriptionColorList show={control?.displacement} />
                 </div>
                 <UtilizationProvider>
-                    <div class="location3d">
+                    <div className="location3d">
                         <Warehouse3d
                             warehouse={selectedOpt}
                         />
-                        <div class="loc3dconsole">
+                        <div className="loc3dconsole">
                             <WareHouse3dControl
                             />
                         </div>

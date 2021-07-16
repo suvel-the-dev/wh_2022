@@ -45,8 +45,8 @@ const _1DeepSpaceAisle = ({
             return (
 
                 < Pallet
-                    swap={control?.swap && swap
-                    }
+                    key={detail.LOC}
+                    swap={control?.swap && swap}
                     color={getColor()}
                     changeColor={showColor}
                     pos={pos}
@@ -76,9 +76,9 @@ const _1DeepSpaceAisle = ({
 
     return (<>
         {
-            spacesList?.map(spaceObj => {
+            spacesList?.map((spaceObj, index) => {
                 return (
-                    <Spaces spaceObj={spaceObj} />
+                    <Spaces key={`${spaceObj.LOC}_${index}`} spaceObj={spaceObj} />
                 )
             })
         }

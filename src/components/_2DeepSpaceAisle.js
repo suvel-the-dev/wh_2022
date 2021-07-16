@@ -47,8 +47,9 @@ const _2DeepSpaceAisle = ({
                 control.displacement || control.abcdClassification;
 
             return (
-                <>
+                <React.Fragment key={`${leftPosition}_${rightPosition}`}>
                     <Pallet
+                        key={`${leftPosition}_${preLeftPosition}`}
                         swap={control?.swap && swap}
                         displacement={control.displacement}
                         pos={leftPosition}
@@ -60,6 +61,7 @@ const _2DeepSpaceAisle = ({
                     />
                     {ACTUAL_PALLETS > 1 &&
                         <Pallet
+                            key={`${rightPosition}_${preRightPosition}`}
                             swap={control?.swap && swap}
                             changeColor={control.displacement}
                             pos={rightPosition}
@@ -70,7 +72,7 @@ const _2DeepSpaceAisle = ({
                             changeColor={showColor}
                         />
                     }
-                </>
+                </React.Fragment>
             )
         });
     }, [control, palletList, spacesList]);
@@ -93,9 +95,9 @@ const _2DeepSpaceAisle = ({
     return (
         <>
             {
-                spacesList?.map((spaceObj, key) => {
+                spacesList?.map((spaceObj, index) => {
                     return (
-                        <Spaces key={key} spaceObj={spaceObj} />
+                        <Spaces key={`${spaceObj.LOC}_${index}`} spaceObj={spaceObj} />
                     )
                 })
             }
