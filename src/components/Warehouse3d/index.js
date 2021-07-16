@@ -109,11 +109,11 @@ const Warehouse3d = ({ }) => {
             ${control.optimizationForm.OptimizationType == 'DIS' ?
                     'Displacement Optimization' : 'To Be Picked optimization'} 
             \n\n`)
-            str.push('\n1 Deep Aisle \n')
+            str.push('\nCP25 (1 Deep) Aisle \n')
             filteredData_1.forEach(filterFun)
-            str.push('\n2 Deep Aisle \n')
+            str.push('\nCP25 (2Deep) Aisle \n')
             filteredData_2.forEach(filterFun)
-            str.push('\nRack Aisle \n')
+            str.push('\nRR24 Aisle \n')
             filteredDataRack.forEach(filterFun)
             // console.log(str.join('\n'))
             exportText(str.join('\n'), 'exports')

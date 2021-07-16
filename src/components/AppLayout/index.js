@@ -6,7 +6,7 @@ import { UtilizationProvider } from '../../context/UtilizationContext';
 import ControlContext from '../../context/ControlContext';
 import SKUDescriptionColorList from '../SKUDescriptionColorList'
 import MiniMap from '../MiniMap'
-import OptimizationCam from '../OptimizationCam'
+import FavCam from '../FavCam'
 
 const options = [
     { label: "Warehouse-1", id: 'wh_1' },
@@ -55,7 +55,7 @@ const AppLayout = () => {
                 </UtilizationProvider>
             </div >
             <MiniMap />
-            <OptimizationCam />
+            <FavCam />
         </>
     )
 }

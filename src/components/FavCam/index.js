@@ -2,7 +2,7 @@ import React, { useContext } from 'react'
 import './style.css'
 import ControlContext from '../../context/ControlContext'
 
-const OptimizationCam = () => {
+const FavCam = () => {
     const { control, setControl, orbitRef } = useContext(ControlContext)
 
     const handelFavCam = () => {
@@ -49,4 +49,4 @@ const OptimizationCam = () => {
     )
 }
 
-export default OptimizationCam
+export default FavCam
