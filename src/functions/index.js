@@ -9,6 +9,7 @@ import getRackNPalletInterlinkedObject from './getRackNPalletInterlinkedObject'
 import filterPallets from './filterPallets'
 import renderPallets from './renderPallets'
 import calculateUtilization from './calculateUtilization'
+import groupPalletByCost from './groupPalletByCost'
 export {
     getNxtShelfPosition,
     getRackCornerCoordinateToPlaceBox,
@@ -20,5 +21,6 @@ export {
     getRackNPalletInterlinkedObject,
     filterPallets,
     renderPallets,
-    calculateUtilization
+    calculateUtilization,
+    groupPalletByCost
 };

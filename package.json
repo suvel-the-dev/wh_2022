@@ -2,7 +2,6 @@
   "name": "warehouse_management_app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://suvel-the-dev.github.io/warehouse_management",
   "dependencies": {
     "@react-spring/core": "^9.2.3",
     "@react-spring/three": "^9.2.3",
@@ -36,9 +35,9 @@
   },
   "browserslist": {
     "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
     ],
     "development": [
       "last 1 chrome version",

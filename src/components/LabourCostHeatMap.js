@@ -1,16 +1,16 @@
 import React from 'react'
+import labourCosts from '../data/labourCosts'
 
 const LabourCostHeatMap = ({ show }) => {
     return (
         show ?
-            (
-                <>
-                    <HeatMapRect pos={[0, 1.5, 570]} color='#FF0000' />
-                    <HeatMapRect pos={[0, 1.5, 285]} color='#FF0000' />
-                    <HeatMapRect pos={[0, 1.5, 0]} color='#FF9900' />
-                    <HeatMapRect pos={[0, 1.5, -285]} color='#DBFF00' />
-                    <HeatMapRect pos={[0, 1.5, -570]} color='#00FFF0' />
-                </>
+            (labourCosts.map(labourCost =>
+                <HeatMapRect
+                    pos={[0, 1.5, labourCost.z]}
+                    color={labourCost.color}
+                />
+            )
+
             ) : <></>
 
     )

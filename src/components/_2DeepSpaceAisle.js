@@ -1,6 +1,11 @@
-import React, { useMemo, useContext } from 'react'
+import React, { useMemo, useContext, memo } from 'react'
 import ControlContext from '../context/ControlContext'
-import { renderPallets, filterPallets, calculateUtilization } from '../functions'
+import {
+    renderPallets,
+    filterPallets,
+    calculateUtilization,
+    groupPalletByCost
+} from '../functions'
 import SpaceUtilizationZone from './SpaceUtilizationZone'
 import SKUColorMapContext from '../context/SKUColorMapContext'
 import getABCDColorMap from '../data/getABCDColorMap'
@@ -74,6 +79,17 @@ const _2DeepSpaceAisle = ({
         return calculateUtilization(palletList)
     }, [palletList])
 
+    const utilizationSpacePercentage = useMemo(() => {
+        const palletByCost = groupPalletByCost(palletList)
+        const utilizationByCost = {
+            vCheap: calculateUtilization(palletByCost.vCheap),
+            cheap: calculateUtilization(palletByCost.cheap),
+            costly: calculateUtilization(palletByCost.costly),
+            vCostly: calculateUtilization(palletByCost.vCostly)
+        }
+        return utilizationByCost
+    }, [palletList])
+
     return (
         <>
             {
@@ -86,16 +102,31 @@ const _2DeepSpaceAisle = ({
             {
                 pallets
             }
-            {(control?.utilization) &&
+            {(control?.utilization && control?.utilizationType == 'UBA') &&
                 <SpaceUtilizationZone
                     pos={[61, 1, 300]}
                     percentage={utilizationPercentage}
                 />
             }
-
+            {
+                (control?.utilization && control?.utilizationType == 'UBLC') &&
+                <>
+                    <SpaceUtilizationZone
+                        dim={{ width: 15, depth: 120 }}
+                        pos={[61, 1, 50]}
+                        percentage={utilizationSpacePercentage.costly}
+                    />
+                    <SpaceUtilizationZone
+                        color='blue'
+                        dim={{ width: 15, depth: 320 }}
+                        pos={[61, 1, 380]}
+                        percentage={utilizationSpacePercentage.vCostly}
+                    />
+                </>
+            }
         </>
     )
 
 }
 
-export default _2DeepSpaceAisle
+export default memo(_2DeepSpaceAisle)

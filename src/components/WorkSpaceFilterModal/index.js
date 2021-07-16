@@ -38,13 +38,25 @@ const ABCDropdown = ({ value, setValue }) => {
     )
 }
 
+const utilizationOptions = [
+    { value: 'UBA', label: 'utilization by aisle' },
+    { value: 'UBLC', label: 'utilization by labor cost for aisle' }
+];
+const UtilizationTypeDropdown = ({ value, setValue, ...props }) => {
+    return (
+        <select {...props} className='utilization__select' value={value} onChange={e => setValue(e.target.value)}>
+            {utilizationOptions.map(({ value, label }) => <option value={value} >{label}</option>)}
+        </select>
+    )
+}
+
 const initState = {
     demand: demandOptions[0],
     velocity: velocityOptions[0],
     dayLastPick: '',
     expiry: '',
     utilization: false,
-    costHeatMap: false,
+    utilizationType: 'UBA',
     abc: 'NONE',
 }
 
@@ -131,9 +143,13 @@ const WorkSpaceFilterModal = ({ show, closeModal, handelFilterSubmit }) => {
                                 setChecked={(val) => {
                                     handelFormStateChange('utilization', val)
                                 }} />
-                            <select className='utilization__select' disabled={!formState.utilization}>
-                                <option>utilization by aisle</option>
-                            </select>
+                            <UtilizationTypeDropdown
+                                disabled={!formState.utilization}
+                                value={formState.utilizationType}
+                                setValue={(val) => {
+                                    handelFormStateChange('utilizationType', val)
+                                }}
+                            />
                         </div>
                         <div className='workspace-filter-form__action-container'>
                             <Button

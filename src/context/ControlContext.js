@@ -20,6 +20,7 @@ export const ControlProvider = ({ children }) => {
         dayLastPick: '',
         expiry: '',
         utilization: false,
+        utilizationType: 'UBA',
         costHeatMap: false,
         showStats: false,
         showAisleMark: false,
