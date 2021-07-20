@@ -155,7 +155,6 @@ const Warehouse3d = ({ }) => {
                                 dampingFactor={.05}
                                 maxPolarAngle={Math.PI / 2}
                                 target={control.orbitTarget}
-                            // maxPolarAngle={Math.PI / 2}
                             />
                             <_2DeepSpaceAisle
                                 spacesList={_2deepSpaceList}
