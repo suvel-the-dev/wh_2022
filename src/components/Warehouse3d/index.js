@@ -40,7 +40,7 @@ import SKUTextureDetail from '../SKUTextureDetail'
 
 import OptimizeModal from '../OptimizeModal'
 import ADCDClassificationDetail from '../ADCDClassificationDetail'
-import exportText from '../../functions/exportText'
+import { previewPDF } from '../../functions'
 
 const getPlaceholders = () => {
     return ([
@@ -116,7 +116,8 @@ const Warehouse3d = ({ }) => {
             str.push('\nRR24 Aisle \n')
             filteredDataRack.forEach(filterFun)
             // console.log(str.join('\n'))
-            exportText(str.join('\n'), 'exports')
+            const printString = str.join('\n');
+            previewPDF(printString)
         }
         setControl({ ...control, showOpzModal: false });
     }

@@ -10,6 +10,7 @@ import filterPallets from './filterPallets'
 import renderPallets from './renderPallets'
 import calculateUtilization from './calculateUtilization'
 import groupPalletByCost from './groupPalletByCost'
+import previewPDF from './previewPDF'
 export {
     getNxtShelfPosition,
     getRackCornerCoordinateToPlaceBox,
@@ -22,5 +23,6 @@ export {
     filterPallets,
     renderPallets,
     calculateUtilization,
-    groupPalletByCost
+    groupPalletByCost,
+    previewPDF
 };
