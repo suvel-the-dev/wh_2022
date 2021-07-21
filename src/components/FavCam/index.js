@@ -12,9 +12,18 @@ const FavCam = () => {
         const cameraPosition = [position.x, position.y, position.z];
         const orbitTarget = [target.x, target.y, target.z];
 
+        const favCamName = prompt('Name the favorite camera');
+
+        if (!favCamName) return
+        if (favCamName?.trim() == '') {
+            alert("Name of the favorite camera cannot be empty")
+            return
+        }
+
         const favCams = [
             ...control.favCams,
             {
+                name: favCamName,
                 cameraPosition,
                 orbitTarget,
             }
@@ -40,7 +49,7 @@ const FavCam = () => {
                             })
                         }}
                     >
-                        {`Fav Cam ${index + 1}`}
+                        {cam.name}
                     </button>)
             })}
             <button
