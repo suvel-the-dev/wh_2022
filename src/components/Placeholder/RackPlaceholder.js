@@ -72,12 +72,13 @@ const RackBasePlaceholder = ({ pos }) => {
         <mesh
             scale={scale}
             position={pos}
+            scale={[
+                dim.width + rackBasePadding * scale,
+                dim.height * scale,
+                dim.depth + rackBasePadding * scale,
+            ]}
         >
-            <boxGeometry args={[
-                dim.width + rackBasePadding,
-                dim.height,
-                dim.depth + rackBasePadding,
-            ]} />
+            <boxGeometry />
             <meshBasicMaterial
                 opacity={rackOpacity}
                 transparent={true}
@@ -121,16 +122,14 @@ const RackSidesPlaceholder = ({
 const RackSidePlaceholder = ({ pos }) => {
     return (
         <mesh
-            scale={scale}
             position={pos}
+            scale={[
+                rackSideDim.width * scale,
+                rackSideDim.height * scale,
+                rackSideDim.depth * scale
+            ]}
         >
-            <boxGeometry
-                args={[
-                    rackSideDim.width,
-                    rackSideDim.height,
-                    rackSideDim.depth
-                ]}
-            />
+            <boxGeometry />
             <meshBasicMaterial
                 opacity={rackOpacity}
                 transparent={true}

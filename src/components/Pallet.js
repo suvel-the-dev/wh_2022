@@ -61,16 +61,12 @@ const Pallet = ({
     return (
         <a.mesh
             {...props}
-            scale={scale}
+            // scale={scale}
             position={position}
             onClick={handelPalletClick}
+            scale={[(palletDimension.width) * scale, (palletDimension.height) * scale, (palletDimension.depth) * scale]}
         >
             <boxGeometry
-                args={[
-                    palletDimension.width,
-                    palletDimension.height,
-                    palletDimension.depth
-                ]}
             />
             {
                 (swap || changeColor) ? (

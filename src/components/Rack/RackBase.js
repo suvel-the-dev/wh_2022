@@ -35,14 +35,11 @@ const RackBase = ({
     return (
         <mesh
             {...props}
-            scale={scale}
+            // scale={scale}
             position={pos}
+            scale={[(dim.width + rackBasePadding) * scale, (dim.height) * scale, (dim.depth + rackBasePadding) * scale]}
         >
-            <boxGeometry args={[
-                dim.width + rackBasePadding,
-                dim.height,
-                dim.depth + rackBasePadding,
-            ]} />
+            <boxGeometry />
             {
                 control?.utilization ?
                     (

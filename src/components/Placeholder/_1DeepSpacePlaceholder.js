@@ -39,16 +39,14 @@ export default _1DeepSpacePlaceholder
 const PlaceholderPallet = ({ position }) => {
     return (
         <mesh
-            scale={scale}
             position={position}
+            scale={[
+                palletDimension.width * scale,
+                palletDimension.height * scale,
+                palletDimension.depth * scale
+            ]}
         >
-            <boxGeometry
-                args={[
-                    palletDimension.width,
-                    palletDimension.height,
-                    palletDimension.depth
-                ]}
-            />
+            <boxGeometry />
             <meshBasicMaterial
                 color={palletColor}
                 transparent

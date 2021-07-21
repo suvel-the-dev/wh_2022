@@ -42,14 +42,13 @@ const PlaceholderPallet = ({ position }) => {
         <mesh
             scale={scale}
             position={position}
+            scale={[
+                palletDimension.width * 2 * scale,
+                palletDimension.height * scale,
+                palletDimension.depth * scale
+            ]}
         >
-            <boxGeometry
-                args={[
-                    palletDimension.width * 2,
-                    palletDimension.height,
-                    palletDimension.depth
-                ]}
-            />
+            <boxGeometry />
             <meshBasicMaterial
                 color={palletColor}
                 transparent

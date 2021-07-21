@@ -1,5 +1,6 @@
 import React from 'react'
 import labourCosts from '../data/labourCosts'
+import { scale } from '../constant'
 
 const LabourCostHeatMap = ({ show }) => {
     return (
@@ -26,13 +27,11 @@ const HeatMapRect = ({
     return (
         <mesh
             {...props}
-            scale={1.5}
             position={pos}
             rotation={[(Math.PI / 2) * -1, 0, 0]}
+            scale={[dim.width * scale, dim.depth * scale]}
         >
-            <planeGeometry
-                args={[dim.width, dim.depth]}
-            />
+            <planeGeometry />
             <meshStandardMaterial
                 color={color}
                 transparent

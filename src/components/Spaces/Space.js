@@ -25,16 +25,14 @@ const Space = ({
     return (
         <mesh
             {...props}
-            scale={scale}
             position={pos}
+            scale={[
+                palletDimension.width * scale,
+                palletDimension.height * scale,
+                palletDimension.depth * scale
+            ]}
         >
-            <boxGeometry
-                args={[
-                    palletDimension.width,
-                    palletDimension.height,
-                    palletDimension.depth
-                ]}
-            />
+            <boxGeometry />
             {
                 (control?.utilization) ?
                     (

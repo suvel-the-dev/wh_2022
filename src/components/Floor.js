@@ -1,6 +1,7 @@
 import * as THREE from 'three'
 import { useLoader } from '@react-three/fiber'
 import floorTexture from '../asset/texture/floor_texture_2.jpg'
+import { scale } from '../constant'
 
 const Floor = ({ dim, ...props }) => {
     const texture =
@@ -16,18 +17,16 @@ const Floor = ({ dim, ...props }) => {
     return (
         <mesh
             {...props}
-            scale={1.5}
             position={[0, 0, 0]}
+            scale={[dim.w * scale, 0.5 * scale, dim.d * scale]}
         >
-            <boxGeometry
-                args={[dim.w, 0.5, dim.d]}
-            />
+            <boxGeometry />
             <meshBasicMaterial
                 reflectivity={1}
                 map={texture}
                 attach="material"
             />
-        </mesh>
+        </mesh >
     )
 }
 

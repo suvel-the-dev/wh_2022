@@ -10,19 +10,13 @@ const DockDoor = ({ pos }) => {
 
     return (
         <mesh
-            scale={scale}
             position={[pos[0], pos[1] + (30 * 2 * scale), pos[2]]}
+            scale={[80 * scale, 30 * scale, 2 * scale]}
         >
-            <boxGeometry
-                args={[
-                    80,
-                    30,
-                    2
-                ]}
-            />
-           <meshStandardMaterial
-            map={texture}
-            attach="material"
+            <boxGeometry />
+            <meshStandardMaterial
+                map={texture}
+                attach="material"
             />
         </mesh>
     )

@@ -21,16 +21,12 @@ const RackSide = ({
     return (
         <mesh
             {...props}
-            scale={scale}
+            // scale={scale}
             position={pos}
+            scale={[(rackSideDim.width) * scale, (rackSideDim.height) * scale, (rackSideDim.depth) * scale]}
+
         >
-            <boxGeometry
-                args={[
-                    rackSideDim.width,
-                    rackSideDim.height,
-                    rackSideDim.depth
-                ]}
-            />
+            <boxGeometry />
             <meshStandardMaterial
                 map={texture}
                 attach="material"

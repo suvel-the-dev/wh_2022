@@ -18,16 +18,14 @@ const DoorWall = ({ pos, dim = { width: 25, height: 35, depth: 2 }, ...props }) 
     return (
         <mesh
             {...props}
-            scale={scale}
             position={[x, y + (dim.height / 2) * scale, z]}
+            scale={[
+                dim.width * scale,
+                dim.height * scale,
+                dim.depth * scale
+            ]}
         >
-            <boxGeometry
-                args={[
-                    dim.width,
-                    dim.height,
-                    dim.depth
-                ]}
-            />
+            <boxGeometry />
             <meshStandardMaterial
                 opacity={1}
                 // transparent={true}
