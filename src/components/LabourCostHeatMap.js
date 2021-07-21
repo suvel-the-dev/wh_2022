@@ -29,9 +29,11 @@ const HeatMapRect = ({
             {...props}
             position={pos}
             rotation={[(Math.PI / 2) * -1, 0, 0]}
-            scale={[dim.width * scale, dim.depth * scale]}
+            scale={scale}
         >
-            <planeGeometry />
+            <planeGeometry
+                args={[dim.width, dim.depth]}
+            />
             <meshStandardMaterial
                 color={color}
                 transparent

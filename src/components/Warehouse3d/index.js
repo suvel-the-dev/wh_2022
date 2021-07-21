@@ -62,7 +62,7 @@ const getPlaceholders = () => {
 const allStorageObjects = [..._1deepSpaceList,
 ..._2deepSpaceList, ...rackAisleList];
 
-const Warehouse3d = ({ }) => {
+const Warehouse3d = () => {
 
     const { control, setControl, orbitRef } = useContext(ControlContext);
 
