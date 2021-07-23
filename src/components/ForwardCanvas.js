@@ -14,9 +14,19 @@ const ForwardCanvas = ({ children }) => {
 
     return (
         <Canvas
-            // camera={{ position: [50, 50, -400] }}
+            performance={{
+                current: 1,
+                min: 0.1,
+                max: 1,
+                debounce: 200,
+                regress: () => { },
+            }}
             style={{ width: '85vw', height: '80vh' }}
-            /* style={{ width: '100vw', height: '90vh' }} */>
+            frameloop="demand"
+            dpr={[1, 2]}
+            performance={{ min: 0.4 }}
+            gl={{ alpha: false, antialias: false }}
+        >
             <ControlContext.Provider value={value2}>
                 <MessageContext.Provider value={value}>
                     <UtilizationContext.Provider value={value1}>
