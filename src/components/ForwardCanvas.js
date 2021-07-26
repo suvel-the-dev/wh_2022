@@ -14,6 +14,7 @@ const ForwardCanvas = ({ children }) => {
 
     return (
         <Canvas
+            style={{ width: '85vw', height: '80vh' }}
             performance={{
                 current: 1,
                 min: 0.1,
@@ -21,10 +22,11 @@ const ForwardCanvas = ({ children }) => {
                 debounce: 200,
                 regress: () => { },
             }}
-            style={{ width: '85vw', height: '80vh' }}
-            frameloop="demand"
+            // frameloop="demand"
+            /* 
+            commented as it is affecting the animation
+            */
             dpr={[1, 2]}
-            performance={{ min: 0.4 }}
             gl={{ alpha: false, antialias: false }}
         >
             <ControlContext.Provider value={value2}>
