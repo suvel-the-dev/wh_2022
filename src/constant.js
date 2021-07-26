@@ -45,3 +45,8 @@ export const roadObject = {
         z: -350
     }
 }
+
+export const optimizedPalletColor = {
+    OPTIMIZED: 'green',
+    REPLACED: 'red'
+};

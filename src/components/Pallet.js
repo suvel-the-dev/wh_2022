@@ -6,7 +6,8 @@ import ACCESSORYBoxTexture from '../asset/texture/ACCESSORY.png';
 import APPLIANCEBoxTexture from '../asset/texture/APPLIANCE.png';
 import {
     palletObject,
-    scale
+    scale,
+    optimizedPalletColor
 } from '../constant';
 import MessageContext from '../context/MessageContext'
 import ControlContext from '../context/ControlContext'
@@ -24,6 +25,10 @@ const palletSKUnTextureJoin = {
     OTHER: OTHERBoxTexture
 }
 
+const getOptimizedTypeColor = (optType) => {
+    if (optType === 1) return optimizedPalletColor.OPTIMIZED;
+    return optimizedPalletColor.REPLACED
+}
 
 const Pallet = ({
     pos,// position
@@ -40,7 +45,7 @@ const Pallet = ({
 
     const { position, palletColor } = useSpring({
         position: swap ? prePos : pos,
-        palletColor: swap ? 'red' : color,
+        palletColor: swap ? getOptimizedTypeColor(detail?.OPTIMIZED_TYPE) : color,
         config: config.molasses,
         immediate: !control?.animate
     })

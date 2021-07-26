@@ -3,6 +3,7 @@ const data = [
         "LOC": "RR24095A02",
         "PRE_LOC": "RR24061A01",
         "OPTIMIZED": true,
+        "OPTIMIZED_TYPE": 1,
         "SKU": "5000051211",
         "SKU_DESC": "ASM DRIP TRAY B3000",
         "SKU_TYPE": "OTHER",
