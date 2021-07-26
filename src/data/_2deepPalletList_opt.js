@@ -233,7 +233,6 @@ export default ([
         "LOC": "CP25118A01",
         "PRE_LOC": "CP25146A01",
         "OPTIMIZED": true,
-        "OPTIMIZED_TYPE": 1,
         "SKU": "5000204842",
         "SKU_DESC": "KEUR BRWR KCLSC RHUB G2",
         "SKU_TYPE": "APPLIANCE",
