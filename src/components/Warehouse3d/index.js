@@ -101,7 +101,20 @@ const Warehouse3d = () => {
     }
 
     const handelOpzAction = (type) => {
-        if (type === 'EXPORT') {
+        debugger
+        if (type === 'EXPORT' && control.optimizationForm.OptimizationType === 'FIL') {
+            previewPDF(`
+            Filled Pallets Optimization
+
+            Move cases from :
+                1. RR24097B02 - 35 Pallet
+                2.RR24097D01 - 35 Pallet
+                3.RR24111B02 - 70 Pallet
+            Move cases to:
+                1. RR24091B02
+            `)
+        }
+        else if (type === 'EXPORT') {
             const { _1, _2, rack } = getPallets();
             const filteredData_1 = _1.filter(d => d.PRE_LOC);
             const filteredData_2 = _2.filter(d => d.PRE_LOC);
