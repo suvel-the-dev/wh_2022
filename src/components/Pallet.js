@@ -63,7 +63,7 @@ const Pallet = ({
         immediate: !control?.animate
     })
 
-    console.log({ position, palletColor, palletOpacity })
+    // console.log({ position, palletColor, palletOpacity })
 
     const texture =
         useLoader(THREE.TextureLoader, palletSKUnTextureJoin[skuType]);
