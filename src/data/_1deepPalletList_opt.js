@@ -12,7 +12,9 @@ const data = [
       "DAYS_LAST_PICK": 14,
       "LAST_PICK": "2021-06-11",
       "VELOCITY": "C",
-      "ABC": "A"
+      "ABC": "A",
+      "MAX_UNIT": 270,
+      "ACTUAL_UNIT": 270
    },
    {
       "LOC": "CP25197A01",
@@ -30,7 +32,9 @@ const data = [
       "DAYS_LAST_PICK": 114,
       "LAST_PICK": "2021-03-01",
       "VELOCITY": "C",
-      "ABC": "C"
+      "ABC": "C",
+      "MAX_UNIT": 270,
+      "ACTUAL_UNIT": 270
    },
    {
       "LOC": "CP25193A01",
@@ -48,7 +52,9 @@ const data = [
       "DAYS_LAST_PICK": 21,
       "LAST_PICK": "2021-06-04",
       "VELOCITY": "C",
-      "ABC": "A"
+      "ABC": "A",
+      "MAX_UNIT": 270,
+      "ACTUAL_UNIT": 270
    },
    {
       "LOC": "CP25163A01",
@@ -66,7 +72,9 @@ const data = [
       "DAYS_LAST_PICK": 1,
       "LAST_PICK": "2021-06-24",
       "VELOCITY": "A",
-      "ABC": "A"
+      "ABC": "A",
+      "MAX_UNIT": 270,
+      "ACTUAL_UNIT": 270
    },
    {
       "LOC": "CP25125A01",
@@ -81,7 +89,9 @@ const data = [
       "DAYS_LAST_PICK": 31,
       "LAST_PICK": "2021-05-25",
       "VELOCITY": "AB",
-      "ABC": "A"
+      "ABC": "A",
+      "MAX_UNIT": 270,
+      "ACTUAL_UNIT": 270
    },
    {
       "LOC": "CP25127A01",
@@ -96,7 +106,9 @@ const data = [
       "DAYS_LAST_PICK": 180,
       "LAST_PICK": "2020-12-26",
       "VELOCITY": "C",
-      "ABC": "C"
+      "ABC": "C",
+      "MAX_UNIT": 270,
+      "ACTUAL_UNIT": 270
    },
    {
       "LOC": "CP25129A01",
@@ -111,7 +123,9 @@ const data = [
       "DAYS_LAST_PICK": 28,
       "LAST_PICK": "2021-05-28",
       "VELOCITY": "",
-      "ABC": "A"
+      "ABC": "A",
+      "MAX_UNIT": 270,
+      "ACTUAL_UNIT": 270
    },
    {
       "LOC": "CP25131A01",
@@ -126,7 +140,9 @@ const data = [
       "DAYS_LAST_PICK": 3,
       "LAST_PICK": "2021-06-22",
       "VELOCITY": "C",
-      "ABC": "A"
+      "ABC": "A",
+      "MAX_UNIT": 270,
+      "ACTUAL_UNIT": 270
    },
    {
       "LOC": "CP25133A01",
@@ -141,7 +157,9 @@ const data = [
       "DAYS_LAST_PICK": 6,
       "LAST_PICK": "2021-06-19",
       "VELOCITY": "C",
-      "ABC": "A"
+      "ABC": "A",
+      "MAX_UNIT": 270,
+      "ACTUAL_UNIT": 270
    },
    {
       "LOC": "CP25135A01",
@@ -156,7 +174,9 @@ const data = [
       "DAYS_LAST_PICK": 168,
       "LAST_PICK": "2021-01-07",
       "VELOCITY": "C",
-      "ABC": "C"
+      "ABC": "C",
+      "MAX_UNIT": 270,
+      "ACTUAL_UNIT": 270
    },
    {
       "LOC": "CP25137A01",
@@ -171,7 +191,9 @@ const data = [
       "DAYS_LAST_PICK": 144,
       "LAST_PICK": "2021-02-01",
       "VELOCITY": "",
-      "ABC": "C"
+      "ABC": "C",
+      "MAX_UNIT": 270,
+      "ACTUAL_UNIT": 270
    },
    {
       "LOC": "CP25139A01",
@@ -186,7 +208,9 @@ const data = [
       "DAYS_LAST_PICK": 0,
       "LAST_PICK": "0000-00-00",
       "VELOCITY": "",
-      "ABC": "A"
+      "ABC": "A",
+      "MAX_UNIT": 270,
+      "ACTUAL_UNIT": 270
    },
    {
       "LOC": "CP25141A01",
@@ -201,7 +225,9 @@ const data = [
       "DAYS_LAST_PICK": 131,
       "LAST_PICK": "2021-02-14",
       "VELOCITY": "C",
-      "ABC": "C"
+      "ABC": "C",
+      "MAX_UNIT": 270,
+      "ACTUAL_UNIT": 270
    },
    {
       "LOC": "CP25143A01",
@@ -216,7 +242,9 @@ const data = [
       "DAYS_LAST_PICK": 3,
       "LAST_PICK": "2021-06-22",
       "VELOCITY": "C",
-      "ABC": "A"
+      "ABC": "A",
+      "MAX_UNIT": 270,
+      "ACTUAL_UNIT": 270
    },
    {
       "LOC": "CP25145A01",
@@ -231,7 +259,9 @@ const data = [
       "DAYS_LAST_PICK": 0,
       "LAST_PICK": "0000-00-00",
       "VELOCITY": "",
-      "ABC": "A"
+      "ABC": "A",
+      "MAX_UNIT": 270,
+      "ACTUAL_UNIT": 270
    },
    {
       "LOC": "CP25147A01",
@@ -246,7 +276,9 @@ const data = [
       "DAYS_LAST_PICK": 1,
       "LAST_PICK": "2021-06-24",
       "VELOCITY": "C",
-      "ABC": "A"
+      "ABC": "A",
+      "MAX_UNIT": 270,
+      "ACTUAL_UNIT": 270
    },
    {
       "LOC": "CP25149A01",
@@ -261,7 +293,9 @@ const data = [
       "DAYS_LAST_PICK": 2,
       "LAST_PICK": "2021-06-23",
       "VELOCITY": "A",
-      "ABC": "A"
+      "ABC": "A",
+      "MAX_UNIT": 270,
+      "ACTUAL_UNIT": 270
    },
    {
       "LOC": "CP25151A01",
@@ -276,7 +310,9 @@ const data = [
       "DAYS_LAST_PICK": 140,
       "LAST_PICK": "2021-02-05",
       "VELOCITY": "C",
-      "ABC": "C"
+      "ABC": "C",
+      "MAX_UNIT": 270,
+      "ACTUAL_UNIT": 270
    },
    {
       "LOC": "CP25153A01",
@@ -291,7 +327,9 @@ const data = [
       "DAYS_LAST_PICK": 1,
       "LAST_PICK": "2021-06-24",
       "VELOCITY": "C",
-      "ABC": "A"
+      "ABC": "A",
+      "MAX_UNIT": 270,
+      "ACTUAL_UNIT": 270
    },
    {
       "LOC": "CP25155A01",
@@ -306,7 +344,9 @@ const data = [
       "DAYS_LAST_PICK": 7,
       "LAST_PICK": "2021-06-18",
       "VELOCITY": "",
-      "ABC": "A"
+      "ABC": "A",
+      "MAX_UNIT": 270,
+      "ACTUAL_UNIT": 270
    },
    {
       "LOC": "CP25157A01",
@@ -321,7 +361,9 @@ const data = [
       "DAYS_LAST_PICK": 4,
       "LAST_PICK": "2021-06-21",
       "VELOCITY": "D",
-      "ABC": "A"
+      "ABC": "A",
+      "MAX_UNIT": 270,
+      "ACTUAL_UNIT": 270
    },
    {
       "LOC": "CP25159A01",
@@ -336,7 +378,9 @@ const data = [
       "DAYS_LAST_PICK": 61,
       "LAST_PICK": "2021-04-24",
       "VELOCITY": "C",
-      "ABC": "B"
+      "ABC": "B",
+      "MAX_UNIT": 270,
+      "ACTUAL_UNIT": 270
    },
    {
       "LOC": "CP25161A01",
@@ -351,7 +395,9 @@ const data = [
       "DAYS_LAST_PICK": 0,
       "LAST_PICK": "0000-00-00",
       "VELOCITY": "",
-      "ABC": "A"
+      "ABC": "A",
+      "MAX_UNIT": 270,
+      "ACTUAL_UNIT": 270
    },
    {
       "LOC": "CP25123A01",
@@ -368,7 +414,9 @@ const data = [
       "DAYS_LAST_PICK": 6,
       "LAST_PICK": "2021-06-19",
       "VELOCITY": "C",
-      "ABC": "A"
+      "ABC": "A",
+      "MAX_UNIT": 270,
+      "ACTUAL_UNIT": 270
    },
    {
       "LOC": "CP25165A01",
@@ -383,7 +431,9 @@ const data = [
       "DAYS_LAST_PICK": 3,
       "LAST_PICK": "2021-06-22",
       "VELOCITY": "C",
-      "ABC": "A"
+      "ABC": "A",
+      "MAX_UNIT": 270,
+      "ACTUAL_UNIT": 270
    },
    {
       "LOC": "CP25167A01",
@@ -398,7 +448,9 @@ const data = [
       "DAYS_LAST_PICK": 140,
       "LAST_PICK": "2021-02-05",
       "VELOCITY": "",
-      "ABC": "C"
+      "ABC": "C",
+      "MAX_UNIT": 270,
+      "ACTUAL_UNIT": 270
    },
    {
       "LOC": "CP25169A01",
@@ -413,7 +465,9 @@ const data = [
       "DAYS_LAST_PICK": 194,
       "LAST_PICK": "2020-12-11",
       "VELOCITY": "C",
-      "ABC": "C"
+      "ABC": "C",
+      "MAX_UNIT": 270,
+      "ACTUAL_UNIT": 270
    },
    {
       "LOC": "CP25171A01",
@@ -428,7 +482,9 @@ const data = [
       "DAYS_LAST_PICK": 29,
       "LAST_PICK": "2021-05-27",
       "VELOCITY": "C",
-      "ABC": "A"
+      "ABC": "A",
+      "MAX_UNIT": 270,
+      "ACTUAL_UNIT": 270
    },
    {
       "LOC": "CP25173A01",
@@ -443,7 +499,9 @@ const data = [
       "DAYS_LAST_PICK": 56,
       "LAST_PICK": "2021-04-29",
       "VELOCITY": "C",
-      "ABC": "A"
+      "ABC": "A",
+      "MAX_UNIT": 270,
+      "ACTUAL_UNIT": 270
    },
    {
       "LOC": "CP25175A01",
@@ -458,7 +516,9 @@ const data = [
       "DAYS_LAST_PICK": 18,
       "LAST_PICK": "2021-06-07",
       "VELOCITY": "C",
-      "ABC": "A"
+      "ABC": "A",
+      "MAX_UNIT": 270,
+      "ACTUAL_UNIT": 270
    },
    {
       "LOC": "CP25177A01",
@@ -473,7 +533,9 @@ const data = [
       "DAYS_LAST_PICK": 6,
       "LAST_PICK": "2021-06-19",
       "VELOCITY": "C",
-      "ABC": "A"
+      "ABC": "A",
+      "MAX_UNIT": 270,
+      "ACTUAL_UNIT": 270
    },
    {
       "LOC": "CP25179A01",
@@ -488,7 +550,9 @@ const data = [
       "DAYS_LAST_PICK": 2,
       "LAST_PICK": "2021-06-23",
       "VELOCITY": "",
-      "ABC": "A"
+      "ABC": "A",
+      "MAX_UNIT": 270,
+      "ACTUAL_UNIT": 270
    },
    {
       "LOC": "CP25181A01",
@@ -503,7 +567,9 @@ const data = [
       "DAYS_LAST_PICK": 18,
       "LAST_PICK": "2021-06-07",
       "VELOCITY": "C",
-      "ABC": "A"
+      "ABC": "A",
+      "MAX_UNIT": 270,
+      "ACTUAL_UNIT": 270
    },
    {
       "LOC": "CP25183A01",
@@ -518,7 +584,9 @@ const data = [
       "DAYS_LAST_PICK": 55,
       "LAST_PICK": "2021-04-30",
       "VELOCITY": "C",
-      "ABC": "A"
+      "ABC": "A",
+      "MAX_UNIT": 270,
+      "ACTUAL_UNIT": 270
    },
    {
       "LOC": "CP25185A01",
@@ -533,7 +601,9 @@ const data = [
       "DAYS_LAST_PICK": 2,
       "LAST_PICK": "2021-06-23",
       "VELOCITY": "C",
-      "ABC": "A"
+      "ABC": "A",
+      "MAX_UNIT": 270,
+      "ACTUAL_UNIT": 270
    },
    {
       "LOC": "CP25187A01",
@@ -548,7 +618,9 @@ const data = [
       "DAYS_LAST_PICK": 1,
       "LAST_PICK": "2021-06-24",
       "VELOCITY": "C",
-      "ABC": "A"
+      "ABC": "A",
+      "MAX_UNIT": 270,
+      "ACTUAL_UNIT": 270
    },
    {
       "LOC": "CP25189A01",
@@ -563,7 +635,9 @@ const data = [
       "DAYS_LAST_PICK": 56,
       "LAST_PICK": "2021-04-29",
       "VELOCITY": "B",
-      "ABC": "A"
+      "ABC": "A",
+      "MAX_UNIT": 270,
+      "ACTUAL_UNIT": 270
    },
    {
       "LOC": "CP25191A01",
@@ -578,7 +652,9 @@ const data = [
       "DAYS_LAST_PICK": 189,
       "LAST_PICK": "2020-12-16",
       "VELOCITY": "D",
-      "ABC": "C"
+      "ABC": "C",
+      "MAX_UNIT": 270,
+      "ACTUAL_UNIT": 270
    },
    {
       "LOC": "CP25121A01",
@@ -595,7 +671,9 @@ const data = [
       "DAYS_LAST_PICK": 6,
       "LAST_PICK": "2021-06-19",
       "VELOCITY": "C",
-      "ABC": "A"
+      "ABC": "A",
+      "MAX_UNIT": 270,
+      "ACTUAL_UNIT": 270
    },
    {
       "LOC": "CP25195A01",
@@ -610,7 +688,9 @@ const data = [
       "DAYS_LAST_PICK": 2,
       "LAST_PICK": "2021-06-23",
       "VELOCITY": "C",
-      "ABC": "A"
+      "ABC": "A",
+      "MAX_UNIT": 270,
+      "ACTUAL_UNIT": 270
    },
    {
       "LOC": "CP25119A01",
@@ -627,7 +707,9 @@ const data = [
       "DAYS_LAST_PICK": 1,
       "LAST_PICK": "2021-06-24",
       "VELOCITY": "B",
-      "ABC": "A"
+      "ABC": "A",
+      "MAX_UNIT": 270,
+      "ACTUAL_UNIT": 270
    },
    {
       "LOC": "CP25199A01",
@@ -642,7 +724,9 @@ const data = [
       "DAYS_LAST_PICK": 2,
       "LAST_PICK": "2021-06-23",
       "VELOCITY": "B",
-      "ABC": "A"
+      "ABC": "A",
+      "MAX_UNIT": 270,
+      "ACTUAL_UNIT": 270
    },
    {
       "LOC": "CP25205A01",
@@ -657,7 +741,9 @@ const data = [
       "DAYS_LAST_PICK": 1,
       "LAST_PICK": "2021-06-24",
       "VELOCITY": "C",
-      "ABC": "A"
+      "ABC": "A",
+      "MAX_UNIT": 270,
+      "ACTUAL_UNIT": 270
    },
    {
       "LOC": "CP25207A01",
@@ -672,7 +758,9 @@ const data = [
       "DAYS_LAST_PICK": 4,
       "LAST_PICK": "2021-06-21",
       "VELOCITY": "C",
-      "ABC": "A"
+      "ABC": "A",
+      "MAX_UNIT": 270,
+      "ACTUAL_UNIT": 270
    },
    {
       "LOC": "CP25209A01",
@@ -687,7 +775,9 @@ const data = [
       "DAYS_LAST_PICK": 7,
       "LAST_PICK": "2021-06-18",
       "VELOCITY": "C",
-      "ABC": "A"
+      "ABC": "A",
+      "MAX_UNIT": 270,
+      "ACTUAL_UNIT": 270
    },
    {
       "LOC": "CP25211A01",
@@ -702,7 +792,9 @@ const data = [
       "DAYS_LAST_PICK": 44,
       "LAST_PICK": "2021-05-11",
       "VELOCITY": "A",
-      "ABC": "A"
+      "ABC": "A",
+      "MAX_UNIT": 270,
+      "ACTUAL_UNIT": 270
    },
    {
       "LOC": "CP25213A01",
@@ -717,7 +809,9 @@ const data = [
       "DAYS_LAST_PICK": 73,
       "LAST_PICK": "2021-04-12",
       "VELOCITY": "B",
-      "ABC": "B"
+      "ABC": "B",
+      "MAX_UNIT": 270,
+      "ACTUAL_UNIT": 270
    },
    {
       "LOC": "CP25215A01",
@@ -732,7 +826,9 @@ const data = [
       "DAYS_LAST_PICK": 136,
       "LAST_PICK": "2021-02-09",
       "VELOCITY": "",
-      "ABC": "C"
+      "ABC": "C",
+      "MAX_UNIT": 270,
+      "ACTUAL_UNIT": 270
    },
    {
       "LOC": "CP25217A01",
@@ -747,7 +843,9 @@ const data = [
       "DAYS_LAST_PICK": 0,
       "LAST_PICK": "0000-00-00",
       "VELOCITY": "",
-      "ABC": "A"
+      "ABC": "A",
+      "MAX_UNIT": 270,
+      "ACTUAL_UNIT": 270
    },
    {
       "LOC": "CP25219A01",
@@ -762,7 +860,9 @@ const data = [
       "DAYS_LAST_PICK": 1,
       "LAST_PICK": "2021-06-24",
       "VELOCITY": "A",
-      "ABC": "A"
+      "ABC": "A",
+      "MAX_UNIT": 270,
+      "ACTUAL_UNIT": 270
    },
    {
       "LOC": "CP25221A01",
@@ -777,7 +877,9 @@ const data = [
       "DAYS_LAST_PICK": 157,
       "LAST_PICK": "2021-01-18",
       "VELOCITY": "",
-      "ABC": "C"
+      "ABC": "C",
+      "MAX_UNIT": 270,
+      "ACTUAL_UNIT": 270
    },
    {
       "LOC": "CP25223A01",
@@ -792,83 +894,9 @@ const data = [
       "DAYS_LAST_PICK": 150,
       "LAST_PICK": "2021-01-26",
       "VELOCITY": "",
-      "ABC": "C"
-   },
-   // {
-   //    "LOC": "CP25225A01",
-   //    "SKU": "5000196331",
-   //    "SKU_DESC": "LMN KCUP FT DUKALES BL 10CT RKC",
-   //    "SKU_TYPE": "BEVERAGE",
-   //    "LOT": "1005155188",
-   //    "EXPIRY": "2021-12-25",
-   //    "MAX_PALLETS": 1,
-   //    "ACTUAL_PALLETS": 1,
-   //    "TOBEPICK": 0,
-   //    "DAYS_LAST_PICK": 4,
-   //    "LAST_PICK": "2021-06-21",
-   //    "VELOCITY": "C",
-   //    "ABC": "A"
-   // },
-   // {
-   //    "LOC": "CP25227A01",
-   //    "SKU": "5000198105",
-   //    "SKU_DESC": "DSHP KCUP DK 6CT 8/CS",
-   //    "SKU_TYPE": "BEVERAGE",
-   //    "LOT": "8000005969",
-   //    "EXPIRY": "2021-07-07",
-   //    "MAX_PALLETS": 1,
-   //    "ACTUAL_PALLETS": 1,
-   //    "TOBEPICK": 0,
-   //    "DAYS_LAST_PICK": 54,
-   //    "LAST_PICK": "2021-05-01",
-   //    "VELOCITY": "C",
-   //    "ABC": "A"
-   // },
-   // {
-   //    "LOC": "CP25229A01",
-   //    "SKU": "",
-   //    "SKU_DESC": "",
-   //    "SKU_TYPE": "",
-   //    "LOT": "",
-   //    "EXPIRY": "",
-   //    "MAX_PALLETS": 1,
-   //    "ACTUAL_PALLETS": 0,
-   //    "TOBEPICK": 0,
-   //    "DAYS_LAST_PICK": 0,
-   //    "LAST_PICK": "0000-00-00",
-   //    "VELOCITY": "",
-   //    "ABC": "A"
-   // },
-   // {
-   //    "LOC": "CP25231A01",
-   //    "SKU": "5000056014",
-   //    "SKU_DESC": "KEUR KCUP NEO CAROUSEL BLACK",
-   //    "SKU_TYPE": "ACCESSORY",
-   //    "LOT": "",
-   //    "EXPIRY": "",
-   //    "MAX_PALLETS": 1,
-   //    "ACTUAL_PALLETS": 1,
-   //    "TOBEPICK": 0,
-   //    "DAYS_LAST_PICK": 2,
-   //    "LAST_PICK": "2021-06-23",
-   //    "VELOCITY": "C",
-   //    "ABC": "A"
-   // },
-   // {
-   //    "LOC": "CP25233A01",
-   //    "SKU": "5000051284",
-   //    "SKU_DESC": "DRIP TRAY B31 AQUA BLUE",
-   //    "SKU_TYPE": "OTHER",
-   //    "LOT": "",
-   //    "EXPIRY": "",
-   //    "MAX_PALLETS": 1,
-   //    "ACTUAL_PALLETS": 1,
-   //    "TOBEPICK": 0,
-   //    "DAYS_LAST_PICK": 94,
-   //    "LAST_PICK": "2021-03-21",
-   //    "VELOCITY": "D",
-   //    "ABC": "B"
-   // }
+      "ABC": "C",
+      "MAX_UNIT": 270,
+      "ACTUAL_UNIT": 270
+   }
 ]
-
 export default data;

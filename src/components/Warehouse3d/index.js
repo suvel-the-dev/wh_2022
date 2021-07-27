@@ -17,12 +17,14 @@ import _2deepSpaceList from '../../data/_2deepSpaceList'
 import _2deepPalletList from '../../data/_2deepPalletList'
 import optimized2DeepPalletList from '../../data/_2deepPalletList_opt'
 import displacementOptimized2DeepPalletList from '../../data/_2deepPalletList_dis_opt_2'
+import filledOptimized2DeepPalletList from '../../data/_2deepPalletList_filled_opt'
 
 import _1DeepSpaceAisle from '../_1DeepSpaceAisle'
 import _1deepSpaceList from '../../data/_1deepSpaceList'
 import _1deepPalletList from '../../data/_1deepPalletList'
 import optimized1DeepPalletList from '../../data/_1deepPalletList_opt'
 import displacementOptimized1DeepPalletList from '../../data/_1deepPalletList_dis_opt_2'
+import filledOptimized1DeepPalletList from '../../data/_1deepPalletList_filled_opt'
 
 
 import RackAisle from '../RackAisle'
@@ -30,6 +32,7 @@ import rackAisleList from '../../data/rackAisleList'
 import rackPalletList from '../../data/rackPalletList'
 import optimizedRackPalletList from '../../data/rackPalletList_opt'
 import displacementOptimizedRackList from '../../data/rackPalletList_dis_opt_2'
+import filledOptimizedRackPalletList from '../../data/rackPalletList_filled_opt'
 
 import DisplayScreen from '../DisplayScreen'
 
@@ -86,6 +89,12 @@ const Warehouse3d = () => {
                 _1: displacementOptimized1DeepPalletList,
                 _2: displacementOptimized2DeepPalletList,
                 rack: displacementOptimizedRackList
+            }
+        if (control.optimizationForm.OptimizationType === 'FIL')
+            return {
+                _1: filledOptimized1DeepPalletList,
+                _2: filledOptimized2DeepPalletList,
+                rack: filledOptimizedRackPalletList
             }
         else
             return { _1: _1deepPalletList, _2: _2deepPalletList, rack: rackPalletList }

@@ -15,7 +15,9 @@ export default ([
         "DAYS_LAST_PICK": 112,
         "LAST_PICK": "2021-03-03",
         "VELOCITY": "B",
-        "ABC": "C"
+        "ABC": "C",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "CP25166A01",
@@ -33,7 +35,9 @@ export default ([
         "DAYS_LAST_PICK": 30,
         "LAST_PICK": "2021-05-26",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "CP25168A01",
@@ -51,7 +55,9 @@ export default ([
         "DAYS_LAST_PICK": 10,
         "LAST_PICK": "2021-06-15",
         "VELOCITY": "D",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "CP25188A01",
@@ -69,7 +75,9 @@ export default ([
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "0000-00-00",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "CP25126A01",
@@ -84,7 +92,9 @@ export default ([
         "DAYS_LAST_PICK": 1,
         "LAST_PICK": "2021-06-24",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "CP25192A01",
@@ -102,12 +112,12 @@ export default ([
         "DAYS_LAST_PICK": 35,
         "LAST_PICK": "2021-05-20",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
-        "LOC": "CP25194A01",
         "LOC": "CP25130A01",
-        "SKU": "5000330024",
         "SKU": "5000330024",
         "SKU_DESC": "RKCPP TULL KCUP FR RST DECAF 24CT",
         "SKU_TYPE": "BEVERAGE",
@@ -119,7 +129,9 @@ export default ([
         "DAYS_LAST_PICK": 2,
         "LAST_PICK": "2021-06-23",
         "VELOCITY": "B",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "CP25212A01",
@@ -137,7 +149,9 @@ export default ([
         "DAYS_LAST_PICK": 15,
         "LAST_PICK": "2021-06-10",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "CP25134A01",
@@ -152,7 +166,9 @@ export default ([
         "DAYS_LAST_PICK": 2,
         "LAST_PICK": "2021-06-23",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "CP25136A01",
@@ -167,7 +183,9 @@ export default ([
         "DAYS_LAST_PICK": 3,
         "LAST_PICK": "2021-06-22",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "CP25138A01",
@@ -182,7 +200,9 @@ export default ([
         "DAYS_LAST_PICK": 9,
         "LAST_PICK": "2021-06-16",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "CP25140A01",
@@ -197,7 +217,9 @@ export default ([
         "DAYS_LAST_PICK": 37,
         "LAST_PICK": "2021-05-18",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "CP25142A01",
@@ -212,7 +234,9 @@ export default ([
         "DAYS_LAST_PICK": 3,
         "LAST_PICK": "2021-06-22",
         "VELOCITY": "D",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "CP25144A01",
@@ -227,7 +251,9 @@ export default ([
         "DAYS_LAST_PICK": 1,
         "LAST_PICK": "2021-06-24",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "CP25118A01",
@@ -244,7 +270,9 @@ export default ([
         "DAYS_LAST_PICK": 9,
         "LAST_PICK": "2021-06-16",
         "VELOCITY": "D",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "CP25148A01",
@@ -259,7 +287,9 @@ export default ([
         "DAYS_LAST_PICK": 3,
         "LAST_PICK": "2021-06-22",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "CP25150A01",
@@ -274,7 +304,9 @@ export default ([
         "DAYS_LAST_PICK": 8,
         "LAST_PICK": "2021-06-17",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "CP25152A01",
@@ -289,7 +321,9 @@ export default ([
         "DAYS_LAST_PICK": 2,
         "LAST_PICK": "2021-06-23",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "CP25154A01",
@@ -304,7 +338,9 @@ export default ([
         "DAYS_LAST_PICK": 22,
         "LAST_PICK": "2021-06-03",
         "VELOCITY": "B",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "CP25156A01",
@@ -319,7 +355,9 @@ export default ([
         "DAYS_LAST_PICK": 2,
         "LAST_PICK": "2021-06-23",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "CP25158A01",
@@ -334,7 +372,9 @@ export default ([
         "DAYS_LAST_PICK": 248,
         "LAST_PICK": "2020-10-17",
         "VELOCITY": "C",
-        "ABC": "D"
+        "ABC": "D",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "CP25160A01",
@@ -349,7 +389,9 @@ export default ([
         "DAYS_LAST_PICK": 2,
         "LAST_PICK": "2021-06-23",
         "VELOCITY": "A",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "CP25162A01",
@@ -364,7 +406,9 @@ export default ([
         "DAYS_LAST_PICK": 2,
         "LAST_PICK": "2021-06-23",
         "VELOCITY": "D",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "CP25164A01",
@@ -379,7 +423,9 @@ export default ([
         "DAYS_LAST_PICK": 42,
         "LAST_PICK": "2021-05-13",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "CP25120A01",
@@ -396,7 +442,9 @@ export default ([
         "DAYS_LAST_PICK": 23,
         "LAST_PICK": "2021-06-02",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "CP25122A01",
@@ -413,7 +461,9 @@ export default ([
         "DAYS_LAST_PICK": 9,
         "LAST_PICK": "2021-06-16",
         "VELOCITY": "A",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "CP25170A01",
@@ -428,7 +478,9 @@ export default ([
         "DAYS_LAST_PICK": 6,
         "LAST_PICK": "2021-06-19",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "CP25172A01",
@@ -443,7 +495,9 @@ export default ([
         "DAYS_LAST_PICK": 2,
         "LAST_PICK": "2021-06-23",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "CP25174A01",
@@ -458,7 +512,9 @@ export default ([
         "DAYS_LAST_PICK": 1,
         "LAST_PICK": "2021-06-24",
         "VELOCITY": "B",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "CP25176A01",
@@ -473,7 +529,9 @@ export default ([
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "0000-00-00",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "CP25178A01",
@@ -488,7 +546,9 @@ export default ([
         "DAYS_LAST_PICK": 24,
         "LAST_PICK": "2021-06-01",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "CP25180A01",
@@ -503,7 +563,9 @@ export default ([
         "DAYS_LAST_PICK": 3,
         "LAST_PICK": "2021-06-22",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "CP25182A01",
@@ -518,7 +580,9 @@ export default ([
         "DAYS_LAST_PICK": 164,
         "LAST_PICK": "2021-01-11",
         "VELOCITY": "B",
-        "ABC": "C"
+        "ABC": "C",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "CP25184A01",
@@ -533,7 +597,9 @@ export default ([
         "DAYS_LAST_PICK": 6,
         "LAST_PICK": "2021-06-19",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "CP25186A01",
@@ -548,7 +614,9 @@ export default ([
         "DAYS_LAST_PICK": 40,
         "LAST_PICK": "2021-05-15",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "CP25124A01",
@@ -565,7 +633,9 @@ export default ([
         "DAYS_LAST_PICK": 7,
         "LAST_PICK": "2021-06-18",
         "VELOCITY": "B",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "CP25190A01",
@@ -580,7 +650,9 @@ export default ([
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "0000-00-00",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "CP25128A01",
@@ -597,7 +669,9 @@ export default ([
         "DAYS_LAST_PICK": 7,
         "LAST_PICK": "2021-06-18",
         "VELOCITY": "D",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "CP25130A01",
@@ -614,7 +688,9 @@ export default ([
         "DAYS_LAST_PICK": 3,
         "LAST_PICK": "2021-06-22",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "CP25198A01",
@@ -629,7 +705,9 @@ export default ([
         "DAYS_LAST_PICK": 1,
         "LAST_PICK": "2021-06-24",
         "VELOCITY": "B",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "CP25200A01",
@@ -644,7 +722,9 @@ export default ([
         "DAYS_LAST_PICK": 3,
         "LAST_PICK": "2021-06-22",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "CP25202A01",
@@ -659,7 +739,9 @@ export default ([
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "0000-00-00",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "CP25204A01",
@@ -674,7 +756,9 @@ export default ([
         "DAYS_LAST_PICK": 4,
         "LAST_PICK": "2021-06-21",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "CP25206A01",
@@ -689,7 +773,9 @@ export default ([
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "0000-00-00",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "CP25208A01",
@@ -704,7 +790,9 @@ export default ([
         "DAYS_LAST_PICK": 6,
         "LAST_PICK": "2021-06-19",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "CP25210A01",
@@ -719,7 +807,9 @@ export default ([
         "DAYS_LAST_PICK": 1,
         "LAST_PICK": "2021-06-24",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "CP25132A01",
@@ -736,7 +826,9 @@ export default ([
         "DAYS_LAST_PICK": 2,
         "LAST_PICK": "2021-06-23",
         "VELOCITY": "D",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "CP25214A01",
@@ -751,7 +843,9 @@ export default ([
         "DAYS_LAST_PICK": 4,
         "LAST_PICK": "2021-06-21",
         "VELOCITY": "D",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "CP25216A01",
@@ -766,7 +860,9 @@ export default ([
         "DAYS_LAST_PICK": 2,
         "LAST_PICK": "2021-06-23",
         "VELOCITY": "A",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "CP25218A01",
@@ -781,7 +877,9 @@ export default ([
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "0000-00-00",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "CP25220A01",
@@ -796,7 +894,9 @@ export default ([
         "DAYS_LAST_PICK": 4,
         "LAST_PICK": "2021-06-21",
         "VELOCITY": "A",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "CP25222A01",
@@ -811,96 +911,8 @@ export default ([
         "DAYS_LAST_PICK": 127,
         "LAST_PICK": "2021-02-18",
         "VELOCITY": "C",
-        "ABC": "C"
-    },
-    // {
-    //     "LOC": "CP25224A01",
-    //     "SKU": "5000330121",
-    //     "SKU_DESC": "RKCPP CE KCUP MLK CHOCO HOT COCOA 2",
-    //     "SKU_TYPE": "BEVERAGE",
-    //     "LOT": "1008653230",
-    //     "EXPIRY": "2022-06-06",
-    //     "MAX_PALLETS": 1,
-    //     "ACTUAL_PALLETS": 1,
-    //     "TOBEPICK": 0,
-    //     "DAYS_LAST_PICK": 0,
-    //     "LAST_PICK": "0000-00-00",
-    //     "VELOCITY": "A",
-    //     "ABC": "A"
-    // },
-    // {
-    //     "LOC": "CP25226A01",
-    //     "SKU": "5000349803",
-    //     "SKU_DESC": "DW CLEANING TABLETS 12/CS",
-    //     "SKU_TYPE": "ACCESSORY",
-    //     "LOT": "8165009542",
-    //     "EXPIRY": "2022-07-08",
-    //     "MAX_PALLETS": 2,
-    //     "ACTUAL_PALLETS": 1,
-    //     "TOBEPICK": 0,
-    //     "DAYS_LAST_PICK": 61,
-    //     "LAST_PICK": "2021-04-24",
-    //     "VELOCITY": "C",
-    //     "ABC": "B"
-    // },
-    // {
-    //     "LOC": "CP25228A01",
-    //     "SKU": "5000341033",
-    //     "SKU_DESC": "KEUR BRWR K1500 192CT MED BUNDLE",
-    //     "SKU_TYPE": "APPLIANCE",
-    //     "LOT": "8165011062",
-    //     "EXPIRY": "2022-08-05",
-    //     "MAX_PALLETS": 1,
-    //     "ACTUAL_PALLETS": 1,
-    //     "TOBEPICK": 0,
-    //     "DAYS_LAST_PICK": 38,
-    //     "LAST_PICK": "2021-05-17",
-    //     "VELOCITY": "C",
-    //     "ABC": "A"
-    // },
-    // {
-    //     "LOC": "CP25230A01",
-    //     "SKU": "5000330079",
-    //     "SKU_DESC": "RKCPP KEUR EOC KCUP THE ORIG DECAF",
-    //     "SKU_TYPE": "BEVERAGE",
-    //     "LOT": "1008676951",
-    //     "EXPIRY": "2022-06-11",
-    //     "MAX_PALLETS": 2,
-    //     "ACTUAL_PALLETS": 1,
-    //     "TOBEPICK": 0,
-    //     "DAYS_LAST_PICK": 1,
-    //     "LAST_PICK": "2021-06-24",
-    //     "VELOCITY": "B",
-    //     "ABC": "A"
-    // },
-    // {
-    //     "LOC": "CP25232A01",
-    //     "SKU": "5000341543",
-    //     "SKU_DESC": "KEUR BRWR KELIT BRSH SLT REFURB KIT",
-    //     "SKU_TYPE": "APPLIANCE",
-    //     "LOT": "8165011116",
-    //     "EXPIRY": "2031-05-11",
-    //     "MAX_PALLETS": 2,
-    //     "ACTUAL_PALLETS": 1,
-    //     "TOBEPICK": 0,
-    //     "DAYS_LAST_PICK": 0,
-    //     "LAST_PICK": "0000-00-00",
-    //     "VELOCITY": "C",
-    //     "ABC": "A"
-    // },
-    // {
-    //     "LOC": "CP25234A01",
-    //     "SKU": "5000330815",
-    //     "SKU_DESC": "RKCPP REVV KCUP TURBOCHARGER COFF 2",
-    //     "SKU_TYPE": "BEVERAGE",
-    //     "LOT": "1008607408",
-    //     "EXPIRY": "2023-05-30",
-    //     "MAX_PALLETS": 1,
-    //     "ACTUAL_PALLETS": 1,
-    //     "TOBEPICK": 32,
-    //     "DAYS_LAST_PICK": 1,
-    //     "LAST_PICK": "2021-06-24",
-    //     "VELOCITY": "C",
-    //     "ABC": "A"
-    // }
+        "ABC": "C",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
+    }
 ])

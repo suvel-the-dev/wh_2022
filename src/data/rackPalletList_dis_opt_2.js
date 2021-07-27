@@ -14,7 +14,9 @@ const data = [
         "VELOCITY": "D",
         "ABC": "A",
         "PRE_LOC": "RR24095A02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24061B01",
@@ -31,7 +33,9 @@ const data = [
         "VELOCITY": "B",
         "ABC": "A",
         "PRE_LOC": "RR24061A02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24061C01",
@@ -48,7 +52,9 @@ const data = [
         "VELOCITY": "A",
         "ABC": "A",
         "PRE_LOC": "RR24061B01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24061D01",
@@ -65,7 +71,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24061B02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24061E01",
@@ -82,7 +90,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24061C01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24061F01",
@@ -99,7 +109,9 @@ const data = [
         "VELOCITY": "B",
         "ABC": "A",
         "PRE_LOC": "RR24061C02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24061A02",
@@ -116,7 +128,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24061D01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24061B02",
@@ -133,7 +147,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24061D02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24061C02",
@@ -150,7 +166,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24071C01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24061D02",
@@ -167,7 +185,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24071D01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24061E02",
@@ -184,7 +204,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24091B02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24061F02",
@@ -201,7 +223,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24097B02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24063A01",
@@ -218,7 +242,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24097D01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24063B01",
@@ -235,7 +261,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24111B02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24063C01",
@@ -252,7 +280,9 @@ const data = [
         "VELOCITY": "B",
         "ABC": "A",
         "PRE_LOC": "RR24061E01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24063D01",
@@ -269,7 +299,9 @@ const data = [
         "VELOCITY": "B",
         "ABC": "A",
         "PRE_LOC": "RR24091E02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24063E01",
@@ -286,7 +318,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24061E02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24063F01",
@@ -303,7 +337,9 @@ const data = [
         "VELOCITY": "D",
         "ABC": "A",
         "PRE_LOC": "RR24061F01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24063A02",
@@ -320,7 +356,9 @@ const data = [
         "VELOCITY": "A",
         "ABC": "A",
         "PRE_LOC": "RR24061F02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24063B02",
@@ -337,7 +375,9 @@ const data = [
         "VELOCITY": "A",
         "ABC": "A",
         "PRE_LOC": "RR24063F02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24063C02",
@@ -354,7 +394,9 @@ const data = [
         "VELOCITY": "A",
         "ABC": "A",
         "PRE_LOC": "RR24069C01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24063D02",
@@ -371,7 +413,9 @@ const data = [
         "VELOCITY": "A",
         "ABC": "A",
         "PRE_LOC": "RR24101F01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24063E02",
@@ -388,7 +432,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24063A01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24063F02",
@@ -405,7 +451,9 @@ const data = [
         "VELOCITY": "B",
         "ABC": "A",
         "PRE_LOC": "RR24063A02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24065A01",
@@ -422,7 +470,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24063B01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24065B01",
@@ -439,7 +489,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24067D02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24065C01",
@@ -456,7 +508,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24077D01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24065D01",
@@ -473,7 +527,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24083B02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24065E01",
@@ -490,7 +546,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24109D02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24065F01",
@@ -507,7 +565,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24063B02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24065A02",
@@ -524,7 +584,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24063C01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24065B02",
@@ -541,7 +603,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24089F01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24065C02",
@@ -558,7 +622,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24113C01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24065D02",
@@ -575,7 +641,9 @@ const data = [
         "VELOCITY": "D",
         "ABC": "A",
         "PRE_LOC": "RR24063C02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24065E02",
@@ -592,7 +660,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24063D01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24065F02",
@@ -609,7 +679,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24069D02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24067A01",
@@ -626,7 +698,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24063D02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24067B01",
@@ -643,7 +717,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24063E01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24067C01",
@@ -660,7 +736,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24069E02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24067D01",
@@ -677,7 +755,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24081E02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24067E01",
@@ -694,7 +774,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24085D01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24067F01",
@@ -711,7 +793,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24063E02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24067A02",
@@ -728,7 +812,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24073C02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24067B02",
@@ -745,7 +831,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24093F01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24067C02",
@@ -762,7 +850,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24113B02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24067D02",
@@ -779,7 +869,9 @@ const data = [
         "VELOCITY": "B",
         "ABC": "A",
         "PRE_LOC": "RR24063F01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24067E02",
@@ -796,7 +888,9 @@ const data = [
         "VELOCITY": "B",
         "ABC": "C",
         "PRE_LOC": "RR24065A01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24067F02",
@@ -813,7 +907,9 @@ const data = [
         "VELOCITY": "D",
         "ABC": "D",
         "PRE_LOC": "RR24065A02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24069A01",
@@ -830,7 +926,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24065B01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24069B01",
@@ -847,7 +945,9 @@ const data = [
         "VELOCITY": "A",
         "ABC": "A",
         "PRE_LOC": "RR24065B02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24069C01",
@@ -864,7 +964,9 @@ const data = [
         "VELOCITY": "A",
         "ABC": "A",
         "PRE_LOC": "RR24077E01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24069D01",
@@ -881,7 +983,9 @@ const data = [
         "VELOCITY": "A",
         "ABC": "A",
         "PRE_LOC": "RR24097C01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24069E01",
@@ -898,7 +1002,9 @@ const data = [
         "VELOCITY": "A",
         "ABC": "A",
         "PRE_LOC": "RR24105C01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24069F01",
@@ -915,7 +1021,9 @@ const data = [
         "VELOCITY": "A",
         "ABC": "A",
         "PRE_LOC": "RR24109E02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24069A02",
@@ -932,7 +1040,9 @@ const data = [
         "VELOCITY": "A",
         "ABC": "A",
         "PRE_LOC": "RR24065C01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24069B02",
@@ -949,7 +1059,9 @@ const data = [
         "VELOCITY": "A",
         "ABC": "A",
         "PRE_LOC": "RR24071D02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24069C02",
@@ -966,7 +1078,9 @@ const data = [
         "VELOCITY": "A",
         "ABC": "A",
         "PRE_LOC": "RR24077C02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24069D02",
@@ -983,7 +1097,9 @@ const data = [
         "VELOCITY": "A",
         "ABC": "A",
         "PRE_LOC": "RR24065C02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24069E02",
@@ -1000,7 +1116,9 @@ const data = [
         "VELOCITY": "A",
         "ABC": "A",
         "PRE_LOC": "RR24075C02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24069F02",
@@ -1017,7 +1135,9 @@ const data = [
         "VELOCITY": "A",
         "ABC": "A",
         "PRE_LOC": "RR24091C02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24071A01",
@@ -1034,7 +1154,9 @@ const data = [
         "VELOCITY": "A",
         "ABC": "A",
         "PRE_LOC": "RR24101D01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24071B01",
@@ -1051,7 +1173,9 @@ const data = [
         "VELOCITY": "A",
         "ABC": "A",
         "PRE_LOC": "RR24107B01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24071C01",
@@ -1068,7 +1192,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24065D01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24071D01",
@@ -1085,7 +1211,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24077F01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24071E01",
@@ -1102,7 +1230,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24065D02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24071F01",
@@ -1119,7 +1249,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24071B01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24071A02",
@@ -1136,7 +1268,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24065E01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24071B02",
@@ -1153,7 +1287,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24065E02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24071C02",
@@ -1170,7 +1306,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24071E02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24071D02",
@@ -1187,7 +1325,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24073E01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24071E02",
@@ -1204,7 +1344,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24065F01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24071F02",
@@ -1221,7 +1363,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24109B01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24073A01",
@@ -1238,7 +1382,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24113C02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24073B01",
@@ -1255,7 +1401,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24065F02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24073C01",
@@ -1272,7 +1420,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "C",
         "PRE_LOC": "CP25119A01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24073D01",
@@ -1289,7 +1439,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "D",
         "PRE_LOC": "RR24067A01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24073E01",
@@ -1306,7 +1458,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "C",
         "PRE_LOC": "RR24067A02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24073F01",
@@ -1323,7 +1477,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24067B01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24073A02",
@@ -1340,7 +1496,9 @@ const data = [
         "VELOCITY": "A",
         "ABC": "A",
         "PRE_LOC": "RR24067B02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24073B02",
@@ -1357,7 +1515,9 @@ const data = [
         "VELOCITY": "B",
         "ABC": "A",
         "PRE_LOC": "RR24067C01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24073C02",
@@ -1374,7 +1534,9 @@ const data = [
         "VELOCITY": "A",
         "ABC": "A",
         "PRE_LOC": "RR24067C02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24073D02",
@@ -1391,7 +1553,9 @@ const data = [
         "VELOCITY": "A",
         "ABC": "A",
         "PRE_LOC": "RR24079C02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24073E02",
@@ -1408,7 +1572,9 @@ const data = [
         "VELOCITY": "A",
         "ABC": "A",
         "PRE_LOC": "RR24083E01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24073F02",
@@ -1425,7 +1591,9 @@ const data = [
         "VELOCITY": "A",
         "ABC": "A",
         "PRE_LOC": "RR24087C01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24075A01",
@@ -1442,7 +1610,9 @@ const data = [
         "VELOCITY": "A",
         "ABC": "A",
         "PRE_LOC": "RR24099B01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24075B01",
@@ -1459,7 +1629,9 @@ const data = [
         "VELOCITY": "A",
         "ABC": "A",
         "PRE_LOC": "RR24113D02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24075C01",
@@ -1476,7 +1648,9 @@ const data = [
         "VELOCITY": "A",
         "ABC": "A",
         "PRE_LOC": "RR24067D01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24075D01",
@@ -1493,7 +1667,9 @@ const data = [
         "VELOCITY": "A",
         "ABC": "A",
         "PRE_LOC": "RR24089C01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24075E01",
@@ -1510,7 +1686,9 @@ const data = [
         "VELOCITY": "A",
         "ABC": "A",
         "PRE_LOC": "RR24097E01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24075F01",
@@ -1527,7 +1705,9 @@ const data = [
         "VELOCITY": "A",
         "ABC": "A",
         "PRE_LOC": "RR24113E01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24075A02",
@@ -1544,7 +1724,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24067E01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24075B02",
@@ -1561,7 +1743,9 @@ const data = [
         "VELOCITY": "A",
         "ABC": "A",
         "PRE_LOC": "RR24067E02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24075C02",
@@ -1578,7 +1762,9 @@ const data = [
         "VELOCITY": "B",
         "ABC": "A",
         "PRE_LOC": "RR24067F01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24075D02",
@@ -1595,7 +1781,9 @@ const data = [
         "VELOCITY": "D",
         "ABC": "A",
         "PRE_LOC": "RR24067F02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24075E02",
@@ -1612,7 +1800,9 @@ const data = [
         "VELOCITY": "D",
         "ABC": "A",
         "PRE_LOC": "RR24069A01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24075F02",
@@ -1629,7 +1819,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24069A02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24077A01",
@@ -1646,7 +1838,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24069B01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24077B01",
@@ -1663,7 +1857,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24069B02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24077C01",
@@ -1680,7 +1876,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24083C01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24077D01",
@@ -1697,7 +1895,9 @@ const data = [
         "VELOCITY": "D",
         "ABC": "A",
         "PRE_LOC": "RR24069C02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24077E01",
@@ -1714,7 +1914,9 @@ const data = [
         "VELOCITY": "A",
         "ABC": "A",
         "PRE_LOC": "RR24069D01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24077F01",
@@ -1731,7 +1933,9 @@ const data = [
         "VELOCITY": "B",
         "ABC": "A",
         "PRE_LOC": "RR24069E01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24077A02",
@@ -1748,7 +1952,9 @@ const data = [
         "VELOCITY": "B",
         "ABC": "A",
         "PRE_LOC": "RR24095C01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24077B02",
@@ -1765,7 +1971,9 @@ const data = [
         "VELOCITY": "A",
         "ABC": "A",
         "PRE_LOC": "RR24069F01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24077C02",
@@ -1782,7 +1990,9 @@ const data = [
         "VELOCITY": "A",
         "ABC": "A",
         "PRE_LOC": "RR24075F01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24077D02",
@@ -1799,7 +2009,9 @@ const data = [
         "VELOCITY": "A",
         "ABC": "A",
         "PRE_LOC": "RR24107D01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24077E02",
@@ -1816,7 +2028,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24069F02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24077F02",
@@ -1833,7 +2047,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24091F01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24079A01",
@@ -1850,7 +2066,9 @@ const data = [
         "VELOCITY": "D",
         "ABC": "D",
         "PRE_LOC": "RR24071A01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24079B01",
@@ -1867,7 +2085,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "D",
         "PRE_LOC": "RR24071A02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24079C01",
@@ -1884,7 +2104,9 @@ const data = [
         "VELOCITY": "A",
         "ABC": "A",
         "PRE_LOC": "RR24071B02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24079D01",
@@ -1901,7 +2123,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24071C02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24079E01",
@@ -1918,7 +2142,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24071E01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24079F01",
@@ -1935,7 +2161,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24071F01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24079A02",
@@ -1952,7 +2180,9 @@ const data = [
         "VELOCITY": "D",
         "ABC": "A",
         "PRE_LOC": "RR24071F02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24079B02",
@@ -1969,7 +2199,9 @@ const data = [
         "VELOCITY": "D",
         "ABC": "A",
         "PRE_LOC": "RR24073F02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24079C02",
@@ -1986,7 +2218,9 @@ const data = [
         "VELOCITY": "D",
         "ABC": "A",
         "PRE_LOC": "RR24081F02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24079D02",
@@ -2003,7 +2237,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24073A01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24079E02",
@@ -2020,7 +2256,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "B",
         "PRE_LOC": "RR24073A02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24079F02",
@@ -2037,7 +2275,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24073B01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24081A01",
@@ -2054,7 +2294,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24073B02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24081B01",
@@ -2071,7 +2313,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24073C01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24081C01",
@@ -2088,7 +2332,9 @@ const data = [
         "VELOCITY": "A",
         "ABC": "A",
         "PRE_LOC": "RR24073D01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24081D01",
@@ -2105,7 +2351,9 @@ const data = [
         "VELOCITY": "A",
         "ABC": "A",
         "PRE_LOC": "RR24089E02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24081E01",
@@ -2122,7 +2370,9 @@ const data = [
         "VELOCITY": "B",
         "ABC": "A",
         "PRE_LOC": "RR24073E02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24081F01",
@@ -2139,7 +2389,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24073F01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24081A02",
@@ -2156,7 +2408,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "B",
         "PRE_LOC": "CP25159A01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24081B02",
@@ -2173,7 +2427,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "CP25178A01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24081C02",
@@ -2190,7 +2446,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "D",
         "PRE_LOC": "RR24075A01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24081D02",
@@ -2207,7 +2465,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "D",
         "PRE_LOC": "RR24075A02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24081E02",
@@ -2224,7 +2484,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24075B01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24081F02",
@@ -2241,7 +2503,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24075B02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24083A01",
@@ -2258,7 +2522,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24079A01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24083B01",
@@ -2275,7 +2541,9 @@ const data = [
         "VELOCITY": "A",
         "ABC": "A",
         "PRE_LOC": "RR24075C01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24083C01",
@@ -2292,7 +2560,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24075D01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24083D01",
@@ -2309,7 +2579,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24075D02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24083E01",
@@ -2326,7 +2598,9 @@ const data = [
         "VELOCITY": "D",
         "ABC": "A",
         "PRE_LOC": "RR24075E01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24083F01",
@@ -2343,7 +2617,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24075E02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24083A02",
@@ -2360,7 +2636,9 @@ const data = [
         "VELOCITY": "B",
         "ABC": "A",
         "PRE_LOC": "RR24075F02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24083B02",
@@ -2377,7 +2655,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24077A01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24083C02",
@@ -2394,7 +2674,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24077A02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24083D02",
@@ -2411,7 +2693,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "CP25209A01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24083E02",
@@ -2428,7 +2712,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24077B01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24083F02",
@@ -2445,7 +2731,9 @@ const data = [
         "VELOCITY": "D",
         "ABC": "A",
         "PRE_LOC": "RR24077B02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24085A01",
@@ -2462,7 +2750,9 @@ const data = [
         "VELOCITY": "D",
         "ABC": "A",
         "PRE_LOC": "RR24087D02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24085B01",
@@ -2479,7 +2769,9 @@ const data = [
         "VELOCITY": "D",
         "ABC": "A",
         "PRE_LOC": "RR24095D02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24085C01",
@@ -2496,7 +2788,9 @@ const data = [
         "VELOCITY": "D",
         "ABC": "A",
         "PRE_LOC": "CP25162A01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24085D01",
@@ -2513,7 +2807,9 @@ const data = [
         "DAYS_LAST_PICK": 2,
         "LAST_PICK": "2021-06-23",
         "VELOCITY": "D",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24085E01",
@@ -2530,7 +2826,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24077C01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24085F01",
@@ -2547,7 +2845,9 @@ const data = [
         "VELOCITY": "D",
         "ABC": "A",
         "PRE_LOC": "RR24077D02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24085A02",
@@ -2564,7 +2864,9 @@ const data = [
         "VELOCITY": "D",
         "ABC": "A",
         "PRE_LOC": "RR24091D02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24085B02",
@@ -2581,7 +2883,9 @@ const data = [
         "VELOCITY": "D",
         "ABC": "A",
         "PRE_LOC": "RR24101E02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24085C02",
@@ -2598,7 +2902,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24077E02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24085D02",
@@ -2615,7 +2921,9 @@ const data = [
         "VELOCITY": "A",
         "ABC": "A",
         "PRE_LOC": "RR24077F02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24085E02",
@@ -2632,7 +2940,9 @@ const data = [
         "VELOCITY": "A",
         "ABC": "A",
         "PRE_LOC": "RR24091C01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24085F02",
@@ -2649,7 +2959,9 @@ const data = [
         "VELOCITY": "A",
         "ABC": "A",
         "PRE_LOC": "RR24093B02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24087A01",
@@ -2666,7 +2978,9 @@ const data = [
         "VELOCITY": "A",
         "ABC": "A",
         "PRE_LOC": "RR24109C01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24087B01",
@@ -2683,7 +2997,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "D",
         "PRE_LOC": "RR24079A02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24087C01",
@@ -2700,7 +3016,9 @@ const data = [
         "VELOCITY": "A",
         "ABC": "A",
         "PRE_LOC": "RR24079B01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24087D01",
@@ -2717,7 +3035,9 @@ const data = [
         "VELOCITY": "A",
         "ABC": "A",
         "PRE_LOC": "RR24085C02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24087E01",
@@ -2734,7 +3054,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24079B02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24087F01",
@@ -2751,7 +3073,9 @@ const data = [
         "VELOCITY": "A",
         "ABC": "A",
         "PRE_LOC": "RR24079C01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24087A02",
@@ -2768,7 +3092,9 @@ const data = [
         "VELOCITY": "A",
         "ABC": "A",
         "PRE_LOC": "RR24087B01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24087B02",
@@ -2785,7 +3111,9 @@ const data = [
         "VELOCITY": "A",
         "ABC": "A",
         "PRE_LOC": "RR24087F01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24087C02",
@@ -2802,7 +3130,9 @@ const data = [
         "VELOCITY": "A",
         "ABC": "A",
         "PRE_LOC": "RR24109B02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24087D02",
@@ -2819,7 +3149,9 @@ const data = [
         "VELOCITY": "A",
         "ABC": "A",
         "PRE_LOC": "RR24111D01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24087E02",
@@ -2836,7 +3168,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24079D01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24087F02",
@@ -2853,7 +3187,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24079D02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24089A01",
@@ -2870,7 +3206,9 @@ const data = [
         "VELOCITY": "A",
         "ABC": "A",
         "PRE_LOC": "RR24079E01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24089B01",
@@ -2887,7 +3225,9 @@ const data = [
         "VELOCITY": "A",
         "ABC": "A",
         "PRE_LOC": "RR24099C02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24089C01",
@@ -2904,7 +3244,9 @@ const data = [
         "VELOCITY": "A",
         "ABC": "A",
         "PRE_LOC": "RR24101C01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24089D01",
@@ -2921,7 +3263,9 @@ const data = [
         "VELOCITY": "A",
         "ABC": "A",
         "PRE_LOC": "RR24105D02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24089E01",
@@ -2938,7 +3282,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24079E02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24089F01",
@@ -2955,7 +3301,9 @@ const data = [
         "VELOCITY": "D",
         "ABC": "A",
         "PRE_LOC": "RR24079F01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24089A02",
@@ -2972,7 +3320,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24079F02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24089B02",
@@ -2989,7 +3339,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "D",
         "PRE_LOC": "RR24081A01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24089C02",
@@ -3006,7 +3358,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "D",
         "PRE_LOC": "RR24081A02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24089D02",
@@ -3023,7 +3377,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24081B01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24089E02",
@@ -3040,7 +3396,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24111E02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24089F02",
@@ -3057,7 +3415,9 @@ const data = [
         "VELOCITY": "B",
         "ABC": "A",
         "PRE_LOC": "RR24081B02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24091A01",
@@ -3074,7 +3434,9 @@ const data = [
         "VELOCITY": "AB",
         "ABC": "A",
         "PRE_LOC": "RR24081C01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24091B01",
@@ -3091,7 +3453,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24081C02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24091C01",
@@ -3108,7 +3472,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24081D01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24091D01",
@@ -3125,7 +3491,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24107F02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24091E01",
@@ -3142,7 +3510,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24081D02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24091F01",
@@ -3159,7 +3529,9 @@ const data = [
         "VELOCITY": "A",
         "ABC": "A",
         "PRE_LOC": "RR24081E01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24091A02",
@@ -3176,7 +3548,9 @@ const data = [
         "VELOCITY": "A",
         "ABC": "A",
         "PRE_LOC": "RR24101B02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24091B02",
@@ -3193,7 +3567,9 @@ const data = [
         "VELOCITY": "A",
         "ABC": "A",
         "PRE_LOC": "CP25216A01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24091C02",
@@ -3210,7 +3586,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24081F01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24091D02",
@@ -3227,7 +3605,9 @@ const data = [
         "VELOCITY": "D",
         "ABC": "A",
         "PRE_LOC": "RR24083A01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24091E02",
@@ -3244,7 +3624,9 @@ const data = [
         "VELOCITY": "B",
         "ABC": "A",
         "PRE_LOC": "RR24083A02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24091F02",
@@ -3261,7 +3643,9 @@ const data = [
         "VELOCITY": "B",
         "ABC": "A",
         "PRE_LOC": "RR24083B01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24093A01",
@@ -3278,7 +3662,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24083C02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24093B01",
@@ -3295,7 +3681,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24083D01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24093C01",
@@ -3312,7 +3700,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24083D02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24093D01",
@@ -3329,7 +3719,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24087B02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24093E01",
@@ -3346,7 +3738,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24087C02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24093F01",
@@ -3363,7 +3757,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24099D02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24093A02",
@@ -3380,7 +3776,9 @@ const data = [
         "VELOCITY": "A",
         "ABC": "A",
         "PRE_LOC": "RR24083E02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24093B02",
@@ -3397,7 +3795,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24083F01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24093C02",
@@ -3414,7 +3814,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24083F02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24093D02",
@@ -3431,7 +3833,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "D",
         "PRE_LOC": "RR24085A01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24093E02",
@@ -3448,7 +3852,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24103F02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24093F02",
@@ -3465,7 +3871,9 @@ const data = [
         "VELOCITY": "D",
         "ABC": "A",
         "PRE_LOC": "RR24085A02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24095A01",
@@ -3482,7 +3890,9 @@ const data = [
         "VELOCITY": "A",
         "ABC": "A",
         "PRE_LOC": "RR24085B01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24095B01",
@@ -3499,7 +3909,9 @@ const data = [
         "VELOCITY": "A",
         "ABC": "A",
         "PRE_LOC": "RR24085B02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24095C01",
@@ -3516,7 +3928,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24085C01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24095D01",
@@ -3533,7 +3947,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24085D02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24095E01",
@@ -3550,7 +3966,9 @@ const data = [
         "VELOCITY": "D",
         "ABC": "A",
         "PRE_LOC": "RR24085E01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24095F01",
@@ -3567,7 +3985,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24085E02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24095A02",
@@ -3584,7 +4004,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24085F01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24095B02",
@@ -3601,7 +4023,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24103C02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24095C02",
@@ -3618,7 +4042,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "CP25136A01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24095D02",
@@ -3635,7 +4061,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24085F02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24095E02",
@@ -3652,7 +4080,9 @@ const data = [
         "VELOCITY": "D",
         "ABC": "A",
         "PRE_LOC": "RR24087A01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24095F02",
@@ -3669,7 +4099,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "D",
         "PRE_LOC": "RR24087A02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24097A01",
@@ -3686,7 +4118,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24087D01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24097B01",
@@ -3703,7 +4137,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24087E01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24097C01",
@@ -3720,7 +4156,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24087E02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24097D01",
@@ -3737,7 +4175,9 @@ const data = [
         "VELOCITY": "A",
         "ABC": "A",
         "PRE_LOC": "RR24087F02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24097E01",
@@ -3754,7 +4194,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24089A01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24097F01",
@@ -3771,7 +4213,9 @@ const data = [
         "VELOCITY": "A",
         "ABC": "A",
         "PRE_LOC": "RR24089A02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24097A02",
@@ -3788,7 +4232,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24089B01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24097B02",
@@ -3805,7 +4251,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24095F02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24097C02",
@@ -3822,7 +4270,9 @@ const data = [
         "VELOCITY": "B",
         "ABC": "A",
         "PRE_LOC": "RR24089B02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24097D02",
@@ -3839,7 +4289,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24089C02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24097E02",
@@ -3856,7 +4308,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24089D01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24097F02",
@@ -3873,7 +4327,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24089D02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24099A01",
@@ -3890,7 +4346,9 @@ const data = [
         "VELOCITY": "B",
         "ABC": "A",
         "PRE_LOC": "RR24089E01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24099B01",
@@ -3907,7 +4365,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24089F02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24099C01",
@@ -3924,7 +4384,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "D",
         "PRE_LOC": "RR24091A01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24099D01",
@@ -3941,7 +4403,9 @@ const data = [
         "VELOCITY": "B",
         "ABC": "D",
         "PRE_LOC": "RR24091A02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24099E01",
@@ -3958,7 +4422,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24091B01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24099F01",
@@ -3975,7 +4441,9 @@ const data = [
         "VELOCITY": "B",
         "ABC": "A",
         "PRE_LOC": "RR24091D01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24099A02",
@@ -3992,7 +4460,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24091E01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24099B02",
@@ -4009,7 +4479,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24103F01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24099C02",
@@ -4026,7 +4498,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24091F02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24099D02",
@@ -4043,7 +4517,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24093A01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24099E02",
@@ -4060,7 +4536,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "D",
         "PRE_LOC": "RR24093A02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24099F02",
@@ -4077,7 +4555,9 @@ const data = [
         "VELOCITY": "A",
         "ABC": "A",
         "PRE_LOC": "RR24093B01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24101A01",
@@ -4094,7 +4574,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24093C01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24101B01",
@@ -4111,7 +4593,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24093C02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24101C01",
@@ -4128,7 +4612,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24093D01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24101D01",
@@ -4145,7 +4631,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24099D01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24101E01",
@@ -4162,7 +4650,9 @@ const data = [
         "VELOCITY": "A",
         "ABC": "A",
         "PRE_LOC": "RR24093D02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24101F01",
@@ -4179,7 +4669,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24093E01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24101A02",
@@ -4196,7 +4688,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24093E02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24101B02",
@@ -4213,7 +4707,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24093F02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24101C02",
@@ -4230,7 +4726,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24095B01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24101D02",
@@ -4247,7 +4745,9 @@ const data = [
         "VELOCITY": "A",
         "ABC": "A",
         "PRE_LOC": "RR24095A01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24101E02",
@@ -4264,7 +4764,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24061A01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24101F02",
@@ -4281,7 +4783,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24095B02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24103A01",
@@ -4298,7 +4802,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24095E01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24103B01",
@@ -4315,7 +4821,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24095C02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24103C01",
@@ -4332,7 +4840,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24095D01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24103D01",
@@ -4349,7 +4859,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24095E02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24103E01",
@@ -4366,7 +4878,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24095F01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24103F01",
@@ -4383,7 +4897,9 @@ const data = [
         "VELOCITY": "AB",
         "ABC": "D",
         "PRE_LOC": "RR24097A01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24103A02",
@@ -4400,7 +4916,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24097A02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24103B02",
@@ -4417,7 +4935,9 @@ const data = [
         "VELOCITY": "B",
         "ABC": "A",
         "PRE_LOC": "RR24097B01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24103C02",
@@ -4434,7 +4954,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24097C02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24103D02",
@@ -4451,7 +4973,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24097D02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24103E02",
@@ -4468,7 +4992,9 @@ const data = [
         "VELOCITY": "B",
         "ABC": "A",
         "PRE_LOC": "RR24097E02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24103F02",
@@ -4485,7 +5011,9 @@ const data = [
         "VELOCITY": "D",
         "ABC": "A",
         "PRE_LOC": "RR24097F01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24105A01",
@@ -4502,7 +5030,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24097F02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24105B01",
@@ -4519,7 +5049,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "CP25126A01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24105C01",
@@ -4536,7 +5068,9 @@ const data = [
         "VELOCITY": "B",
         "ABC": "D",
         "PRE_LOC": "RR24099A01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24105D01",
@@ -4553,7 +5087,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "C",
         "PRE_LOC": "RR24099A02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24105E01",
@@ -4570,7 +5106,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24099B02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24105F01",
@@ -4587,7 +5125,9 @@ const data = [
         "VELOCITY": "A",
         "ABC": "A",
         "PRE_LOC": "RR24099C01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24105A02",
@@ -4604,7 +5144,9 @@ const data = [
         "VELOCITY": "A",
         "ABC": "A",
         "PRE_LOC": "CP25160A01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24105B02",
@@ -4621,7 +5163,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24099E01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24105C02",
@@ -4638,7 +5182,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24099E02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24105D02",
@@ -4655,7 +5201,9 @@ const data = [
         "VELOCITY": "B",
         "ABC": "A",
         "PRE_LOC": "RR24099F01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24105E02",
@@ -4672,7 +5220,9 @@ const data = [
         "VELOCITY": "B",
         "ABC": "A",
         "PRE_LOC": "CP25154A01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24105F02",
@@ -4689,7 +5239,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24099F02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24107A01",
@@ -4706,7 +5258,9 @@ const data = [
         "VELOCITY": "D",
         "ABC": "A",
         "PRE_LOC": "RR24101A01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24107B01",
@@ -4723,7 +5277,9 @@ const data = [
         "VELOCITY": "B",
         "ABC": "D",
         "PRE_LOC": "RR24101A02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24107C01",
@@ -4740,7 +5296,9 @@ const data = [
         "VELOCITY": "B",
         "ABC": "A",
         "PRE_LOC": "RR24101B01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24107D01",
@@ -4757,7 +5315,9 @@ const data = [
         "VELOCITY": "B",
         "ABC": "A",
         "PRE_LOC": "RR24101C02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24107E01",
@@ -4774,7 +5334,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24101D02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24107F01",
@@ -4791,7 +5353,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24101E01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24107A02",
@@ -4808,7 +5372,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "CP25170A01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24107B02",
@@ -4825,7 +5391,9 @@ const data = [
         "VELOCITY": "B",
         "ABC": "A",
         "PRE_LOC": "RR24101F02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24107C02",
@@ -4842,7 +5410,9 @@ const data = [
         "VELOCITY": "D",
         "ABC": "A",
         "PRE_LOC": "RR24103A01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24107D02",
@@ -4859,7 +5429,9 @@ const data = [
         "VELOCITY": "B",
         "ABC": "D",
         "PRE_LOC": "RR24103A02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24107E02",
@@ -4876,7 +5448,9 @@ const data = [
         "VELOCITY": "B",
         "ABC": "A",
         "PRE_LOC": "RR24103B01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24107F02",
@@ -4893,7 +5467,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24103B02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24109A01",
@@ -4910,7 +5486,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24103C01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24109B01",
@@ -4927,7 +5505,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24113D01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24109C01",
@@ -4944,7 +5524,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24103D01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24109D01",
@@ -4961,7 +5543,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24103D02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24109E01",
@@ -4978,7 +5562,9 @@ const data = [
         "VELOCITY": "B",
         "ABC": "A",
         "PRE_LOC": "RR24103E01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24109F01",
@@ -4995,7 +5581,9 @@ const data = [
         "VELOCITY": "D",
         "ABC": "A",
         "PRE_LOC": "RR24103E02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24109A02",
@@ -5012,7 +5600,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "B",
         "PRE_LOC": "RR24105A01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24109B02",
@@ -5029,7 +5619,9 @@ const data = [
         "VELOCITY": "A",
         "ABC": "D",
         "PRE_LOC": "RR24105A02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24109C02",
@@ -5046,7 +5638,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24105B01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24109D02",
@@ -5063,7 +5657,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24105B02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24109E02",
@@ -5080,7 +5676,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24105C02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24109F02",
@@ -5097,7 +5695,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24105D01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24111A01",
@@ -5114,7 +5714,9 @@ const data = [
         "VELOCITY": "A",
         "ABC": "A",
         "PRE_LOC": "RR24105E01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24111B01",
@@ -5131,7 +5733,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24105E02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24111C01",
@@ -5148,7 +5752,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24105F01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24111D01",
@@ -5165,7 +5771,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24105F02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24111E01",
@@ -5182,7 +5790,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24107A01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24111F01",
@@ -5199,7 +5809,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24107A02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24111A02",
@@ -5216,7 +5828,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "D",
         "PRE_LOC": "RR24111A01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24111B02",
@@ -5233,7 +5847,9 @@ const data = [
         "VELOCITY": "A",
         "ABC": "A",
         "PRE_LOC": "RR24107B02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24111C02",
@@ -5250,7 +5866,9 @@ const data = [
         "VELOCITY": "A",
         "ABC": "A",
         "PRE_LOC": "RR24107C01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24111D02",
@@ -5267,7 +5885,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24107C02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24111E02",
@@ -5284,7 +5904,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24107D02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24111F02",
@@ -5301,7 +5923,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24107E01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24113A01",
@@ -5318,7 +5942,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24107E02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24113B01",
@@ -5335,7 +5961,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24107F01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24113C01",
@@ -5352,7 +5980,9 @@ const data = [
         "VELOCITY": "D",
         "ABC": "D",
         "PRE_LOC": "RR24109A01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24113D01",
@@ -5369,7 +5999,9 @@ const data = [
         "VELOCITY": "D",
         "ABC": "A",
         "PRE_LOC": "RR24109A02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24113E01",
@@ -5386,7 +6018,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24109C02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24113F01",
@@ -5403,7 +6037,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24109D01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24113A02",
@@ -5420,7 +6056,9 @@ const data = [
         "VELOCITY": "D",
         "ABC": "A",
         "PRE_LOC": "RR24109E01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24113B02",
@@ -5437,7 +6075,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24109F01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24113C02",
@@ -5454,7 +6094,9 @@ const data = [
         "VELOCITY": "B",
         "ABC": "A",
         "PRE_LOC": "RR24109F02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24113D02",
@@ -5471,7 +6113,9 @@ const data = [
         "VELOCITY": "D",
         "ABC": "D",
         "PRE_LOC": "RR24111A02",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24113E02",
@@ -5488,7 +6132,9 @@ const data = [
         "VELOCITY": "D",
         "ABC": "A",
         "PRE_LOC": "RR24111B01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24113F02",
@@ -5505,7 +6151,9 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "PRE_LOC": "RR24111C01",
-        "OPTIMIZED": true
+        "OPTIMIZED": true,
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     }
 ]
 export default data;

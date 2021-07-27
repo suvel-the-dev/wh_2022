@@ -90,6 +90,7 @@ const OptimizeModal = ({ show = false, handelAction }) => {
                                         <option value='NONE'>None</option>
                                         <option value='TBP'>To Be Picked</option>
                                         <option value='DIS'>Displacement</option>
+                                        <option value='FIL'>Filled Pallets</option>
                                     </select>
                                 }
                             />

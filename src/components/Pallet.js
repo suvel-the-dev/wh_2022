@@ -26,8 +26,20 @@ const palletSKUnTextureJoin = {
 }
 
 const getOptimizedTypeColor = (optType) => {
-    if (optType === 1) return optimizedPalletColor.OPTIMIZED;
-    return optimizedPalletColor.REPLACED
+    if (optType === 1) return optimizedPalletColor.REPLACED;
+    return optimizedPalletColor.OPTIMIZED
+}
+
+const getSwapColor = (isSwapped, control, detail, propColor) => {
+    const { OptimizationType } = control.optimizationForm;
+    //Optimization: To Be Picked
+    if (isSwapped && OptimizationType === 'TBP') return getOptimizedTypeColor(detail?.OPTIMIZED_TYPE);
+    //Optimization: Displacement
+    if (isSwapped && OptimizationType === 'DIS') return optimizedPalletColor.REPLACED;
+    //Optimization: Filled Pallets
+    if (isSwapped && OptimizationType === 'FIL') return propColor;
+
+    return propColor
 }
 
 const Pallet = ({
@@ -43,12 +55,15 @@ const Pallet = ({
 
     const { control } = useContext(ControlContext);
 
-    const { position, palletColor } = useSpring({
+    const { position, palletColor, palletOpacity } = useSpring({
         position: swap ? prePos : pos,
-        palletColor: swap ? getOptimizedTypeColor(detail?.OPTIMIZED_TYPE) : color,
+        palletColor: getSwapColor(swap, control, detail, color),
+        palletOpacity: swap && control.optimizationForm.OptimizationType === 'FIL' ? (detail?.PALLET_HIDE ? 1 : 0) : (detail?.PALLET_HIDE ? 0 : 1),
         config: config.molasses,
         immediate: !control?.animate
     })
+
+    console.log({ position, palletColor, palletOpacity })
 
     const texture =
         useLoader(THREE.TextureLoader, palletSKUnTextureJoin[skuType]);
@@ -62,6 +77,8 @@ const Pallet = ({
         })
         event.stopPropagation();
     }
+
+    // console.log({ swap })
 
     return (
         <a.mesh
@@ -77,10 +94,12 @@ const Pallet = ({
                 (swap || changeColor) ? (
                     <a.meshBasicMaterial
                         color={palletColor}
+                        opacity={palletOpacity}
+                        transparent={true}
                     />
                 ) :
                     (
-                        <meshStandardMaterial
+                        <a.meshStandardMaterial
                             map={texture}
                             attach="material"
                         />

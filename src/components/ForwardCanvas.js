@@ -15,19 +15,19 @@ const ForwardCanvas = ({ children }) => {
     return (
         <Canvas
             style={{ width: '85vw', height: '80vh' }}
-            performance={{
-                current: 1,
-                min: 0.1,
-                max: 1,
-                debounce: 200,
-                regress: () => { },
-            }}
+            // performance={{
+            //     current: 1,
+            //     min: 0.1,
+            //     max: 1,
+            //     debounce: 200,
+            //     regress: () => { },
+            // }}
             // frameloop="demand"
             /* 
             commented as it is affecting the animation
             */
-            dpr={[1, 2]}
-            gl={{ alpha: false, antialias: false }}
+            // dpr={[1, 2]}
+            // gl={{ alpha: false, antialias: false }}
         >
             <ControlContext.Provider value={value2}>
                 <MessageContext.Provider value={value}>

@@ -12,7 +12,9 @@ const data = [
         "DAYS_LAST_PICK": 11,
         "LAST_PICK": "2021-06-14",
         "VELOCITY": "D",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24061A02",
@@ -27,7 +29,9 @@ const data = [
         "DAYS_LAST_PICK": 30,
         "LAST_PICK": "2021-05-26",
         "VELOCITY": "B",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24061B01",
@@ -42,7 +46,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "A",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24061B02",
@@ -57,7 +63,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24061C01",
@@ -72,7 +80,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24061C02",
@@ -87,7 +97,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "B",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24061D01",
@@ -102,7 +114,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24061D02",
@@ -117,7 +131,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24061E01",
@@ -132,7 +148,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "B",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24061E02",
@@ -147,7 +165,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24061F01",
@@ -162,7 +182,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "D",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24061F02",
@@ -177,7 +199,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "A",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24063A01",
@@ -192,7 +216,9 @@ const data = [
         "DAYS_LAST_PICK": 40,
         "LAST_PICK": "2021-05-15",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24063A02",
@@ -207,7 +233,9 @@ const data = [
         "DAYS_LAST_PICK": 5,
         "LAST_PICK": "2021-06-20",
         "VELOCITY": "B",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24063B01",
@@ -222,7 +250,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24063B02",
@@ -237,7 +267,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24063C01",
@@ -252,7 +284,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24063C02",
@@ -267,7 +301,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "D",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24063D01",
@@ -282,7 +318,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24063D02",
@@ -297,7 +335,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24063E01",
@@ -312,7 +352,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24063E02",
@@ -327,7 +369,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24063F01",
@@ -342,7 +386,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "B",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24063F02",
@@ -357,7 +403,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "A",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24065A01",
@@ -372,7 +420,9 @@ const data = [
         "DAYS_LAST_PICK": 152,
         "LAST_PICK": "2021-01-23",
         "VELOCITY": "B",
-        "ABC": "C"
+        "ABC": "C",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24065A02",
@@ -387,7 +437,9 @@ const data = [
         "DAYS_LAST_PICK": 1066,
         "LAST_PICK": "2018-07-19",
         "VELOCITY": "D",
-        "ABC": "D"
+        "ABC": "D",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24065B01",
@@ -402,7 +454,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24065B02",
@@ -417,7 +471,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "A",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24065C01",
@@ -432,7 +488,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "A",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24065C02",
@@ -447,7 +505,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "A",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24065D01",
@@ -462,7 +522,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24065D02",
@@ -477,7 +539,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24065E01",
@@ -492,7 +556,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24065E02",
@@ -507,7 +573,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24065F01",
@@ -522,7 +590,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24065F02",
@@ -537,7 +607,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24067A01",
@@ -552,7 +624,9 @@ const data = [
         "DAYS_LAST_PICK": 375,
         "LAST_PICK": "2020-06-15",
         "VELOCITY": "C",
-        "ABC": "D"
+        "ABC": "D",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24067A02",
@@ -567,7 +641,9 @@ const data = [
         "DAYS_LAST_PICK": 139,
         "LAST_PICK": "2021-02-06",
         "VELOCITY": "C",
-        "ABC": "C"
+        "ABC": "C",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24067B01",
@@ -582,7 +658,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24067B02",
@@ -597,7 +675,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "A",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24067C01",
@@ -612,7 +692,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "B",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24067C02",
@@ -627,7 +709,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "A",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24067D01",
@@ -642,7 +726,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "A",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24067D02",
@@ -657,7 +743,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24067E01",
@@ -672,7 +760,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24067E02",
@@ -687,7 +777,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "A",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24067F01",
@@ -702,7 +794,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "B",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24067F02",
@@ -717,7 +811,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "D",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24069A01",
@@ -732,7 +828,9 @@ const data = [
         "DAYS_LAST_PICK": 14,
         "LAST_PICK": "2021-06-11",
         "VELOCITY": "D",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24069A02",
@@ -747,7 +845,9 @@ const data = [
         "DAYS_LAST_PICK": 17,
         "LAST_PICK": "2021-06-08",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24069B01",
@@ -762,7 +862,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24069B02",
@@ -777,7 +879,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24069C01",
@@ -792,7 +896,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "A",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24069C02",
@@ -807,7 +913,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "D",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24069D01",
@@ -822,7 +930,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "A",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24069D02",
@@ -837,7 +947,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24069E01",
@@ -852,7 +964,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "B",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24069E02",
@@ -867,7 +981,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24069F01",
@@ -882,7 +998,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "A",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24069F02",
@@ -897,7 +1015,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24071A01",
@@ -912,7 +1032,9 @@ const data = [
         "DAYS_LAST_PICK": 1320,
         "LAST_PICK": "2017-11-10",
         "VELOCITY": "D",
-        "ABC": "D"
+        "ABC": "D",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24071A02",
@@ -927,7 +1049,9 @@ const data = [
         "DAYS_LAST_PICK": 308,
         "LAST_PICK": "2020-08-17",
         "VELOCITY": "C",
-        "ABC": "D"
+        "ABC": "D",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24071B01",
@@ -942,7 +1066,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24071B02",
@@ -957,7 +1083,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "A",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24071C01",
@@ -972,7 +1100,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24071C02",
@@ -987,7 +1117,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24071D01",
@@ -1002,7 +1134,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 200
     },
     {
         "LOC": "RR24071D02",
@@ -1017,7 +1151,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "A",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24071E01",
@@ -1032,7 +1168,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24071E02",
@@ -1047,7 +1185,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24071F01",
@@ -1062,7 +1202,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24071F02",
@@ -1077,7 +1219,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "D",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24073A01",
@@ -1092,7 +1236,9 @@ const data = [
         "DAYS_LAST_PICK": 10,
         "LAST_PICK": "2021-06-15",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24073A02",
@@ -1107,7 +1253,9 @@ const data = [
         "DAYS_LAST_PICK": 69,
         "LAST_PICK": "2021-04-16",
         "VELOCITY": "C",
-        "ABC": "B"
+        "ABC": "B",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24073B01",
@@ -1122,7 +1270,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24073B02",
@@ -1137,7 +1287,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24073C01",
@@ -1152,7 +1304,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24073C02",
@@ -1167,7 +1321,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24073D01",
@@ -1182,7 +1338,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "A",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24073E01",
@@ -1197,7 +1355,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24073E02",
@@ -1212,7 +1372,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "B",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24073F01",
@@ -1227,7 +1389,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24073F02",
@@ -1242,7 +1406,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "D",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24075A01",
@@ -1257,7 +1423,9 @@ const data = [
         "DAYS_LAST_PICK": 468,
         "LAST_PICK": "2020-03-12",
         "VELOCITY": "C",
-        "ABC": "D"
+        "ABC": "D",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24075A02",
@@ -1272,7 +1440,9 @@ const data = [
         "DAYS_LAST_PICK": 468,
         "LAST_PICK": "2020-03-12",
         "VELOCITY": "C",
-        "ABC": "D"
+        "ABC": "D",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24075B01",
@@ -1287,7 +1457,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24075B02",
@@ -1302,7 +1474,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24075C01",
@@ -1317,7 +1491,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "A",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24075C02",
@@ -1332,7 +1508,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "A",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24075D01",
@@ -1347,7 +1525,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24075D02",
@@ -1362,7 +1542,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24075E01",
@@ -1377,7 +1559,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "D",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24075E02",
@@ -1392,7 +1576,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24075F01",
@@ -1407,7 +1593,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "A",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24075F02",
@@ -1422,7 +1610,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "B",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24077A01",
@@ -1437,7 +1627,9 @@ const data = [
         "DAYS_LAST_PICK": 21,
         "LAST_PICK": "2021-06-04",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24077A02",
@@ -1452,7 +1644,9 @@ const data = [
         "DAYS_LAST_PICK": 18,
         "LAST_PICK": "2021-06-07",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24077B01",
@@ -1467,7 +1661,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24077B02",
@@ -1482,7 +1678,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "D",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24077C01",
@@ -1497,7 +1695,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24077C02",
@@ -1512,7 +1712,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "A",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24077D01",
@@ -1527,7 +1729,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24077D02",
@@ -1542,7 +1746,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "D",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24077E01",
@@ -1557,7 +1763,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "A",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24077E02",
@@ -1572,7 +1780,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24077F01",
@@ -1587,7 +1797,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24077F02",
@@ -1602,7 +1814,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "A",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24079A01",
@@ -1617,7 +1831,9 @@ const data = [
         "DAYS_LAST_PICK": 3,
         "LAST_PICK": "2021-06-22",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24079A02",
@@ -1632,7 +1848,9 @@ const data = [
         "DAYS_LAST_PICK": 468,
         "LAST_PICK": "2020-03-12",
         "VELOCITY": "C",
-        "ABC": "D"
+        "ABC": "D",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24079B01",
@@ -1647,7 +1865,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "A",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24079B02",
@@ -1662,7 +1882,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24079C01",
@@ -1677,7 +1899,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "A",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24079C02",
@@ -1692,7 +1916,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "A",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24079D01",
@@ -1707,7 +1933,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24079D02",
@@ -1722,7 +1950,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24079E01",
@@ -1737,7 +1967,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "A",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24079E02",
@@ -1752,7 +1984,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24079F01",
@@ -1767,7 +2001,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "D",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24079F02",
@@ -1782,7 +2018,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24081A01",
@@ -1797,7 +2035,9 @@ const data = [
         "DAYS_LAST_PICK": 468,
         "LAST_PICK": "2020-03-12",
         "VELOCITY": "C",
-        "ABC": "D"
+        "ABC": "D",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24081A02",
@@ -1812,7 +2052,9 @@ const data = [
         "DAYS_LAST_PICK": 468,
         "LAST_PICK": "2020-03-12",
         "VELOCITY": "C",
-        "ABC": "D"
+        "ABC": "D",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24081B01",
@@ -1827,7 +2069,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24081B02",
@@ -1842,7 +2086,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "B",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24081C01",
@@ -1857,7 +2103,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "AB",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24081C02",
@@ -1872,7 +2120,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24081D01",
@@ -1887,7 +2137,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24081D02",
@@ -1902,7 +2154,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24081E01",
@@ -1917,7 +2171,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "A",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24081E02",
@@ -1932,7 +2188,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24081F01",
@@ -1947,7 +2205,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24081F02",
@@ -1962,7 +2222,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "D",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24083A01",
@@ -1977,7 +2239,9 @@ const data = [
         "DAYS_LAST_PICK": 14,
         "LAST_PICK": "2021-06-11",
         "VELOCITY": "D",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24083A02",
@@ -1992,7 +2256,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "0000-00-00",
         "VELOCITY": "B",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24083B01",
@@ -2007,7 +2273,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "B",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24083B02",
@@ -2022,7 +2290,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24083C01",
@@ -2037,7 +2307,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24083C02",
@@ -2052,7 +2324,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24083D01",
@@ -2067,7 +2341,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24083D02",
@@ -2082,7 +2358,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24083E01",
@@ -2097,7 +2375,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "A",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24083E02",
@@ -2112,7 +2392,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "A",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24083F01",
@@ -2127,7 +2409,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24083F02",
@@ -2142,7 +2426,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24085A01",
@@ -2157,7 +2443,9 @@ const data = [
         "DAYS_LAST_PICK": 468,
         "LAST_PICK": "2020-03-12",
         "VELOCITY": "C",
-        "ABC": "D"
+        "ABC": "D",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24085A02",
@@ -2172,7 +2460,9 @@ const data = [
         "DAYS_LAST_PICK": 17,
         "LAST_PICK": "2021-06-08",
         "VELOCITY": "D",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24085B01",
@@ -2187,7 +2477,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "A",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24085B02",
@@ -2202,7 +2494,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "A",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24085C01",
@@ -2217,7 +2511,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24085C02",
@@ -2232,7 +2528,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "A",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24085D01",
@@ -2247,7 +2545,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24085D02",
@@ -2262,7 +2562,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24085E01",
@@ -2277,7 +2579,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "D",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24085E02",
@@ -2292,7 +2596,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24085F01",
@@ -2307,7 +2613,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24085F02",
@@ -2322,7 +2630,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24087A01",
@@ -2337,7 +2647,9 @@ const data = [
         "DAYS_LAST_PICK": 24,
         "LAST_PICK": "2021-06-01",
         "VELOCITY": "D",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24087A02",
@@ -2352,7 +2664,9 @@ const data = [
         "DAYS_LAST_PICK": 440,
         "LAST_PICK": "2020-04-10",
         "VELOCITY": "C",
-        "ABC": "D"
+        "ABC": "D",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24087B01",
@@ -2367,7 +2681,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "A",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24087B02",
@@ -2382,7 +2698,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24087C01",
@@ -2397,7 +2715,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "A",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24087C02",
@@ -2412,7 +2732,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24087D01",
@@ -2427,7 +2749,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24087D02",
@@ -2442,7 +2766,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "D",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24087E01",
@@ -2457,7 +2783,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24087E02",
@@ -2472,7 +2800,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24087F01",
@@ -2487,7 +2817,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "A",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24087F02",
@@ -2502,7 +2834,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "A",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24089A01",
@@ -2517,7 +2851,9 @@ const data = [
         "DAYS_LAST_PICK": 16,
         "LAST_PICK": "2021-06-09",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24089A02",
@@ -2532,7 +2868,9 @@ const data = [
         "DAYS_LAST_PICK": 48,
         "LAST_PICK": "2021-05-07",
         "VELOCITY": "A",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24089B01",
@@ -2547,7 +2885,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24089B02",
@@ -2562,7 +2902,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "B",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24089C01",
@@ -2577,7 +2919,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "A",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24089C02",
@@ -2592,7 +2936,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24089D01",
@@ -2607,7 +2953,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24089D02",
@@ -2622,7 +2970,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24089E01",
@@ -2637,7 +2987,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "B",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24089E02",
@@ -2652,7 +3004,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "A",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24089F01",
@@ -2667,7 +3021,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24089F02",
@@ -2682,7 +3038,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24091A01",
@@ -2697,7 +3055,9 @@ const data = [
         "DAYS_LAST_PICK": 468,
         "LAST_PICK": "2020-03-12",
         "VELOCITY": "C",
-        "ABC": "D"
+        "ABC": "D",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24091A02",
@@ -2712,7 +3072,9 @@ const data = [
         "DAYS_LAST_PICK": 951,
         "LAST_PICK": "2018-11-14",
         "VELOCITY": "B",
-        "ABC": "D"
+        "ABC": "D",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24091B01",
@@ -2727,7 +3089,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24091B02",
@@ -2742,7 +3106,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 200
     },
     {
         "LOC": "RR24091C01",
@@ -2757,7 +3123,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "A",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24091C02",
@@ -2772,7 +3140,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "A",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24091D01",
@@ -2787,7 +3157,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "B",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24091D02",
@@ -2802,7 +3174,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "D",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24091E01",
@@ -2817,7 +3191,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24091E02",
@@ -2832,7 +3208,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "B",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24091F01",
@@ -2847,7 +3225,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24091F02",
@@ -2862,7 +3242,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24093A01",
@@ -2877,7 +3259,9 @@ const data = [
         "DAYS_LAST_PICK": 6,
         "LAST_PICK": "2021-06-19",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24093A02",
@@ -2892,7 +3276,9 @@ const data = [
         "DAYS_LAST_PICK": 871,
         "LAST_PICK": "2019-02-04",
         "VELOCITY": "C",
-        "ABC": "D"
+        "ABC": "D",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24093B01",
@@ -2907,7 +3293,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "A",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24093B02",
@@ -2922,7 +3310,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "A",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24093C01",
@@ -2937,7 +3327,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24093C02",
@@ -2952,7 +3344,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24093D01",
@@ -2967,7 +3361,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24093D02",
@@ -2982,7 +3378,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "A",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24093E01",
@@ -2997,7 +3395,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24093E02",
@@ -3012,7 +3412,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24093F01",
@@ -3027,7 +3429,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24093F02",
@@ -3042,7 +3446,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24095A01",
@@ -3057,7 +3463,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "0000-00-00",
         "VELOCITY": "A",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24061A01",
@@ -3072,7 +3480,9 @@ const data = [
         "DAYS_LAST_PICK": 14,
         "LAST_PICK": "2021-06-11",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24095B01",
@@ -3087,7 +3497,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24095B02",
@@ -3102,7 +3514,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24095C01",
@@ -3117,7 +3531,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "B",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24095C02",
@@ -3132,7 +3548,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24095D01",
@@ -3147,7 +3565,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24095D02",
@@ -3162,7 +3582,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "D",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24095E01",
@@ -3177,7 +3599,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24095E02",
@@ -3192,7 +3616,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24095F01",
@@ -3207,7 +3633,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24095F02",
@@ -3222,7 +3650,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24097A01",
@@ -3237,7 +3667,9 @@ const data = [
         "DAYS_LAST_PICK": 527,
         "LAST_PICK": "2020-01-13",
         "VELOCITY": "AB",
-        "ABC": "D"
+        "ABC": "D",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24097A02",
@@ -3252,7 +3684,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "0000-00-00",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24097B01",
@@ -3267,7 +3701,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "B",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24097B02",
@@ -3282,7 +3718,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 35
     },
     {
         "LOC": "RR24097C01",
@@ -3297,7 +3735,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "A",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24097C02",
@@ -3312,7 +3752,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24097D01",
@@ -3327,7 +3769,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 35
     },
     {
         "LOC": "RR24097D02",
@@ -3342,7 +3786,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24097E01",
@@ -3357,7 +3803,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "A",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24097E02",
@@ -3372,7 +3820,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "B",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24097F01",
@@ -3387,7 +3837,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "D",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24097F02",
@@ -3402,7 +3854,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24099A01",
@@ -3417,7 +3871,9 @@ const data = [
         "DAYS_LAST_PICK": 299,
         "LAST_PICK": "2020-08-27",
         "VELOCITY": "B",
-        "ABC": "D"
+        "ABC": "D",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24099A02",
@@ -3432,7 +3888,9 @@ const data = [
         "DAYS_LAST_PICK": 176,
         "LAST_PICK": "2020-12-30",
         "VELOCITY": "C",
-        "ABC": "C"
+        "ABC": "C",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24099B01",
@@ -3447,7 +3905,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "A",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24099B02",
@@ -3462,7 +3922,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24099C01",
@@ -3477,7 +3939,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "A",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24099C02",
@@ -3492,7 +3956,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "A",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24099D01",
@@ -3507,7 +3973,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24099D02",
@@ -3522,7 +3990,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24099E01",
@@ -3537,7 +4007,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24099E02",
@@ -3552,7 +4024,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24099F01",
@@ -3567,7 +4041,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "B",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24099F02",
@@ -3582,7 +4058,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24101A01",
@@ -3597,7 +4075,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "0000-00-00",
         "VELOCITY": "D",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24101A02",
@@ -3612,7 +4092,9 @@ const data = [
         "DAYS_LAST_PICK": 486,
         "LAST_PICK": "2020-02-24",
         "VELOCITY": "B",
-        "ABC": "D"
+        "ABC": "D",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24101B01",
@@ -3627,7 +4109,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "B",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24101B02",
@@ -3642,7 +4126,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "A",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24101C01",
@@ -3657,7 +4143,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "A",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24101C02",
@@ -3672,7 +4160,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "B",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24101D01",
@@ -3687,7 +4177,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "A",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24101D02",
@@ -3702,7 +4194,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24101E01",
@@ -3717,7 +4211,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24101E02",
@@ -3732,7 +4228,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "D",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24101F01",
@@ -3747,7 +4245,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "A",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24101F02",
@@ -3762,7 +4262,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "B",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24103A01",
@@ -3777,7 +4279,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "0000-00-00",
         "VELOCITY": "D",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24103A02",
@@ -3792,7 +4296,9 @@ const data = [
         "DAYS_LAST_PICK": 416,
         "LAST_PICK": "2020-05-04",
         "VELOCITY": "B",
-        "ABC": "D"
+        "ABC": "D",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24103B01",
@@ -3807,7 +4313,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "B",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24103B02",
@@ -3822,7 +4330,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24103C01",
@@ -3837,7 +4347,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24103C02",
@@ -3852,7 +4364,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24103D01",
@@ -3867,7 +4381,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24103D02",
@@ -3882,7 +4398,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24103E01",
@@ -3897,7 +4415,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "B",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24103E02",
@@ -3912,7 +4432,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "D",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24103F01",
@@ -3927,7 +4449,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24103F02",
@@ -3942,7 +4466,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24105A01",
@@ -3957,7 +4483,9 @@ const data = [
         "DAYS_LAST_PICK": 86,
         "LAST_PICK": "2021-03-30",
         "VELOCITY": "C",
-        "ABC": "B"
+        "ABC": "B",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24105A02",
@@ -3972,7 +4500,9 @@ const data = [
         "DAYS_LAST_PICK": 227,
         "LAST_PICK": "2020-11-08",
         "VELOCITY": "A",
-        "ABC": "D"
+        "ABC": "D",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24105B01",
@@ -3987,7 +4517,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24105B02",
@@ -4002,7 +4534,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24105C01",
@@ -4017,7 +4551,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "A",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24105C02",
@@ -4032,7 +4568,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24105D01",
@@ -4047,7 +4585,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24105D02",
@@ -4062,7 +4602,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "A",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24105E01",
@@ -4077,7 +4619,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "A",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24105E02",
@@ -4092,7 +4636,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24105F01",
@@ -4107,7 +4653,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24105F02",
@@ -4122,7 +4670,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24107A01",
@@ -4137,7 +4687,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "0000-00-00",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24107A02",
@@ -4152,7 +4704,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "0000-00-00",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24107B01",
@@ -4167,7 +4721,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "A",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24107B02",
@@ -4182,7 +4738,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "A",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24107C01",
@@ -4197,7 +4755,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "A",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24107C02",
@@ -4212,7 +4772,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24107D01",
@@ -4227,7 +4789,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "A",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24107D02",
@@ -4242,7 +4806,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24107E01",
@@ -4257,7 +4823,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24107E02",
@@ -4272,7 +4840,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24107F01",
@@ -4287,7 +4857,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24107F02",
@@ -4302,7 +4874,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24109A01",
@@ -4317,7 +4891,9 @@ const data = [
         "DAYS_LAST_PICK": 217,
         "LAST_PICK": "2020-11-18",
         "VELOCITY": "D",
-        "ABC": "D"
+        "ABC": "D",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24109A02",
@@ -4332,7 +4908,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "0000-00-00",
         "VELOCITY": "D",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24109B01",
@@ -4347,7 +4925,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24109B02",
@@ -4362,7 +4942,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "A",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24109C01",
@@ -4377,7 +4959,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "A",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24109C02",
@@ -4392,7 +4976,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24109D01",
@@ -4407,7 +4993,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24109D02",
@@ -4422,7 +5010,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24109E01",
@@ -4437,7 +5027,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "D",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24109E02",
@@ -4452,7 +5044,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "A",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24109F01",
@@ -4467,7 +5061,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24109F02",
@@ -4482,7 +5078,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "B",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24111A01",
@@ -4497,7 +5095,9 @@ const data = [
         "DAYS_LAST_PICK": 612,
         "LAST_PICK": "2019-10-18",
         "VELOCITY": "C",
-        "ABC": "D"
+        "ABC": "D",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24111A02",
@@ -4512,38 +5112,10 @@ const data = [
         "DAYS_LAST_PICK": 481,
         "LAST_PICK": "2020-02-28",
         "VELOCITY": "D",
-        "ABC": "D"
+        "ABC": "D",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
-    // {
-    //     "LOC": "RR24111A03",
-    //     "SKU": "5000051214",
-    //     "SKU_DESC": "B3000SE CONTROL PANEL",
-    //     "SKU_TYPE": "OTHER",
-    //     "LOT": "",
-    //     "EXPIRY": "",
-    //     "MAX_PALLETS": 1,
-    //     "ACTUAL_PALLETS": 1,
-    //     "TOBEPICK": 0,
-    //     "DAYS_LAST_PICK": 11,
-    //     "LAST_PICK": "2021-06-14",
-    //     "VELOCITY": "C",
-    //     "ABC": "A"
-    // },
-    // {
-    //     "LOC": "RR24111A04",
-    //     "SKU": "5000351184",
-    //     "SKU_DESC": "KEUR ACC KDUO 3MO BRWR MAINTENANCE",
-    //     "SKU_TYPE": "ACCESSORY",
-    //     "LOT": "",
-    //     "EXPIRY": "",
-    //     "MAX_PALLETS": 1,
-    //     "ACTUAL_PALLETS": 1,
-    //     "TOBEPICK": 0,
-    //     "DAYS_LAST_PICK": 159,
-    //     "LAST_PICK": "2021-01-16",
-    //     "VELOCITY": "C",
-    //     "ABC": "C"
-    // },
     {
         "LOC": "RR24111B01",
         "SKU": "5000050859",
@@ -4557,7 +5129,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "D",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24111B02",
@@ -4572,7 +5146,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 70
     },
     {
         "LOC": "RR24111C01",
@@ -4587,7 +5163,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24111C02",
@@ -4602,7 +5180,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "A",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24111D01",
@@ -4617,7 +5197,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "A",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24111D02",
@@ -4632,7 +5214,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "D",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24111E01",
@@ -4647,7 +5231,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "B",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24111E02",
@@ -4662,7 +5248,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24111F01",
@@ -4677,7 +5265,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "B",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24111F02",
@@ -4692,7 +5282,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "B",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24113A01",
@@ -4707,7 +5299,9 @@ const data = [
         "DAYS_LAST_PICK": 9,
         "LAST_PICK": "2021-06-16",
         "VELOCITY": "D",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24113A02",
@@ -4722,38 +5316,10 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "0000-00-00",
         "VELOCITY": "D",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
-    // {
-    //     "LOC": "RR24113A03",
-    //     "SKU": "5000051216",
-    //     "SKU_DESC": "ASM BASE PLATE B3000",
-    //     "SKU_TYPE": "OTHER",
-    //     "LOT": "",
-    //     "EXPIRY": "",
-    //     "MAX_PALLETS": 1,
-    //     "ACTUAL_PALLETS": 1,
-    //     "TOBEPICK": 0,
-    //     "DAYS_LAST_PICK": 112,
-    //     "LAST_PICK": "2021-03-03",
-    //     "VELOCITY": "C",
-    //     "ABC": "C"
-    // },
-    // {
-    //     "LOC": "RR24113A04",
-    //     "SKU": "5000050229",
-    //     "SKU_DESC": "VALVE CHECK DUAL FLOW B3000",
-    //     "SKU_TYPE": "OTHER",
-    //     "LOT": "",
-    //     "EXPIRY": "",
-    //     "MAX_PALLETS": 1,
-    //     "ACTUAL_PALLETS": 1,
-    //     "TOBEPICK": 0,
-    //     "DAYS_LAST_PICK": 1157,
-    //     "LAST_PICK": "2018-04-23",
-    //     "VELOCITY": "D",
-    //     "ABC": "D"
-    // },
     {
         "LOC": "RR24113B01",
         "SKU": "5000345386",
@@ -4767,7 +5333,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24113B02",
@@ -4782,7 +5350,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24113C01",
@@ -4797,7 +5367,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24113C02",
@@ -4812,7 +5384,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24113D01",
@@ -4827,7 +5401,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24113D02",
@@ -4842,7 +5418,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "A",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24113E01",
@@ -4857,7 +5435,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "A",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24113E02",
@@ -4872,7 +5452,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "B",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24113F01",
@@ -4887,7 +5469,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "C",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     },
     {
         "LOC": "RR24113F02",
@@ -4902,7 +5486,9 @@ const data = [
         "DAYS_LAST_PICK": 0,
         "LAST_PICK": "",
         "VELOCITY": "A",
-        "ABC": "A"
+        "ABC": "A",
+        "MAX_UNIT": 270,
+        "ACTUAL_UNIT": 270
     }
 ]
 export default data;

@@ -1,9 +1,6 @@
 const data = [
     {
         "LOC": "RR24095A02",
-        "PRE_LOC": "RR24061A01",
-        "OPTIMIZED": true,
-        "OPTIMIZED_TYPE": 1,
         "SKU": "5000051211",
         "SKU_DESC": "ASM DRIP TRAY B3000",
         "SKU_TYPE": "OTHER",
@@ -156,7 +153,7 @@ const data = [
         "ACTUAL_UNIT": 270
     },
     {
-        "LOC": "RR24091E02",
+        "LOC": "RR24061E02",
         "SKU": "5000364529",
         "SKU_DESC": "DESCALING SOLUTION 24/CS RFSH INNER",
         "SKU_TYPE": "ACCESSORY",
@@ -173,7 +170,7 @@ const data = [
         "ACTUAL_UNIT": 270
     },
     {
-        "LOC": "RR24101F01",
+        "LOC": "RR24061F01",
         "SKU": "5000347283",
         "SKU_DESC": "KTD KCUP LMN COLOMB HUILA FT RKC 40",
         "SKU_TYPE": "BEVERAGE",
@@ -377,7 +374,7 @@ const data = [
         "ACTUAL_UNIT": 270
     },
     {
-        "LOC": "RR24069C01",
+        "LOC": "RR24063F01",
         "SKU": "5000052728",
         "SKU_DESC": "KCUP SHELF ACCS FOR B150/B155",
         "SKU_TYPE": "ACCESSORY",
@@ -887,7 +884,7 @@ const data = [
         "ACTUAL_UNIT": 270
     },
     {
-        "LOC": "RR24063F01",
+        "LOC": "RR24069C01",
         "SKU": "5000330187",
         "SKU_DESC": "RKCPP DSHP KCUP DNT SHOP N 12CT",
         "SKU_TYPE": "BEVERAGE",
@@ -1091,7 +1088,7 @@ const data = [
         "ACTUAL_UNIT": 270
     },
     {
-        "LOC": "RR24061C01",
+        "LOC": "RR24071C01",
         "SKU": "5000198870",
         "SKU_DESC": "GMCR BKFST BL GR 12OZ FSB",
         "SKU_TYPE": "BEVERAGE",
@@ -1125,7 +1122,7 @@ const data = [
         "ACTUAL_UNIT": 270
     },
     {
-        "LOC": "RR24061D01",
+        "LOC": "RR24071D01",
         "SKU": "5000198870",
         "SKU_DESC": "GMCR BKFST BL GR 12OZ FSB",
         "SKU_TYPE": "BEVERAGE",
@@ -3097,7 +3094,7 @@ const data = [
         "ACTUAL_UNIT": 270
     },
     {
-        "LOC": "RR24061B01",
+        "LOC": "RR24091B02",
         "SKU": "5000198870",
         "SKU_DESC": "GMCR BKFST BL GR 12OZ FSB",
         "SKU_TYPE": "BEVERAGE",
@@ -3199,7 +3196,7 @@ const data = [
         "ACTUAL_UNIT": 270
     },
     {
-        "LOC": "RR24061E02",
+        "LOC": "RR24091E02",
         "SKU": "5000198919",
         "SKU_DESC": "DIVIDER DPLY FL/PAL A 48CT CTN 180U",
         "SKU_TYPE": "OTHER",
@@ -3472,8 +3469,6 @@ const data = [
     },
     {
         "LOC": "RR24061A01",
-        "PRE_LOC": "RR24095A02",
-        "OPTIMIZED": true,
         "SKU": "5000051242",
         "SKU_DESC": "ASM HOLDER KCUP SPARE B130/140/145/",
         "SKU_TYPE": "OTHER",
@@ -3711,7 +3706,7 @@ const data = [
         "ACTUAL_UNIT": 270
     },
     {
-        "LOC": "RR24061C02",
+        "LOC": "RR24097B02",
         "SKU": "5000198870",
         "SKU_DESC": "GMCR BKFST BL GR 12OZ FSB",
         "SKU_TYPE": "BEVERAGE",
@@ -3725,7 +3720,10 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "MAX_UNIT": 270,
-        "ACTUAL_UNIT": 270
+        "ACTUAL_UNIT": 0,
+        "PALLET_HIDE": true,
+        "OPTIMIZED": true,
+        "PRE_LOC": "RR24097B02",
     },
     {
         "LOC": "RR24097C01",
@@ -3762,7 +3760,7 @@ const data = [
         "ACTUAL_UNIT": 270
     },
     {
-        "LOC": "RR24061B02",
+        "LOC": "RR24097D01",
         "SKU": "5000198870",
         "SKU_DESC": "GMCR BKFST BL GR 12OZ FSB",
         "SKU_TYPE": "BEVERAGE",
@@ -3776,7 +3774,10 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "MAX_UNIT": 270,
-        "ACTUAL_UNIT": 270
+        "ACTUAL_UNIT": 0,
+        "PALLET_HIDE": true,
+        "OPTIMIZED": true,
+        "PRE_LOC": "RR24097D01",
     },
     {
         "LOC": "RR24097D02",
@@ -4238,7 +4239,7 @@ const data = [
         "ACTUAL_UNIT": 270
     },
     {
-        "LOC": "RR24061F01",
+        "LOC": "RR24101F01",
         "SKU": "5000330187",
         "SKU_DESC": "RKCPP DSHP KCUP DNT SHOP N 12CT",
         "SKU_TYPE": "BEVERAGE",
@@ -5139,7 +5140,7 @@ const data = [
         "ACTUAL_UNIT": 270
     },
     {
-        "LOC": "RR24063E01",
+        "LOC": "RR24111B02",
         "SKU": "5000198870",
         "SKU_DESC": "GMCR BKFST BL GR 12OZ FSB",
         "SKU_TYPE": "BEVERAGE",
@@ -5153,7 +5154,10 @@ const data = [
         "VELOCITY": "C",
         "ABC": "A",
         "MAX_UNIT": 270,
-        "ACTUAL_UNIT": 270
+        "ACTUAL_UNIT": 0,
+        "PALLET_HIDE": true,
+        "OPTIMIZED": true,
+        "PRE_LOC": "RR24111B02",
     },
     {
         "LOC": "RR24111C01",
