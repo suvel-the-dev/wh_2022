@@ -24,7 +24,8 @@ let _1DeepSpaceAttributes = {
         return number + 2;
     },
     shelfCount: 1,
-    locCode: 'CP'
+    locCode: 'CP',
+    type: "space"
 };
 /* -------------------------- 2 Deep Space Details -------------------------- */
 const _2DeepSpaceWidth = 10;
@@ -51,7 +52,8 @@ let _2DeepSpaceAttributes = {
         return number + 2;
     },
     shelfCount: 1,
-    locCode: 'CP'
+    locCode: 'CP',
+    type: "space"
 };
 /* ------------------------------ Rack Details ------------------------------ */
 let rackWidth = 7;
@@ -93,7 +95,8 @@ let rackAttributes = {
         return number;
     },
     shelfCount: 1,
-    locCode: 'RR'
+    locCode: 'RR',
+    type: "rack"
 };
 /* ----------------------------- Helper Function ---------------------------- */
 let getLocAttributes = (locType) => {
@@ -142,9 +145,9 @@ let generateLocation = (locationsPlan) => {
         const locAttributes = getLocAttributes(locPlan.type);
         const position = locPlan.coordinate;
         const {
-            dim, shelfCount,
+            dim, shelfCount, type,
             shelfLevels, getShelfPosition,
-            getNxtLocNumber, locCode, nxtOffSet
+            getNxtLocNumber, locCode, nxtOffSet,
         } = locAttributes;
         let newLOC = "";
         let newLocationNumber = locPlan.staring_no;
@@ -168,7 +171,8 @@ let generateLocation = (locationsPlan) => {
                         LOC: newLOC,
                         dim,
                         position: newPosition,
-                        shelfCount
+                        shelfCount,
+                        type
                     }
                 )
             }
