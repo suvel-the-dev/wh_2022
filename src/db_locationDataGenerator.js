@@ -1,27 +1,3 @@
-let locationPlan =
-    [
-        {
-            type: 'RACK',
-            staring_no: 24061,
-            row_count: 10,
-            shelf_count: 6,
-            coordinate: { x: 265, y: 1, z: -76 }
-        },
-        {
-            type: 'SPACE_1DEEP',
-            staring_no: 25117,
-            row_count: 10,
-            shelf_count: 1,
-            coordinate: { x: 129, y: 1, z: -36 }
-        },
-        {
-            type: 'SPACE_2DEEP',
-            staring_no: 25118,
-            row_count: 10,
-            shelf_count: 1,
-            coordinate: { x: 61, y: 1, z: -36 }
-        },
-    ]
 let scale = 1.5;
 /* -------------------------- 1 Deep Space Details -------------------------- */
 const _1DeepSpaceWidth = 5;
@@ -119,7 +95,7 @@ let rackAttributes = {
     shelfCount: 1,
     locCode: 'RR'
 };
-
+/* ----------------------------- Helper Function ---------------------------- */
 let getLocAttributes = (locType) => {
     if (locType === 'SPACE_1DEEP') return _1DeepSpaceAttributes;
     if (locType === 'SPACE_2DEEP') return _2DeepSpaceAttributes;
@@ -131,6 +107,31 @@ let getLOCString = (
 ) => {
     return `${locCode}${locCount}${shelfLevel}${shelfPosition}`
 }
+/* -------------------------- Locations Plan (Input) ------------------------- */
+let locationsPlan =
+    [
+        {
+            type: 'RACK',
+            staring_no: 24061,
+            row_count: 10,
+            shelf_count: 6,
+            coordinate: { x: 265, y: 1, z: -76 }
+        },
+        {
+            type: 'SPACE_1DEEP',
+            staring_no: 25117,
+            row_count: 10,
+            shelf_count: 1,
+            coordinate: { x: 129, y: 1, z: -36 }
+        },
+        {
+            type: 'SPACE_2DEEP',
+            staring_no: 25118,
+            row_count: 10,
+            shelf_count: 1,
+            coordinate: { x: 61, y: 1, z: -36 }
+        },
+    ]
 
 /* ---------------------- Function to generate location --------------------- */
 let generateLocation = (locationsPlan) => {
@@ -178,6 +179,6 @@ let generateLocation = (locationsPlan) => {
     return locationList;
 }
 
-
+/* ------------------------------ Function Call ------------------------------ */
 const locationList = generateLocation(locationPlan);
 
