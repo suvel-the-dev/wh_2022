@@ -1,6 +1,6 @@
 import './style.css';
 import { useState, useContext } from 'react'
-import Warehouse3d from '../Warehouse3d'
+import Warehouse3d from '../Warehouse3d/index2'
 import WareHouse3dControl from '../WareHouse3dControl'
 import { UtilizationProvider } from '../../context/UtilizationContext';
 import ControlContext from '../../context/ControlContext';

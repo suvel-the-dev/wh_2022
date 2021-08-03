@@ -25,7 +25,7 @@ let _1DeepSpaceAttributes = {
     },
     shelfCount: 1,
     locCode: 'CP',
-    type: "space"
+    type: "SPACE3",
 };
 /* -------------------------- 2 Deep Space Details -------------------------- */
 const _2DeepSpaceWidth = 10;
@@ -53,7 +53,7 @@ let _2DeepSpaceAttributes = {
     },
     shelfCount: 1,
     locCode: 'CP',
-    type: "space"
+    type: "SPACE2",
 };
 /* ------------------------------ Rack Details ------------------------------ */
 let rackWidth = 7;
@@ -96,7 +96,7 @@ let rackAttributes = {
     },
     shelfCount: 1,
     locCode: 'RR',
-    type: "rack"
+    type: "RACK",
 };
 /* ----------------------------- Helper Function ---------------------------- */
 let getLocAttributes = (locType) => {
