@@ -35008,5 +35008,4205 @@ export default ([
         },
         "shelfCount": 1,
         "type": "SPACE3"
+    },
+    {
+        "LOC": "CP25117A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": 197,
+            "y": 1,
+            "z": -550
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25119A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": 197,
+            "y": 1,
+            "z": -538
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25121A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": 197,
+            "y": 1,
+            "z": -526
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25123A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": 197,
+            "y": 1,
+            "z": -514
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25125A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": 197,
+            "y": 1,
+            "z": -502
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25127A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": 197,
+            "y": 1,
+            "z": -490
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25129A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": 197,
+            "y": 1,
+            "z": -478
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25131A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": 197,
+            "y": 1,
+            "z": -466
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25133A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": 197,
+            "y": 1,
+            "z": -454
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25135A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": 197,
+            "y": 1,
+            "z": -442
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25137A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": 197,
+            "y": 1,
+            "z": -430
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25139A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": 197,
+            "y": 1,
+            "z": -418
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25141A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": 197,
+            "y": 1,
+            "z": -406
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25143A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": 197,
+            "y": 1,
+            "z": -394
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25145A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": 197,
+            "y": 1,
+            "z": -382
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25147A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": 197,
+            "y": 1,
+            "z": -370
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25149A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": 197,
+            "y": 1,
+            "z": -358
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25151A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": 197,
+            "y": 1,
+            "z": -346
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25153A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": 197,
+            "y": 1,
+            "z": -334
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25155A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": 197,
+            "y": 1,
+            "z": -322
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25157A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": 197,
+            "y": 1,
+            "z": -310
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25159A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": 197,
+            "y": 1,
+            "z": -298
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25161A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": 197,
+            "y": 1,
+            "z": -286
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25163A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": 197,
+            "y": 1,
+            "z": -274
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25165A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": 197,
+            "y": 1,
+            "z": -262
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25167A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": 197,
+            "y": 1,
+            "z": -250
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25169A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": 197,
+            "y": 1,
+            "z": -238
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25171A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": 197,
+            "y": 1,
+            "z": -226
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25173A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": 197,
+            "y": 1,
+            "z": -214
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25175A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": 197,
+            "y": 1,
+            "z": -202
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25177A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": 197,
+            "y": 1,
+            "z": -190
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25179A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": 197,
+            "y": 1,
+            "z": -178
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25181A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": 197,
+            "y": 1,
+            "z": -166
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25183A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": 197,
+            "y": 1,
+            "z": -154
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25185A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": 197,
+            "y": 1,
+            "z": -142
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25117A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": 61,
+            "y": 1,
+            "z": -550
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25119A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": 61,
+            "y": 1,
+            "z": -538
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25121A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": 61,
+            "y": 1,
+            "z": -526
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25123A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": 61,
+            "y": 1,
+            "z": -514
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25125A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": 61,
+            "y": 1,
+            "z": -502
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25127A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": 61,
+            "y": 1,
+            "z": -490
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25129A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": 61,
+            "y": 1,
+            "z": -478
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25131A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": 61,
+            "y": 1,
+            "z": -466
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25133A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": 61,
+            "y": 1,
+            "z": -454
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25135A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": 61,
+            "y": 1,
+            "z": -442
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25137A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": 61,
+            "y": 1,
+            "z": -430
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25139A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": 61,
+            "y": 1,
+            "z": -418
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25141A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": 61,
+            "y": 1,
+            "z": -406
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25143A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": 61,
+            "y": 1,
+            "z": -394
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25145A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": 61,
+            "y": 1,
+            "z": -382
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25147A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": 61,
+            "y": 1,
+            "z": -370
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25149A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": 61,
+            "y": 1,
+            "z": -358
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25151A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": 61,
+            "y": 1,
+            "z": -346
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25153A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": 61,
+            "y": 1,
+            "z": -334
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25155A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": 61,
+            "y": 1,
+            "z": -322
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25157A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": 61,
+            "y": 1,
+            "z": -310
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25159A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": 61,
+            "y": 1,
+            "z": -298
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25161A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": 61,
+            "y": 1,
+            "z": -286
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25163A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": 61,
+            "y": 1,
+            "z": -274
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25165A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": 61,
+            "y": 1,
+            "z": -262
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25167A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": 61,
+            "y": 1,
+            "z": -250
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25169A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": 61,
+            "y": 1,
+            "z": -238
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25171A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": 61,
+            "y": 1,
+            "z": -226
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25173A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": 61,
+            "y": 1,
+            "z": -214
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25175A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": 61,
+            "y": 1,
+            "z": -202
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25177A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": 61,
+            "y": 1,
+            "z": -190
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25179A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": 61,
+            "y": 1,
+            "z": -178
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25181A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": 61,
+            "y": 1,
+            "z": -166
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25183A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": 61,
+            "y": 1,
+            "z": -154
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25185A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": 61,
+            "y": 1,
+            "z": -142
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25117A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -75,
+            "y": 1,
+            "z": -550
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25119A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -75,
+            "y": 1,
+            "z": -538
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25121A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -75,
+            "y": 1,
+            "z": -526
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25123A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -75,
+            "y": 1,
+            "z": -514
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25125A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -75,
+            "y": 1,
+            "z": -502
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25127A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -75,
+            "y": 1,
+            "z": -490
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25129A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -75,
+            "y": 1,
+            "z": -478
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25131A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -75,
+            "y": 1,
+            "z": -466
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25133A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -75,
+            "y": 1,
+            "z": -454
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25135A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -75,
+            "y": 1,
+            "z": -442
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25137A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -75,
+            "y": 1,
+            "z": -430
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25139A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -75,
+            "y": 1,
+            "z": -418
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25141A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -75,
+            "y": 1,
+            "z": -406
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25143A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -75,
+            "y": 1,
+            "z": -394
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25145A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -75,
+            "y": 1,
+            "z": -382
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25147A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -75,
+            "y": 1,
+            "z": -370
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25149A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -75,
+            "y": 1,
+            "z": -358
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25151A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -75,
+            "y": 1,
+            "z": -346
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25153A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -75,
+            "y": 1,
+            "z": -334
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25155A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -75,
+            "y": 1,
+            "z": -322
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25157A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -75,
+            "y": 1,
+            "z": -310
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25159A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -75,
+            "y": 1,
+            "z": -298
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25161A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -75,
+            "y": 1,
+            "z": -286
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25163A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -75,
+            "y": 1,
+            "z": -274
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25165A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -75,
+            "y": 1,
+            "z": -262
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25167A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -75,
+            "y": 1,
+            "z": -250
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25169A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -75,
+            "y": 1,
+            "z": -238
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25171A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -75,
+            "y": 1,
+            "z": -226
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25173A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -75,
+            "y": 1,
+            "z": -214
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25175A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -75,
+            "y": 1,
+            "z": -202
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25177A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -75,
+            "y": 1,
+            "z": -190
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25179A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -75,
+            "y": 1,
+            "z": -178
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25181A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -75,
+            "y": 1,
+            "z": -166
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25183A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -75,
+            "y": 1,
+            "z": -154
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25185A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -75,
+            "y": 1,
+            "z": -142
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25117A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -211,
+            "y": 1,
+            "z": -550
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25119A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -211,
+            "y": 1,
+            "z": -538
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25121A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -211,
+            "y": 1,
+            "z": -526
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25123A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -211,
+            "y": 1,
+            "z": -514
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25125A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -211,
+            "y": 1,
+            "z": -502
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25127A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -211,
+            "y": 1,
+            "z": -490
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25129A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -211,
+            "y": 1,
+            "z": -478
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25131A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -211,
+            "y": 1,
+            "z": -466
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25133A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -211,
+            "y": 1,
+            "z": -454
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25135A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -211,
+            "y": 1,
+            "z": -442
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25137A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -211,
+            "y": 1,
+            "z": -430
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25139A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -211,
+            "y": 1,
+            "z": -418
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25141A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -211,
+            "y": 1,
+            "z": -406
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25143A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -211,
+            "y": 1,
+            "z": -394
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25145A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -211,
+            "y": 1,
+            "z": -382
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25147A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -211,
+            "y": 1,
+            "z": -370
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25149A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -211,
+            "y": 1,
+            "z": -358
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25151A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -211,
+            "y": 1,
+            "z": -346
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25153A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -211,
+            "y": 1,
+            "z": -334
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25155A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -211,
+            "y": 1,
+            "z": -322
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25157A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -211,
+            "y": 1,
+            "z": -310
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25159A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -211,
+            "y": 1,
+            "z": -298
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25161A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -211,
+            "y": 1,
+            "z": -286
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25163A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -211,
+            "y": 1,
+            "z": -274
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25165A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -211,
+            "y": 1,
+            "z": -262
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25167A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -211,
+            "y": 1,
+            "z": -250
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25169A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -211,
+            "y": 1,
+            "z": -238
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25171A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -211,
+            "y": 1,
+            "z": -226
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25173A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -211,
+            "y": 1,
+            "z": -214
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25175A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -211,
+            "y": 1,
+            "z": -202
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25177A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -211,
+            "y": 1,
+            "z": -190
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25179A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -211,
+            "y": 1,
+            "z": -178
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25181A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -211,
+            "y": 1,
+            "z": -166
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25183A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -211,
+            "y": 1,
+            "z": -154
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25185A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -211,
+            "y": 1,
+            "z": -142
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25117A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -211,
+            "y": 1,
+            "z": -550
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25119A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -211,
+            "y": 1,
+            "z": -538
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25121A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -211,
+            "y": 1,
+            "z": -526
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25123A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -211,
+            "y": 1,
+            "z": -514
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25125A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -211,
+            "y": 1,
+            "z": -502
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25127A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -211,
+            "y": 1,
+            "z": -490
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25129A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -211,
+            "y": 1,
+            "z": -478
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25131A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -211,
+            "y": 1,
+            "z": -466
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25133A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -211,
+            "y": 1,
+            "z": -454
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25135A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -211,
+            "y": 1,
+            "z": -442
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25137A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -211,
+            "y": 1,
+            "z": -430
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25139A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -211,
+            "y": 1,
+            "z": -418
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25141A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -211,
+            "y": 1,
+            "z": -406
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25143A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -211,
+            "y": 1,
+            "z": -394
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25145A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -211,
+            "y": 1,
+            "z": -382
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25147A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -211,
+            "y": 1,
+            "z": -370
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25149A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -211,
+            "y": 1,
+            "z": -358
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25151A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -211,
+            "y": 1,
+            "z": -346
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25153A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -211,
+            "y": 1,
+            "z": -334
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25155A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -211,
+            "y": 1,
+            "z": -322
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25157A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -211,
+            "y": 1,
+            "z": -310
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25159A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -211,
+            "y": 1,
+            "z": -298
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25161A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -211,
+            "y": 1,
+            "z": -286
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25163A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -211,
+            "y": 1,
+            "z": -274
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25165A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -211,
+            "y": 1,
+            "z": -262
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25167A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -211,
+            "y": 1,
+            "z": -250
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25169A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -211,
+            "y": 1,
+            "z": -238
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25171A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -211,
+            "y": 1,
+            "z": -226
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25173A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -211,
+            "y": 1,
+            "z": -214
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25175A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -211,
+            "y": 1,
+            "z": -202
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25177A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -211,
+            "y": 1,
+            "z": -190
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25179A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -211,
+            "y": 1,
+            "z": -178
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25181A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -211,
+            "y": 1,
+            "z": -166
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25183A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -211,
+            "y": 1,
+            "z": -154
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25185A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -211,
+            "y": 1,
+            "z": -142
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25117A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -347,
+            "y": 1,
+            "z": -550
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25119A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -347,
+            "y": 1,
+            "z": -538
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25121A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -347,
+            "y": 1,
+            "z": -526
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25123A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -347,
+            "y": 1,
+            "z": -514
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25125A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -347,
+            "y": 1,
+            "z": -502
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25127A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -347,
+            "y": 1,
+            "z": -490
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25129A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -347,
+            "y": 1,
+            "z": -478
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25131A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -347,
+            "y": 1,
+            "z": -466
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25133A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -347,
+            "y": 1,
+            "z": -454
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25135A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -347,
+            "y": 1,
+            "z": -442
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25137A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -347,
+            "y": 1,
+            "z": -430
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25139A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -347,
+            "y": 1,
+            "z": -418
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25141A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -347,
+            "y": 1,
+            "z": -406
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25143A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -347,
+            "y": 1,
+            "z": -394
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25145A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -347,
+            "y": 1,
+            "z": -382
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25147A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -347,
+            "y": 1,
+            "z": -370
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25149A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -347,
+            "y": 1,
+            "z": -358
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25151A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -347,
+            "y": 1,
+            "z": -346
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25153A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -347,
+            "y": 1,
+            "z": -334
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25155A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -347,
+            "y": 1,
+            "z": -322
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25157A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -347,
+            "y": 1,
+            "z": -310
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25159A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -347,
+            "y": 1,
+            "z": -298
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25161A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -347,
+            "y": 1,
+            "z": -286
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25163A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -347,
+            "y": 1,
+            "z": -274
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25165A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -347,
+            "y": 1,
+            "z": -262
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25167A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -347,
+            "y": 1,
+            "z": -250
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25169A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -347,
+            "y": 1,
+            "z": -238
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25171A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -347,
+            "y": 1,
+            "z": -226
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25173A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -347,
+            "y": 1,
+            "z": -214
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25175A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -347,
+            "y": 1,
+            "z": -202
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25177A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -347,
+            "y": 1,
+            "z": -190
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25179A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -347,
+            "y": 1,
+            "z": -178
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25181A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -347,
+            "y": 1,
+            "z": -166
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25183A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -347,
+            "y": 1,
+            "z": -154
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25185A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -347,
+            "y": 1,
+            "z": -142
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25117A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -483,
+            "y": 1,
+            "z": -550
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25119A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -483,
+            "y": 1,
+            "z": -538
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25121A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -483,
+            "y": 1,
+            "z": -526
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25123A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -483,
+            "y": 1,
+            "z": -514
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25125A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -483,
+            "y": 1,
+            "z": -502
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25127A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -483,
+            "y": 1,
+            "z": -490
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25129A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -483,
+            "y": 1,
+            "z": -478
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25131A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -483,
+            "y": 1,
+            "z": -466
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25133A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -483,
+            "y": 1,
+            "z": -454
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25135A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -483,
+            "y": 1,
+            "z": -442
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25137A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -483,
+            "y": 1,
+            "z": -430
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25139A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -483,
+            "y": 1,
+            "z": -418
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25141A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -483,
+            "y": 1,
+            "z": -406
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25143A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -483,
+            "y": 1,
+            "z": -394
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25145A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -483,
+            "y": 1,
+            "z": -382
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25147A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -483,
+            "y": 1,
+            "z": -370
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25149A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -483,
+            "y": 1,
+            "z": -358
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25151A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -483,
+            "y": 1,
+            "z": -346
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25153A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -483,
+            "y": 1,
+            "z": -334
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25155A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -483,
+            "y": 1,
+            "z": -322
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25157A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -483,
+            "y": 1,
+            "z": -310
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25159A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -483,
+            "y": 1,
+            "z": -298
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25161A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -483,
+            "y": 1,
+            "z": -286
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25163A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -483,
+            "y": 1,
+            "z": -274
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25165A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -483,
+            "y": 1,
+            "z": -262
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25167A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -483,
+            "y": 1,
+            "z": -250
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25169A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -483,
+            "y": 1,
+            "z": -238
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25171A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -483,
+            "y": 1,
+            "z": -226
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25173A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -483,
+            "y": 1,
+            "z": -214
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25175A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -483,
+            "y": 1,
+            "z": -202
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25177A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -483,
+            "y": 1,
+            "z": -190
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25179A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -483,
+            "y": 1,
+            "z": -178
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25181A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -483,
+            "y": 1,
+            "z": -166
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25183A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -483,
+            "y": 1,
+            "z": -154
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25185A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -483,
+            "y": 1,
+            "z": -142
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25117A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -619,
+            "y": 1,
+            "z": -550
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25119A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -619,
+            "y": 1,
+            "z": -538
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25121A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -619,
+            "y": 1,
+            "z": -526
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25123A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -619,
+            "y": 1,
+            "z": -514
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25125A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -619,
+            "y": 1,
+            "z": -502
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25127A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -619,
+            "y": 1,
+            "z": -490
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25129A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -619,
+            "y": 1,
+            "z": -478
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25131A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -619,
+            "y": 1,
+            "z": -466
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25133A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -619,
+            "y": 1,
+            "z": -454
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25135A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -619,
+            "y": 1,
+            "z": -442
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25137A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -619,
+            "y": 1,
+            "z": -430
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25139A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -619,
+            "y": 1,
+            "z": -418
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25141A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -619,
+            "y": 1,
+            "z": -406
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25143A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -619,
+            "y": 1,
+            "z": -394
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25145A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -619,
+            "y": 1,
+            "z": -382
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25147A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -619,
+            "y": 1,
+            "z": -370
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25149A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -619,
+            "y": 1,
+            "z": -358
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25151A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -619,
+            "y": 1,
+            "z": -346
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25153A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -619,
+            "y": 1,
+            "z": -334
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25155A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -619,
+            "y": 1,
+            "z": -322
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25157A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -619,
+            "y": 1,
+            "z": -310
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25159A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -619,
+            "y": 1,
+            "z": -298
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25161A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -619,
+            "y": 1,
+            "z": -286
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25163A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -619,
+            "y": 1,
+            "z": -274
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25165A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -619,
+            "y": 1,
+            "z": -262
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25167A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -619,
+            "y": 1,
+            "z": -250
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25169A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -619,
+            "y": 1,
+            "z": -238
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25171A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -619,
+            "y": 1,
+            "z": -226
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25173A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -619,
+            "y": 1,
+            "z": -214
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25175A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -619,
+            "y": 1,
+            "z": -202
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25177A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -619,
+            "y": 1,
+            "z": -190
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25179A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -619,
+            "y": 1,
+            "z": -178
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25181A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -619,
+            "y": 1,
+            "z": -166
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25183A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -619,
+            "y": 1,
+            "z": -154
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
+    },
+    {
+        "LOC": "CP25185A01",
+        "dim": {
+            "width": 10,
+            "height": 3.5,
+            "depth": 3
+        },
+        "position": {
+            "x": -619,
+            "y": 1,
+            "z": -142
+        },
+        "shelfCount": 1,
+        "type": "SPACE2"
     }
 ])
