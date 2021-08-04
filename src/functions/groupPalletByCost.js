@@ -1,12 +1,6 @@
-import Racks from '../data/rackAisleList'
-import _1deepSpaceList from '../data/_1deepSpaceList'
-import _2deepSpaceList from '../data/_2deepSpaceList'
+import locations from '../data/locations'
 
-const spaceComponents = [
-    ...Racks,
-    ..._1deepSpaceList,
-    ..._2deepSpaceList
-];
+const spaceComponents = locations;
 
 const costRectDepth = 190 * 1.5;
 const costRectOffset = costRectDepth / 2

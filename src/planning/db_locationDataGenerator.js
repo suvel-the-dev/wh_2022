@@ -25,7 +25,7 @@ let _1DeepSpaceAttributes = {
     },
     shelfCount: 1,
     locCode: 'CP',
-    type: "SPACE3",
+    type: "SPACE1",
 };
 /* -------------------------- 2 Deep Space Details -------------------------- */
 const _2DeepSpaceWidth = 10;

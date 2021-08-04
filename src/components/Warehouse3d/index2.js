@@ -54,7 +54,7 @@ let allStorageObjects = locations;
 locations.forEach((location) => {
     if (location?.type === 'RACK') rackAisleList.push(location);
     if (location?.type === 'SPACE2') _2deepSpaceList.push(location);
-    if (location?.type === 'SPACE3') _1deepSpaceList.push(location);
+    if (location?.type === 'SPACE1') _1deepSpaceList.push(location);
 })
 
 
